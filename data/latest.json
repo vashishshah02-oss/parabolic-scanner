@@ -1,0 +1,190 @@
+{
+  "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+  "criteria": {
+    "Float": "Under 50M",
+    "Relative Volume": "Over 3",
+    "Change": "Up 15%"
+  },
+  "results": [
+    {
+      "ticker": "CNET",
+      "name": "ZW Data Action Technologies Inc",
+      "sector": "Communication Services",
+      "price": 1.85,
+      "volume": 25523100,
+      "avgVolume": 1163995,
+      "volRatio": 21.9,
+      "offHighPct": -35.5,
+      "changePct": 35.0,
+      "stage": "reversing"
+    },
+    {
+      "ticker": "TDIC",
+      "name": "Dreamland Ltd",
+      "sector": "Communication Services",
+      "price": 3.16,
+      "volume": 42326400,
+      "avgVolume": 1950231,
+      "volRatio": 21.7,
+      "offHighPct": -21.0,
+      "changePct": 60.4,
+      "stage": "reversing"
+    },
+    {
+      "ticker": "MGLD",
+      "name": "Marygold Companies Inc",
+      "sector": "Financial",
+      "price": 1.93,
+      "volume": 15541900,
+      "avgVolume": 719195,
+      "volRatio": 21.6,
+      "offHighPct": -1.5,
+      "changePct": 93.0,
+      "stage": "extended"
+    },
+    {
+      "ticker": "MSGY",
+      "name": "Masonglory Ltd",
+      "sector": "Industrials",
+      "price": 8.07,
+      "volume": 54947600,
+      "avgVolume": 2546518,
+      "volRatio": 21.6,
+      "offHighPct": -29.3,
+      "changePct": 309.6,
+      "stage": "reversing"
+    },
+    {
+      "ticker": "AIFF",
+      "name": "Firefly Neuroscience Inc",
+      "sector": "Technology",
+      "price": 2.01,
+      "volume": 142965800,
+      "avgVolume": 7181068,
+      "volRatio": 19.9,
+      "offHighPct": -5.6,
+      "changePct": 68.9,
+      "stage": "extended"
+    },
+    {
+      "ticker": "ELPW",
+      "name": "Elong Power Holding Ltd",
+      "sector": "Industrials",
+      "price": 3.19,
+      "volume": 8525100,
+      "avgVolume": 439895,
+      "volRatio": 19.4,
+      "offHighPct": -34.6,
+      "changePct": 19.0,
+      "stage": "reversing"
+    },
+    {
+      "ticker": "INLF",
+      "name": "INLIF Ltd",
+      "sector": "Industrials",
+      "price": 5.1,
+      "volume": 49266900,
+      "avgVolume": 2712568,
+      "volRatio": 18.2,
+      "offHighPct": -25.8,
+      "changePct": 72.9,
+      "stage": "reversing"
+    },
+    {
+      "ticker": "IFBD",
+      "name": "Infobird Co Ltd",
+      "sector": "Technology",
+      "price": 1.34,
+      "volume": 12711500,
+      "avgVolume": 1106786,
+      "volRatio": 11.5,
+      "offHighPct": -30.6,
+      "changePct": 18.6,
+      "stage": "reversing"
+    },
+    {
+      "ticker": "FFAI",
+      "name": "Faraday Future Intelligent Electric Inc",
+      "sector": "Consumer Cyclical",
+      "price": 1.61,
+      "volume": 23024100,
+      "avgVolume": 2047700,
+      "volRatio": 11.2,
+      "offHighPct": -17.0,
+      "changePct": 22.9,
+      "stage": "reversing"
+    },
+    {
+      "ticker": "SHMD",
+      "name": "SCHMID Group NV",
+      "sector": "Industrials",
+      "price": 4.37,
+      "volume": 12909900,
+      "avgVolume": 1181381,
+      "volRatio": 10.9,
+      "offHighPct": -12.8,
+      "changePct": 20.7,
+      "stage": "reversing"
+    },
+    {
+      "ticker": "SDEV",
+      "name": "Stablecoin Development Corp",
+      "sector": "Financial",
+      "price": 1.49,
+      "volume": 13691000,
+      "avgVolume": 1488240,
+      "volRatio": 9.2,
+      "offHighPct": -18.6,
+      "changePct": 15.5,
+      "stage": "reversing"
+    },
+    {
+      "ticker": "VSME",
+      "name": "Vs Media Holdings Ltd",
+      "sector": "Communication Services",
+      "price": 1.0,
+      "volume": 12140400,
+      "avgVolume": 1873681,
+      "volRatio": 6.5,
+      "offHighPct": -14.5,
+      "changePct": 23.9,
+      "stage": "reversing"
+    },
+    {
+      "ticker": "APUS",
+      "name": "Apimeds Pharmaceuticals US Inc",
+      "sector": "Healthcare",
+      "price": 7.25,
+      "volume": 36971800,
+      "avgVolume": 5821527,
+      "volRatio": 6.4,
+      "offHighPct": -20.7,
+      "changePct": 47.4,
+      "stage": "reversing"
+    },
+    {
+      "ticker": "SUGP",
+      "name": "SU Group Holdings Ltd",
+      "sector": "Industrials",
+      "price": 0.556,
+      "volume": 58871600,
+      "avgVolume": 10656609,
+      "volRatio": 5.5,
+      "offHighPct": -15.8,
+      "changePct": 18.3,
+      "stage": "reversing"
+    },
+    {
+      "ticker": "SLMT",
+      "name": "Solmate Infrastructure Public Ltd",
+      "sector": "Technology",
+      "price": 4.78,
+      "volume": 361100,
+      "avgVolume": 121986,
+      "volRatio": 3.0,
+      "offHighPct": -0.2,
+      "changePct": 27.1,
+      "stage": "extended"
+    }
+  ]
+}

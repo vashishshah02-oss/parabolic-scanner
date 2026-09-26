@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parabolic Watch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f6f4ef; --surface:#ffffff; --surface-2:#eeece4; --border:#ddd7c9;
+    --text:#1b1f26; --text-muted:#666f7d;
+    --accent:#c8590f; --accent-soft:rgba(200,89,15,0.10);
+    --up:#1a8f5c; --up-soft:rgba(26,143,92,0.12);
+    --down:#c23b3b; --down-soft:rgba(194,59,59,0.10);
+    --warn:#9c6f0b; --warn-soft:rgba(156,111,11,0.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0b0e13; --surface:#12161d; --surface-2:#181e27; --border:#262e3a;
+      --text:#e9edf3; --text-muted:#8b96a8;
+      --accent:#ff9152; --accent-soft:rgba(255,145,82,0.14);
+      --up:#3fd087; --up-soft:rgba(63,208,135,0.13);
+      --down:#ff6b6b; --down-soft:rgba(255,107,107,0.13);
+      --warn:#f0c04a; --warn-soft:rgba(240,192,74,0.13);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0b0e13; --surface:#12161d; --surface-2:#181e27; --border:#262e3a;
+    --text:#e9edf3; --text-muted:#8b96a8;
+    --accent:#ff9152; --accent-soft:rgba(255,145,82,0.14);
+    --up:#3fd087; --up-soft:rgba(63,208,135,0.13);
+    --down:#ff6b6b; --down-soft:rgba(255,107,107,0.13);
+    --warn:#f0c04a; --warn-soft:rgba(240,192,74,0.13);
+  }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--bg); color:var(--text); font-family:'IBM Plex Sans', system-ui, sans-serif; padding:0 20px; }
+  .wrap{ max-width:920px; margin:0 auto; padding-block:32px 60px; display:flex; flex-direction:column; gap:28px; }
+  .eyebrow{ font-family:'IBM Plex Mono', monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--accent); font-weight:600; }
+  h1{ font-family:'Big Shoulders Display', sans-serif; font-weight:900; font-size:clamp(40px,9vw,64px); line-height:0.92; margin:2px 0 0; text-wrap:balance; }
+  .sub{ color:var(--text-muted); font-size:14.5px; max-width:60ch; line-height:1.55; }
+  .sub b{ color:var(--text); font-weight:600; }
+  .control-row{ display:flex; align-items:center; gap:16px; flex-wrap:wrap; padding-top:6px; }
+  button#refresh{
+    font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:13.5px; letter-spacing:0.04em;
+    background:var(--surface-2); color:var(--text); border:1px solid var(--border); border-radius:3px;
+    padding:10px 16px; cursor:pointer;
+  }
+  button#refresh:hover{ border-color:var(--accent); color:var(--accent); }
+  .meta{ font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--text-muted); }
+  .meta b{ color:var(--text); }
+  .chips{ display:flex; gap:8px; flex-wrap:wrap; }
+  .chip{ font-family:'IBM Plex Mono', monospace; font-size:11.5px; color:var(--text-muted); background:var(--surface-2); border:1px solid var(--border); border-radius:20px; padding:5px 12px; }
+  .group{ display:flex; flex-direction:column; }
+  .group-head{ display:flex; align-items:baseline; gap:10px; padding:10px 2px; border-bottom:1px solid var(--border); margin-bottom:2px; }
+  .group-title{ font-family:'Big Shoulders Display', sans-serif; font-weight:800; font-size:20px; }
+  .group-desc{ font-size:12.5px; color:var(--text-muted); }
+  .stage-extended .group-title{ color:var(--up); }
+  .stage-reversing .group-title{ color:var(--warn); }
+  .stage-faded .group-title{ color:var(--down); }
+  .row{ display:grid; grid-template-columns:98px 1fr 84px 92px 130px; align-items:center; gap:14px; padding:12px 2px; border-bottom:1px solid var(--border); }
+  .row:last-child{ border-bottom:none; }
+  .row.head{ font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:0.08em; text-transform:uppercase; color:var(--text-muted); padding-bottom:6px; }
+  .ticker{ font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:15px; }
+  .name{ font-size:12px; color:var(--text-muted); margin-top:1px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .price{ font-family:'IBM Plex Mono', monospace; font-variant-numeric:tabular-nums; font-size:13.5px; }
+  .chg{ font-family:'IBM Plex Mono', monospace; font-variant-numeric:tabular-nums; font-weight:600; font-size:13.5px; }
+  .chg.pos{ color:var(--up); } .chg.neg{ color:var(--down); }
+  .volwrap{ display:flex; flex-direction:column; gap:4px; }
+  .volnum{ font-family:'IBM Plex Mono', monospace; font-variant-numeric:tabular-nums; font-size:12.5px; color:var(--text-muted); }
+  .volbar{ height:4px; border-radius:2px; background:var(--surface-2); overflow:hidden; }
+  .volbar > span{ display:block; height:100%; background:var(--accent); border-radius:2px; }
+  .badge{ font-family:'IBM Plex Mono', monospace; font-size:11px; font-weight:600; padding:4px 9px; border-radius:3px; display:inline-block; white-space:nowrap; }
+  .badge.extended{ background:var(--up-soft); color:var(--up); }
+  .badge.reversing{ background:var(--warn-soft); color:var(--warn); }
+  .badge.faded{ background:var(--down-soft); color:var(--down); }
+  .note{ font-size:11.5px; color:var(--text-muted); grid-column:2/-1; margin-top:2px; }
+  .empty{ font-size:13px; color:var(--text-muted); padding:16px 2px; }
+  @media (max-width:700px){
+    .row{ grid-template-columns:1fr auto; grid-template-areas:"ticker chg" "price vol" "note note"; row-gap:6px; }
+    .row.head{ display:none; }
+    .ticker{ grid-area:ticker; } .chg{ grid-area:chg; text-align:right; }
+    .price{ grid-area:price; color:var(--text-muted); }
+    .volwrap{ grid-area:vol; align-items:flex-end; } .note{ grid-column:auto; }
+  }
+  footer{ font-size:11.5px; color:var(--text-muted); line-height:1.7; border-top:1px solid var(--border); padding-top:16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div>
+    <div class="eyebrow">Live Screen &middot; Low Float / Volume Anomaly</div>
+    <h1>Parabolic Watch</h1>
+    <p class="sub">Screens for the <b>RETO / WHLR mechanic</b>: float under 50M shares, volume &ge; 3&times; its own trailing average, up &ge; 15% on the day. Refreshes automatically on a schedule &mdash; not a buy/sell signal, a map of what's currently moving.</p>
+  </div>
+  <div class="control-row">
+    <button id="refresh" onclick="load()">Reload data</button>
+    <div class="meta" id="scanned-at">Loading&hellip;</div>
+  </div>
+  <div class="chips">
+    <div class="chip">Float &lt; 50M</div>
+    <div class="chip">Rel. vol &ge; 3&times;</div>
+    <div class="chip">Move &ge; 15% intraday</div>
+    <div class="chip" id="count-chip">&mdash; names</div>
+  </div>
+
+  <div class="group stage-extended">
+    <div class="group-head">
+      <div class="group-title">Extended</div>
+      <div class="group-desc">up big, still within ~8% of today's high &mdash; no confirmed reversal yet</div>
+    </div>
+    <div class="row head"><div>Stage</div><div>Ticker</div><div>Price</div><div>Chg</div><div>Vol vs avg</div></div>
+    <div id="rows-extended"></div>
+  </div>
+
+  <div class="group stage-reversing">
+    <div class="group-head">
+      <div class="group-title">Reversing</div>
+      <div class="group-desc">up on the day but already 8%+ off the intraday high on the same heavy volume</div>
+    </div>
+    <div id="rows-reversing"></div>
+  </div>
+
+  <div class="group stage-faded">
+    <div class="group-head">
+      <div class="group-title">Faded</div>
+      <div class="group-desc">red on the day despite the volume anomaly &mdash; already round-tripped</div>
+    </div>
+    <div id="rows-faded"></div>
+  </div>
+
+  <footer>
+    Data: Finviz screener (float / relative volume / % change) cross-checked against Yahoo Finance for price, true average volume, and distance off the intraday high &mdash; refreshed by a scheduled job, not on page load. Float and volume figures can lag or misreport on illiquid names; verify anything before sizing a position. Educational pattern-tracking only, not investment advice.
+  </footer>
+</div>
+
+<script>
+  function fmtVol(n){
+    if (n >= 1e9) return (n/1e9).toFixed(1) + "B";
+    if (n >= 1e6) return (n/1e6).toFixed(1) + "M";
+    if (n >= 1e3) return (n/1e3).toFixed(1) + "K";
+    return String(n);
+  }
+
+  function rowHTML(item, stageClass, stageLabel, maxVol){
+    const chg = item.changePct;
+    const chgClass = (chg ?? 0) >= 0 ? "pos" : "neg";
+    const chgSign = (chg ?? 0) >= 0 ? "+" : "";
+    const chgStr = chg != null ? `${chgSign}${chg.toFixed(1)}%` : "—";
+    const priceStr = item.price != null ? "$" + item.price.toFixed(item.price < 1 ? 4 : 2) : "—";
+    const barPct = Math.min(100, ((item.volRatio || 0) / maxVol) * 100);
+    const noteBits = [];
+    if (item.offHighPct != null) noteBits.push(`${item.offHighPct.toFixed(1)}% off today's high`);
+    if (item.sector) noteBits.push(item.sector);
+    return `<div class="row">
+      <div><span class="badge ${stageClass}">${stageLabel}</span></div>
+      <div>
+        <div class="ticker">${item.ticker}</div>
+        ${item.name ? `<div class="name">${item.name}</div>` : ""}
+      </div>
+      <div class="price">${priceStr}</div>
+      <div class="chg ${chgClass}">${chgStr}</div>
+      <div class="volwrap">
+        <div class="volnum">${item.volRatio != null ? item.volRatio.toFixed(1) + "× avg" : fmtVol(item.volume) + " sh"}</div>
+        <div class="volbar"><span style="width:${barPct}%"></span></div>
+      </div>
+      <div class="note">${noteBits.join(" · ")}</div>
+    </div>`;
+  }
+
+  async function load(){
+    document.getElementById("scanned-at").textContent = "Loading…";
+    try {
+      const res = await fetch("data/latest.json", { cache: "no-store" });
+      const data = await res.json();
+      const results = data.results || [];
+      const maxVol = Math.max(1, ...results.map(r => r.volRatio || 0));
+
+      const groups = { extended: [], reversing: [], faded: [] };
+      results.forEach(r => { (groups[r.stage] || groups.extended).push(r); });
+
+      const mount = (id, list, cls, label) => {
+        const el = document.getElementById(id);
+        el.innerHTML = list.length
+          ? list.map(d => rowHTML(d, cls, label, maxVol)).join("")
+          : `<div class="empty">None on this screen right now.</div>`;
+      };
+      mount("rows-extended", groups.extended, "extended", "EXTENDED");
+      mount("rows-reversing", groups.reversing, "reversing", "REVERSING");
+      mount("rows-faded", groups.faded, "faded", "FADED");
+
+      document.getElementById("count-chip").textContent = `${results.length} names`;
+      const d = new Date(data.scannedAt);
+      document.getElementById("scanned-at").innerHTML =
+        `Last scanned <b>${d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}</b>`;
+    } catch (e) {
+      document.getElementById("scanned-at").textContent = "Couldn't load data/latest.json yet — run scan.py once.";
+    }
+  }
+
+  load();
+</script>
+</body>
+</html>
