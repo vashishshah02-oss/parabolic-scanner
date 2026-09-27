@@ -6,199 +6,527 @@
 <title>Parabolic Watch</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#f6f4ef; --surface:#ffffff; --surface-2:#eeece4; --border:#ddd7c9;
-    --text:#1b1f26; --text-muted:#666f7d;
-    --accent:#c8590f; --accent-soft:rgba(200,89,15,0.10);
-    --up:#1a8f5c; --up-soft:rgba(26,143,92,0.12);
-    --down:#c23b3b; --down-soft:rgba(194,59,59,0.10);
-    --warn:#9c6f0b; --warn-soft:rgba(156,111,11,0.12);
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --bg:#0b0e13; --surface:#12161d; --surface-2:#181e27; --border:#262e3a;
-      --text:#e9edf3; --text-muted:#8b96a8;
-      --accent:#ff9152; --accent-soft:rgba(255,145,82,0.14);
-      --up:#3fd087; --up-soft:rgba(63,208,135,0.13);
-      --down:#ff6b6b; --down-soft:rgba(255,107,107,0.13);
-      --warn:#f0c04a; --warn-soft:rgba(240,192,74,0.13);
-    }
-  }
-  :root[data-theme="dark"]{
-    --bg:#0b0e13; --surface:#12161d; --surface-2:#181e27; --border:#262e3a;
-    --text:#e9edf3; --text-muted:#8b96a8;
-    --accent:#ff9152; --accent-soft:rgba(255,145,82,0.14);
-    --up:#3fd087; --up-soft:rgba(63,208,135,0.13);
-    --down:#ff6b6b; --down-soft:rgba(255,107,107,0.13);
-    --warn:#f0c04a; --warn-soft:rgba(240,192,74,0.13);
+    --bg:#000000;
+    --panel:#0a0a0a;
+    --panel-2:#111111;
+    --grid:#2a2a2a;
+    --grid-dim:#1a1a1a;
+    --text:#e8e8e4;
+    --text-dim:#7a7a76;
+    --amber:#ff9f1c;
+    --amber-dim:#a66713;
+    --up:#00d964;
+    --up-dim:#0a5c2c;
+    --down:#ff4747;
+    --down-dim:#7a1f1f;
+    --cyan:#5ec8e8;
+    --yellow:#ffd60a;
   }
   *{ box-sizing:border-box; }
-  body{ margin:0; background:var(--bg); color:var(--text); font-family:'IBM Plex Sans', system-ui, sans-serif; padding:0 20px; }
-  .wrap{ max-width:920px; margin:0 auto; padding-block:32px 60px; display:flex; flex-direction:column; gap:28px; }
-  .eyebrow{ font-family:'IBM Plex Mono', monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--accent); font-weight:600; }
-  h1{ font-family:'Big Shoulders Display', sans-serif; font-weight:900; font-size:clamp(40px,9vw,64px); line-height:0.92; margin:2px 0 0; text-wrap:balance; }
-  .sub{ color:var(--text-muted); font-size:14.5px; max-width:60ch; line-height:1.55; }
+  html{ background:var(--bg); }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+    padding:0 16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{ max-width:none; margin:0 auto; padding-block:18px 48px; display:flex; flex-direction:column; gap:0; }
+
+  /* ---- function bar ---- */
+  .fnbar{
+    display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px 20px;
+    border:1px solid var(--grid);
+    background:var(--panel);
+    padding:8px 14px;
+  }
+  .fncode{
+    color:#000; background:var(--amber);
+    font-weight:700; font-size:12.5px; letter-spacing:0.04em;
+    padding:2px 8px;
+  }
+  .fntitle{ font-size:12px; color:var(--text-dim); letter-spacing:0.06em; text-transform:uppercase; }
+  .fnright{ display:flex; align-items:center; gap:16px; font-size:11.5px; color:var(--text-dim); }
+  .live-dot{
+    display:inline-flex; align-items:center; gap:6px; color:var(--up);
+    text-transform:uppercase; letter-spacing:0.06em; font-weight:600;
+  }
+  .live-dot .blip{
+    width:7px; height:7px; background:var(--up); border-radius:50%;
+    animation:blip 1.4s ease-in-out infinite;
+  }
+  @keyframes blip{ 0%,100%{opacity:1;} 50%{opacity:0.25;} }
+  @media (prefers-reduced-motion: reduce){ .live-dot .blip{ animation:none; } }
+  #clock{ font-variant-numeric:tabular-nums; color:var(--text); }
+
+  /* ---- ticker marquee ---- */
+  .marquee{
+    border:1px solid var(--grid); border-top:none;
+    background:var(--panel-2);
+    overflow:hidden;
+    white-space:nowrap;
+    padding:7px 0;
+  }
+  .marquee-track{
+    display:inline-block;
+    animation:scroll 42s linear infinite;
+  }
+  .marquee:hover .marquee-track{ animation-play-state:paused; }
+  @media (prefers-reduced-motion: reduce){ .marquee-track{ animation:none; } }
+  @keyframes scroll{ from{ transform:translateX(0); } to{ transform:translateX(-50%); } }
+  .mq-item{ display:inline-flex; gap:7px; padding:0 18px; font-size:12px; }
+  .mq-item .t{ color:var(--cyan); font-weight:600; }
+  .mq-pos{ color:var(--up); } .mq-neg{ color:var(--down); }
+
+  /* ---- header ---- */
+  .head{
+    border:1px solid var(--grid); border-top:none;
+    background:var(--bg);
+    padding:20px 14px 16px;
+    display:flex; align-items:center; gap:20px;
+  }
+  .head-left{ flex:1; min-width:0; }
+  .head-chart{ width:340px; flex:none; }
+  .head-chart svg{ width:100%; height:auto; display:block; }
+  .ring-spin{ transform-box:fill-box; transform-origin:center; animation:spin 40s linear infinite; }
+  @keyframes spin{ to{ transform:rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce){ .ring-spin{ animation:none; } }
+  @media (prefers-reduced-motion: reduce){
+    #scan-dot animateMotion{ display:none; }
+  }
+  @media (max-width:1150px){ .head-chart{ display:none; } }
+  h1{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:700; font-size:clamp(24px,4.2vw,34px);
+    letter-spacing:-0.01em; margin:0 0 8px;
+    color:var(--text);
+  }
+  h1 span{ color:var(--amber); }
+  .sub{ color:var(--text-dim); font-size:12.5px; max-width:74ch; line-height:1.6; }
   .sub b{ color:var(--text); font-weight:600; }
-  .control-row{ display:flex; align-items:center; gap:16px; flex-wrap:wrap; padding-top:6px; }
-  button#refresh{
-    font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:13.5px; letter-spacing:0.04em;
-    background:var(--surface-2); color:var(--text); border:1px solid var(--border); border-radius:3px;
-    padding:10px 16px; cursor:pointer;
+
+  .control-row{
+    display:flex; align-items:center; gap:18px; flex-wrap:wrap;
+    margin-top:14px;
   }
-  button#refresh:hover{ border-color:var(--accent); color:var(--accent); }
-  .meta{ font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--text-muted); }
+  button#run{
+    font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:12.5px; letter-spacing:0.03em;
+    background:var(--bg); color:var(--amber); border:1px solid var(--amber);
+    padding:9px 16px; cursor:pointer;
+  }
+  button#run:hover{ background:var(--amber); color:#000; }
+  button#run:focus-visible{ outline:2px solid var(--amber); outline-offset:2px; }
+  .cursor{ display:inline-block; width:7px; height:12px; background:currentColor; margin-left:2px; vertical-align:-1px; animation:blip 1s step-start infinite; }
+  @media (prefers-reduced-motion: reduce){ .cursor{ animation:none; } }
+  .meta{ font-size:11.5px; color:var(--text-dim); }
   .meta b{ color:var(--text); }
-  .chips{ display:flex; gap:8px; flex-wrap:wrap; }
-  .chip{ font-family:'IBM Plex Mono', monospace; font-size:11.5px; color:var(--text-muted); background:var(--surface-2); border:1px solid var(--border); border-radius:20px; padding:5px 12px; }
-  .group{ display:flex; flex-direction:column; }
-  .group-head{ display:flex; align-items:baseline; gap:10px; padding:10px 2px; border-bottom:1px solid var(--border); margin-bottom:2px; }
-  .group-title{ font-family:'Big Shoulders Display', sans-serif; font-weight:800; font-size:20px; }
-  .group-desc{ font-size:12.5px; color:var(--text-muted); }
-  .stage-extended .group-title{ color:var(--up); }
-  .stage-reversing .group-title{ color:var(--warn); }
-  .stage-faded .group-title{ color:var(--down); }
-  .row{ display:grid; grid-template-columns:98px 1fr 84px 92px 130px; align-items:center; gap:14px; padding:12px 2px; border-bottom:1px solid var(--border); }
-  .row:last-child{ border-bottom:none; }
-  .row.head{ font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:0.08em; text-transform:uppercase; color:var(--text-muted); padding-bottom:6px; }
-  .ticker{ font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:15px; }
-  .name{ font-size:12px; color:var(--text-muted); margin-top:1px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-  .price{ font-family:'IBM Plex Mono', monospace; font-variant-numeric:tabular-nums; font-size:13.5px; }
-  .chg{ font-family:'IBM Plex Mono', monospace; font-variant-numeric:tabular-nums; font-weight:600; font-size:13.5px; }
-  .chg.pos{ color:var(--up); } .chg.neg{ color:var(--down); }
-  .volwrap{ display:flex; flex-direction:column; gap:4px; }
-  .volnum{ font-family:'IBM Plex Mono', monospace; font-variant-numeric:tabular-nums; font-size:12.5px; color:var(--text-muted); }
-  .volbar{ height:4px; border-radius:2px; background:var(--surface-2); overflow:hidden; }
-  .volbar > span{ display:block; height:100%; background:var(--accent); border-radius:2px; }
-  .badge{ font-family:'IBM Plex Mono', monospace; font-size:11px; font-weight:600; padding:4px 9px; border-radius:3px; display:inline-block; white-space:nowrap; }
-  .badge.extended{ background:var(--up-soft); color:var(--up); }
-  .badge.reversing{ background:var(--warn-soft); color:var(--warn); }
-  .badge.faded{ background:var(--down-soft); color:var(--down); }
-  .note{ font-size:11.5px; color:var(--text-muted); grid-column:2/-1; margin-top:2px; }
-  .empty{ font-size:13px; color:var(--text-muted); padding:16px 2px; }
-  @media (max-width:700px){
-    .row{ grid-template-columns:1fr auto; grid-template-areas:"ticker chg" "price vol" "note note"; row-gap:6px; }
-    .row.head{ display:none; }
-    .ticker{ grid-area:ticker; } .chg{ grid-area:chg; text-align:right; }
-    .price{ grid-area:price; color:var(--text-muted); }
-    .volwrap{ grid-area:vol; align-items:flex-end; } .note{ grid-column:auto; }
+
+  .chips{ display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
+  .chip{
+    font-size:11px; letter-spacing:0.02em; color:var(--text-dim);
+    border:1px solid var(--grid); padding:4px 10px;
   }
-  footer{ font-size:11.5px; color:var(--text-muted); line-height:1.7; border-top:1px solid var(--border); padding-top:16px; }
+  .chip b{ color:var(--amber); }
+
+  /* ---- layout: sidebar + main ---- */
+  .layout{ display:flex; align-items:stretch; }
+  .sidebar{ width:216px; flex:none; border:1px solid var(--grid); border-top:none; display:flex; flex-direction:column; }
+  .main{ flex:1; min-width:0; display:flex; flex-direction:column; }
+  .main .head, .main .gridwrap{ border-left:none; border-right:none; }
+
+  .sbpanel{ padding:13px 14px; border-bottom:1px solid var(--grid); }
+  .sbpanel:last-child{ border-bottom:none; }
+  .sbtitle{ color:var(--amber); font-size:10px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:10px; }
+  .session-status{ font-size:19px; font-weight:700; letter-spacing:0.01em; }
+  .session-status.open{ color:var(--up); }
+  .session-status.pre, .session-status.aftr{ color:var(--yellow); }
+  .session-status.closed{ color:var(--text-dim); }
+  .session-sub{ font-size:10.5px; color:var(--text-dim); margin-top:4px; }
+  .clockrow{ display:flex; justify-content:space-between; font-size:11.5px; padding:3px 0; }
+  .clockrow span:first-child{ color:var(--text-dim); }
+  .clockrow span:last-child{ font-variant-numeric:tabular-nums; }
+  .sortbtn{
+    display:block; width:100%; text-align:left; background:none;
+    border:1px solid var(--grid); color:var(--text-dim);
+    font-family:inherit; font-size:10.5px; letter-spacing:0.03em;
+    padding:6px 8px; margin-bottom:6px; cursor:pointer;
+  }
+  .sortbtn:last-child{ margin-bottom:0; }
+  .sortbtn:hover{ border-color:var(--amber); color:var(--text); }
+  .sortbtn.active{ border-color:var(--amber); color:var(--amber); }
+  .legend-row{ display:flex; align-items:center; gap:8px; margin-bottom:8px; font-size:10px; }
+  .legend-row:last-child{ margin-bottom:0; }
+  .legend-desc{ color:var(--text-dim); }
+
+  .statrow{ display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+  .statrow:last-child{ margin-bottom:0; }
+  .statrow .stagepill{ width:34px; text-align:center; padding:2px 0; font-size:9px; }
+  .statbar{ flex:1; height:6px; background:var(--grid-dim); position:relative; }
+  .statbar > span{ position:absolute; left:0; top:0; bottom:0; }
+  .statbar > span.extended{ background:var(--up); }
+  .statbar > span.reversing{ background:var(--yellow); }
+  .statbar > span.faded{ background:var(--down); }
+  .statcount{ font-size:11px; color:var(--text-dim); width:14px; text-align:right; }
+
+  .standout{ margin-bottom:11px; }
+  .standout:last-child{ margin-bottom:0; }
+  .standout-label{ font-size:9.5px; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:3px; }
+  .standout-val{ font-size:12.5px; display:flex; justify-content:space-between; }
+  .standout-val span:last-child{ color:var(--text); font-variant-numeric:tabular-nums; }
+
+  .glossary-row{ margin-bottom:9px; font-size:10.5px; line-height:1.5; color:var(--text-dim); }
+  .glossary-row:last-child{ margin-bottom:0; }
+  .glossary-row b{ color:var(--amber); }
+
+  @media (max-width:900px){
+    .layout{ flex-direction:column; }
+    .sidebar{ width:auto; }
+    .sidebar{ display:grid; grid-template-columns:1fr 1fr; }
+    .sbpanel{ border-bottom:1px solid var(--grid); }
+    .main .head, .main .gridwrap{ border-left:1px solid var(--grid); border-right:1px solid var(--grid); }
+  }
+  @media (max-width:520px){ .sidebar{ grid-template-columns:1fr; } }
+
+  /* ---- data grid ---- */
+  .gridwrap{ border:1px solid var(--grid); border-top:none; overflow-x:auto; }
+  table{ width:100%; border-collapse:collapse; min-width:820px; }
+  thead th{
+    position:sticky; top:0;
+    background:var(--panel);
+    color:var(--amber);
+    font-weight:600; font-size:10.5px; letter-spacing:0.07em; text-transform:uppercase;
+    text-align:left; padding:9px 12px;
+    border-bottom:1px solid var(--grid);
+    white-space:nowrap;
+  }
+  thead th.num{ text-align:right; }
+  tbody td{
+    padding:8px 12px;
+    border-bottom:1px solid var(--grid-dim);
+    font-size:12.5px;
+    white-space:nowrap;
+  }
+  tbody td.num{ text-align:right; font-variant-numeric:tabular-nums; }
+  tbody tr:hover{ background:var(--panel-2); }
+  .tk{ color:var(--cyan); font-weight:700; letter-spacing:0.02em; }
+  .nm{ color:var(--text-dim); font-size:11px; }
+  .pos{ color:var(--up); font-weight:600; }
+  .neg{ color:var(--down); font-weight:600; }
+  .stagepill{
+    font-size:10px; font-weight:700; letter-spacing:0.05em;
+    padding:2px 7px; display:inline-block; border:1px solid;
+  }
+  .stagepill.extended{ color:var(--up); border-color:var(--up-dim); }
+  .stagepill.reversing{ color:var(--yellow); border-color:#5c4a05; }
+  .stagepill.faded{ color:var(--down); border-color:var(--down-dim); }
+  .ratiocell{ display:flex; align-items:center; justify-content:flex-end; gap:8px; }
+  .ratiobar{ width:52px; height:6px; background:var(--grid-dim); position:relative; }
+  .ratiobar > span{ position:absolute; left:0; top:0; bottom:0; background:var(--amber); }
+  .offhigh.neg{ color:var(--down); }
+  .offhigh.pos{ color:var(--up); }
+  .sector{ color:var(--text-dim); font-size:11px; }
+
+  footer{
+    border:1px solid var(--grid); border-top:none;
+    background:var(--panel);
+    font-size:11px; color:var(--text-dim); line-height:1.7;
+    padding:14px;
+  }
+  footer b{ color:var(--text); }
+
+  @media (max-width:700px){
+    .fnbar{ flex-direction:column; align-items:flex-start; }
+  }
 </style>
 </head>
 <body>
+
 <div class="wrap">
-  <div>
-    <div class="eyebrow">Live Screen &middot; Low Float / Volume Anomaly</div>
-    <h1>Parabolic Watch</h1>
-    <p class="sub">Screens for the <b>RETO / WHLR mechanic</b>: float under 50M shares, volume &ge; 3&times; its own trailing average, up &ge; 15% on the day. Refreshes automatically on a schedule &mdash; not a buy/sell signal, a map of what's currently moving.</p>
-  </div>
-  <div class="control-row">
-    <button id="refresh" onclick="load()">Reload data</button>
-    <div class="meta" id="scanned-at">Loading&hellip;</div>
-  </div>
-  <div class="chips">
-    <div class="chip">Float &lt; 50M</div>
-    <div class="chip">Rel. vol &ge; 3&times;</div>
-    <div class="chip">Move &ge; 15% intraday</div>
-    <div class="chip" id="count-chip">&mdash; names</div>
+
+  <div class="fnbar">
+    <div style="display:flex;align-items:center;gap:10px;">
+      <span class="fncode">PRBL&lt;GO&gt;</span>
+      <span class="fntitle">Low-Float Volume Screen</span>
+    </div>
+    <div class="fnright">
+      <span class="live-dot"><span class="blip"></span>Live</span>
+      <span id="clock">--:--:--</span>
+    </div>
   </div>
 
-  <div class="group stage-extended">
-    <div class="group-head">
-      <div class="group-title">Extended</div>
-      <div class="group-desc">up big, still within ~8% of today's high &mdash; no confirmed reversal yet</div>
+  <div class="marquee" id="marquee"><div class="marquee-track" id="marquee-track"></div></div>
+
+  <div class="layout">
+    <div class="sidebar">
+      <div class="sbpanel">
+        <div class="sbtitle">Session</div>
+        <div class="session-status" id="session-status">&mdash;</div>
+        <div class="session-sub" id="session-sub">&mdash;</div>
+      </div>
+      <div class="sbpanel">
+        <div class="sbtitle">World Clocks</div>
+        <div class="clockrow"><span>NYC</span><span id="clk-nyc">--:--:--</span></div>
+        <div class="clockrow"><span>LON</span><span id="clk-lon">--:--:--</span></div>
+        <div class="clockrow"><span>TOK</span><span id="clk-tok">--:--:--</span></div>
+        <div class="clockrow"><span>HKG</span><span id="clk-hkg">--:--:--</span></div>
+      </div>
+      <div class="sbpanel">
+        <div class="sbtitle">Sort Grid</div>
+        <button class="sortbtn active" data-sort="vol">F1&nbsp; VOL RATIO</button>
+        <button class="sortbtn" data-sort="chg">F2&nbsp; CHG %</button>
+        <button class="sortbtn" data-sort="offhigh">F3&nbsp; OFF HIGH</button>
+      </div>
+      <div class="sbpanel">
+        <div class="sbtitle">Legend</div>
+        <div class="legend-row"><span class="stagepill extended">EXT</span><span class="legend-desc">within ~8% of high</span></div>
+        <div class="legend-row"><span class="stagepill reversing">REV</span><span class="legend-desc">8%+ off high</span></div>
+        <div class="legend-row"><span class="stagepill faded">FAD</span><span class="legend-desc">red on the day</span></div>
+      </div>
     </div>
-    <div class="row head"><div>Stage</div><div>Ticker</div><div>Price</div><div>Chg</div><div>Vol vs avg</div></div>
-    <div id="rows-extended"></div>
+
+    <div class="main">
+  <div class="head">
+    <div class="head-left">
+      <h1>PARABOLIC<span>_</span>WATCH</h1>
+      <p class="sub">Screens for low-float, sudden-volume-surge movers: float under 50M shares, volume &ge; 3&times; its own trailing average, up &ge; 15% intraday. Cross-checked per ticker for true average volume and distance off today's high. Not a signal &mdash; a map of what's moving and where it sits in the cycle.</p>
+
+      <div class="control-row">
+        <button id="run" onclick="load()">&gt; RELOAD DATA<span class="cursor"></span></button>
+        <div class="meta">Last scanned <b id="scanned-at">&hellip;</b></div>
+      </div>
+
+      <div class="chips">
+        <div class="chip">FLOAT &lt; <b>50M</b></div>
+        <div class="chip">REL VOL &ge; <b>3&times;</b></div>
+        <div class="chip">MOVE &ge; <b>15%</b></div>
+        <div class="chip"><b id="chip-count">&mdash;</b> NAMES</div>
+      </div>
+    </div>
+
+    <div class="head-chart" aria-hidden="true">
+      <svg id="logo-svg" viewBox="0 0 300 260" preserveAspectRatio="xMidYMid meet">
+        <defs>
+          <filter id="lglow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="3.5" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <g class="ring-spin">
+          <circle cx="150" cy="120" r="104" fill="none" stroke="#a66713" stroke-width="2" stroke-dasharray="1.5 9"/>
+        </g>
+        <circle cx="150" cy="120" r="88" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+        <circle cx="150" cy="120" r="56" fill="none" stroke="#1f1f1f" stroke-width="1"/>
+        <g stroke="#2a2a2a" stroke-width="1">
+          <line x1="30" y1="120" x2="270" y2="120"/>
+          <line x1="150" y1="6" x2="150" y2="234"/>
+        </g>
+        <path d="M62,182 C96,178 118,108 142,66 C152,48 166,46 176,62 C200,100 224,160 240,186"
+              fill="none" stroke="#ff9f1c" stroke-width="3" stroke-linecap="round" filter="url(#lglow)"/>
+        <g stroke="#ff4747" stroke-width="2" fill="none" stroke-linecap="square">
+          <path d="M147,44 h-10 v10"/>
+          <path d="M171,44 h10 v10"/>
+          <path d="M147,80 h-10 v-10" transform="translate(0,-4)"/>
+          <path d="M171,80 h10 v-10" transform="translate(0,-4)"/>
+        </g>
+        <circle cx="159" cy="55" r="3.5" fill="#ff4747"/>
+        <text x="150" y="252" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="10.5" letter-spacing="3" fill="#ff9f1c" font-weight="600">SPOT THE BLOW-OFF</text>
+      </svg>
+    </div>
   </div>
 
-  <div class="group stage-reversing">
-    <div class="group-head">
-      <div class="group-title">Reversing</div>
-      <div class="group-desc">up on the day but already 8%+ off the intraday high on the same heavy volume</div>
-    </div>
-    <div id="rows-reversing"></div>
+  <div class="gridwrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Stage</th>
+          <th>Ticker</th>
+          <th class="num">Price</th>
+          <th class="num">Chg %</th>
+          <th class="num">Vol Ratio</th>
+          <th class="num">Off High</th>
+          <th>Sector</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
   </div>
-
-  <div class="group stage-faded">
-    <div class="group-head">
-      <div class="group-title">Faded</div>
-      <div class="group-desc">red on the day despite the volume anomaly &mdash; already round-tripped</div>
     </div>
-    <div id="rows-faded"></div>
+
+    <div class="sidebar">
+      <div class="sbpanel">
+        <div class="sbtitle">Screen Stats</div>
+        <div id="stage-stats"></div>
+      </div>
+      <div class="sbpanel">
+        <div class="sbtitle">Standouts</div>
+        <div id="standouts"></div>
+      </div>
+      <div class="sbpanel">
+        <div class="sbtitle">Glossary</div>
+        <div class="glossary-row"><b>FLOAT</b> &mdash; shares actually free to trade, excluding locked-up insider stock</div>
+        <div class="glossary-row"><b>REL VOL</b> &mdash; today's volume vs. the stock's own trailing average</div>
+        <div class="glossary-row"><b>OFF HIGH</b> &mdash; % below today's intraday high, right now</div>
+      </div>
+    </div>
   </div>
 
   <footer>
-    Data: Finviz screener (float / relative volume / % change) cross-checked against Yahoo Finance for price, true average volume, and distance off the intraday high &mdash; refreshed by a scheduled job, not on page load. Float and volume figures can lag or misreport on illiquid names; verify anything before sizing a position. Educational pattern-tracking only, not investment advice.
+    <b>SOURCE:</b> Finviz screener (float / relative volume / % change), cross-checked per ticker against Yahoo Finance for real average volume and intraday high. <b>NOT LIVE-STREAMING</b> &mdash; refreshed automatically by a scheduled job on weekday mornings (about 9:40 AM ET); the timestamp above shows the last run. Float figures aren't independently re-verified. Educational pattern-tracking only, not investment advice &mdash; verify everything against your own broker before sizing anything.
   </footer>
+
 </div>
 
 <script>
-  function fmtVol(n){
-    if (n >= 1e9) return (n/1e9).toFixed(1) + "B";
-    if (n >= 1e6) return (n/1e6).toFixed(1) + "M";
-    if (n >= 1e3) return (n/1e3).toFixed(1) + "K";
-    return String(n);
+  let DATA = [];
+  let MAX_VOL = 1;
+  let currentSort = "vol";
+
+  function rowHTML(d){
+    const chgClass = d.chg >= 0 ? "pos" : "neg";
+    const chgSign = d.chg >= 0 ? "+" : "";
+    const priceStr = "$" + d.price.toFixed(d.price < 1 ? 4 : 2);
+    const barPct = Math.min(100, (d.vol / MAX_VOL) * 100);
+    const offClass = d.offHigh >= -0.5 ? "pos" : "neg";
+    return `<tr>
+      <td><span class="stagepill ${d.stage}">${d.stage.toUpperCase()}</span></td>
+      <td><span class="tk">${d.t}</span><br><span class="nm">${d.n}</span></td>
+      <td class="num">${priceStr}</td>
+      <td class="num ${chgClass}">${chgSign}${d.chg.toFixed(1)}%</td>
+      <td class="num">
+        <div class="ratiocell">
+          <span>${d.vol.toFixed(1)}&times;</span>
+          <div class="ratiobar"><span style="width:${barPct}%"></span></div>
+        </div>
+      </td>
+      <td class="num offhigh ${offClass}">${d.offHigh.toFixed(1)}%</td>
+      <td class="sector">${d.sector}</td>
+    </tr>`;
   }
 
-  function rowHTML(item, stageClass, stageLabel, maxVol){
-    const chg = item.changePct;
-    const chgClass = (chg ?? 0) >= 0 ? "pos" : "neg";
-    const chgSign = (chg ?? 0) >= 0 ? "+" : "";
-    const chgStr = chg != null ? `${chgSign}${chg.toFixed(1)}%` : "—";
-    const priceStr = item.price != null ? "$" + item.price.toFixed(item.price < 1 ? 4 : 2) : "—";
-    const barPct = Math.min(100, ((item.volRatio || 0) / maxVol) * 100);
-    const noteBits = [];
-    if (item.offHighPct != null) noteBits.push(`${item.offHighPct.toFixed(1)}% off today's high`);
-    if (item.sector) noteBits.push(item.sector);
-    return `<div class="row">
-      <div><span class="badge ${stageClass}">${stageLabel}</span></div>
-      <div>
-        <div class="ticker">${item.ticker}</div>
-        ${item.name ? `<div class="name">${item.name}</div>` : ""}
-      </div>
-      <div class="price">${priceStr}</div>
-      <div class="chg ${chgClass}">${chgStr}</div>
-      <div class="volwrap">
-        <div class="volnum">${item.volRatio != null ? item.volRatio.toFixed(1) + "× avg" : fmtVol(item.volume) + " sh"}</div>
-        <div class="volbar"><span style="width:${barPct}%"></span></div>
-      </div>
-      <div class="note">${noteBits.join(" · ")}</div>
-    </div>`;
+  function renderTable(sortKey){
+    currentSort = sortKey;
+    const sorted = [...DATA];
+    if (sortKey === "chg") sorted.sort((a,b) => b.chg - a.chg);
+    else if (sortKey === "offhigh") sorted.sort((a,b) => a.offHigh - b.offHigh);
+    else sorted.sort((a,b) => b.vol - a.vol);
+    document.getElementById("rows").innerHTML = sorted.map(rowHTML).join("");
   }
+
+  if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const motion = document.querySelector("#scan-dot animateMotion");
+    if (motion) motion.remove();
+  }
+
+  function renderStats(){
+    if (!DATA.length) return;
+    const counts = { extended:0, reversing:0, faded:0 };
+    DATA.forEach(d => { counts[d.stage] = (counts[d.stage] || 0) + 1; });
+    const total = DATA.length;
+    const bar = (key) => {
+      const pct = total ? Math.round((counts[key] || 0) / total * 100) : 0;
+      return `<div class="statrow">
+        <span class="stagepill ${key}">${key.slice(0,3).toUpperCase()}</span>
+        <div class="statbar"><span class="${key}" style="width:${pct}%"></span></div>
+        <span class="statcount">${counts[key] || 0}</span>
+      </div>`;
+    };
+    document.getElementById("stage-stats").innerHTML = bar("extended") + bar("reversing") + bar("faded");
+
+    const topMover = [...DATA].sort((a,b) => b.chg - a.chg)[0];
+    const heaviestVol = [...DATA].sort((a,b) => b.vol - a.vol)[0];
+    const deepestRev = [...DATA].sort((a,b) => a.offHigh - b.offHigh)[0];
+    const standout = (label, d, valueStr) => `<div class="standout">
+      <div class="standout-label">${label}</div>
+      <div class="standout-val"><span class="tk">${d.t}</span><span>${valueStr}</span></div>
+    </div>`;
+    document.getElementById("standouts").innerHTML =
+      standout("Top Mover", topMover, `+${topMover.chg.toFixed(1)}%`) +
+      standout("Heaviest Volume", heaviestVol, `${heaviestVol.vol.toFixed(1)}×`) +
+      standout("Deepest Reversal", deepestRev, `${deepestRev.offHigh.toFixed(1)}%`);
+  }
+
+  document.querySelectorAll(".sortbtn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".sortbtn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      renderTable(btn.dataset.sort);
+    });
+  });
+
+  function renderMarquee(){
+  const mqItems = DATA.map(d => {
+    const cls = d.chg >= 0 ? "mq-pos" : "mq-neg";
+    const sign = d.chg >= 0 ? "+" : "";
+    return `<span class="mq-item"><span class="t">${d.t}</span><span class="${cls}">${sign}${d.chg.toFixed(1)}%</span></span>`;
+  }).join("");
+  document.getElementById("marquee-track").innerHTML = mqItems + mqItems;
+  }
+
+  function tick(){
+    const el = document.getElementById("clock");
+    if (el) el.textContent = new Date().toLocaleTimeString(undefined, { hour12:false });
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  const WORLD_ZONES = { nyc:"America/New_York", lon:"Europe/London", tok:"Asia/Tokyo", hkg:"Asia/Hong_Kong" };
+  function updateClocks(){
+    const now = new Date();
+    for (const [id, tz] of Object.entries(WORLD_ZONES)) {
+      const el = document.getElementById("clk-" + id);
+      if (el) el.textContent = now.toLocaleTimeString("en-US", { timeZone: tz, hour12:false });
+    }
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone:"America/New_York", weekday:"short", hour:"numeric", minute:"numeric", hour12:false
+    }).formatToParts(now);
+    const map = {};
+    parts.forEach(p => { map[p.type] = p.value; });
+    let hour = parseInt(map.hour, 10);
+    if (hour === 24) hour = 0;
+    const minute = parseInt(map.minute, 10);
+    const mins = hour * 60 + minute;
+    const isWeekend = map.weekday === "Sat" || map.weekday === "Sun";
+
+    let status, cls;
+    if (isWeekend) { status = "CLOSED"; cls = "closed"; }
+    else if (mins >= 240 && mins < 570) { status = "PRE-MARKET"; cls = "pre"; }
+    else if (mins >= 570 && mins < 960) { status = "OPEN"; cls = "open"; }
+    else if (mins >= 960 && mins < 1200) { status = "AFTER HOURS"; cls = "aftr"; }
+    else { status = "CLOSED"; cls = "closed"; }
+
+    const statusEl = document.getElementById("session-status");
+    const subEl = document.getElementById("session-sub");
+    if (statusEl) { statusEl.textContent = status; statusEl.className = "session-status " + cls; }
+    if (subEl) subEl.textContent = `NY ${String(hour).padStart(2,"0")}:${String(minute).padStart(2,"0")} · ${map.weekday}`;
+  }
+  updateClocks();
+  setInterval(updateClocks, 1000);
 
   async function load(){
-    document.getElementById("scanned-at").textContent = "Loading…";
+    const at = document.getElementById("scanned-at");
     try {
-      const res = await fetch("data/latest.json", { cache: "no-store" });
+      const res = await fetch("data/latest.json?ts=" + Date.now(), { cache: "no-store" });
       const data = await res.json();
-      const results = data.results || [];
-      const maxVol = Math.max(1, ...results.map(r => r.volRatio || 0));
-
-      const groups = { extended: [], reversing: [], faded: [] };
-      results.forEach(r => { (groups[r.stage] || groups.extended).push(r); });
-
-      const mount = (id, list, cls, label) => {
-        const el = document.getElementById(id);
-        el.innerHTML = list.length
-          ? list.map(d => rowHTML(d, cls, label, maxVol)).join("")
-          : `<div class="empty">None on this screen right now.</div>`;
-      };
-      mount("rows-extended", groups.extended, "extended", "EXTENDED");
-      mount("rows-reversing", groups.reversing, "reversing", "REVERSING");
-      mount("rows-faded", groups.faded, "faded", "FADED");
-
-      document.getElementById("count-chip").textContent = `${results.length} names`;
+      DATA = (data.results || []).map(r => ({
+        t: r.ticker, n: r.name || "", sector: r.sector || "",
+        price: r.price, chg: r.changePct ?? 0, vol: r.volRatio ?? 0,
+        offHigh: r.offHighPct ?? 0, stage: r.stage
+      }));
+      MAX_VOL = Math.max(1, ...DATA.map(d => d.vol));
+      renderTable(currentSort);
+      renderStats();
+      renderMarquee();
+      document.getElementById("chip-count").textContent = DATA.length;
       const d = new Date(data.scannedAt);
-      document.getElementById("scanned-at").innerHTML =
-        `Last scanned <b>${d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}</b>`;
+      at.textContent = d.toLocaleString("en-US", { timeZone: "America/New_York", month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" }) + " ET";
     } catch (e) {
-      document.getElementById("scanned-at").textContent = "Couldn't load data/latest.json yet — run scan.py once.";
+      at.textContent = "data not available yet";
     }
   }
-
   load();
 </script>
 </body>
