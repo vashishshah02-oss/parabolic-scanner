@@ -2,11 +2,11 @@ name: Run parabolic scan
 
 on:
   schedule:
-    # 9:40am US/Eastern, weekdays. GitHub cron is UTC and does not shift for
-    # daylight saving, so both offsets are listed — one is a no-op depending
-    # on the time of year (EDT = UTC-4, EST = UTC-5).
-    - cron: "40 13 * * 1-5"  # 9:40am EDT (roughly Mar-Nov)
-    - cron: "40 14 * * 1-5"  # 9:40am EST (roughly Nov-Mar)
+    # Every 5 minutes, 8am-6pm US/Eastern, weekdays — covers premarket
+    # through after-hours across both EDT and EST (GitHub cron is UTC and
+    # doesn't shift for daylight saving, so the window is padded an hour on
+    # each side rather than kept exact).
+    - cron: "*/5 12-21 * * 1-5"
   workflow_dispatch: {}
 
 permissions:
