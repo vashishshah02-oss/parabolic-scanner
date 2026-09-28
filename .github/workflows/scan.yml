@@ -2,11 +2,13 @@ name: Run parabolic scan
 
 on:
   schedule:
-    # Every 5 minutes, 8am-6pm US/Eastern, weekdays — covers premarket
+    # Every 15 minutes, 8am-6pm US/Eastern, weekdays — covers premarket
     # through after-hours across both EDT and EST (GitHub cron is UTC and
     # doesn't shift for daylight saving, so the window is padded an hour on
-    # each side rather than kept exact).
-    - cron: "*/5 12-21 * * 1-5"
+    # each side rather than kept exact). GitHub doesn't reliably support
+    # 5-minute schedules, so this is the backup net — run scan.yml manually
+    # (gh workflow run scan.yml) for instant on-demand refreshes.
+    - cron: "*/15 12-21 * * 1-5"
   workflow_dispatch: {}
 
 permissions:
