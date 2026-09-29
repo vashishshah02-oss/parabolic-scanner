@@ -346,6 +346,8 @@
           <th>Ticker</th>
           <th class="num">Price</th>
           <th class="num">Chg %</th>
+          <th class="num">Day High</th>
+          <th class="num">Day Low</th>
           <th class="num">Vol Ratio</th>
           <th class="num">Off High</th>
           <th>Sector</th>
@@ -396,6 +398,8 @@
       <td><span class="tk">${d.t}</span><br><span class="nm">${d.n}</span></td>
       <td class="num">${priceStr}</td>
       <td class="num ${chgClass}">${chgSign}${d.chg.toFixed(1)}%</td>
+      <td class="num">$${d.dayHigh.toFixed(d.dayHigh < 1 ? 4 : 2)}</td>
+      <td class="num">$${d.dayLow.toFixed(d.dayLow < 1 ? 4 : 2)}</td>
       <td class="num">
         <div class="ratiocell">
           <span>${d.vol.toFixed(1)}&times;</span>
@@ -514,7 +518,8 @@
       DATA = (data.results || []).map(r => ({
         t: r.ticker, n: r.name || "", sector: r.sector || "",
         price: r.price, chg: r.changePct ?? 0, vol: r.volRatio ?? 0,
-        offHigh: r.offHighPct ?? 0, stage: r.stage
+        offHigh: r.offHighPct ?? 0, stage: r.stage,
+        dayHigh: r.dayHigh ?? r.price, dayLow: r.dayLow ?? r.price
       }));
       MAX_VOL = Math.max(1, ...DATA.map(d => d.vol));
       renderTable(currentSort);

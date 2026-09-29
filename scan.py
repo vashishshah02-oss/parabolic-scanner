@@ -39,6 +39,7 @@ def enrich(ticker):
         last = hist.iloc[-1]
         price = float(last["Close"])
         day_high = float(last["High"])
+        day_low = float(last["Low"])
         volume = float(last["Volume"])
 
         # A zero average volume or a single-row/duplicated-bar history means
@@ -58,6 +59,8 @@ def enrich(ticker):
 
         return {
             "price": round(price, 4),
+            "dayHigh": round(day_high, 4),
+            "dayLow": round(day_low, 4),
             "volume": int(volume),
             "avgVolume": int(avg_volume),
             "volRatio": round(vol_ratio, 1),
