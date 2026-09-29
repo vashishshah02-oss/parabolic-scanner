@@ -1,0 +1,1979 @@
+{
+  "generatedAt": "2026-09-29T15:47:54.201086",
+  "totalSignals": 83,
+  "summary": {
+    "reversing": {
+      "t1": {
+        "n": 33,
+        "avgReturnPct": -5.96,
+        "pctNegative": 63.6
+      }
+    },
+    "extended": {
+      "t1": {
+        "n": 16,
+        "avgReturnPct": -7.17,
+        "pctNegative": 68.8
+      }
+    }
+  },
+  "signals": [
+    {
+      "ticker": "CNET",
+      "name": "ZW Data Action Technologies Inc",
+      "sector": "Communication Services",
+      "price": 1.85,
+      "volume": 25523100,
+      "avgVolume": 1163995,
+      "volRatio": 21.9,
+      "offHighPct": -35.5,
+      "changePct": 35.0,
+      "stage": "reversing",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": 10.27,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "TDIC",
+      "name": "Dreamland Ltd",
+      "sector": "Communication Services",
+      "price": 3.16,
+      "volume": 42326400,
+      "avgVolume": 1950231,
+      "volRatio": 21.7,
+      "offHighPct": -21.0,
+      "changePct": 60.4,
+      "stage": "reversing",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": -13.61,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MGLD",
+      "name": "Marygold Companies Inc",
+      "sector": "Financial",
+      "price": 1.93,
+      "volume": 15541900,
+      "avgVolume": 719195,
+      "volRatio": 21.6,
+      "offHighPct": -1.5,
+      "changePct": 93.0,
+      "stage": "extended",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": 2.07,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MSGY",
+      "name": "Masonglory Ltd",
+      "sector": "Industrials",
+      "price": 8.07,
+      "volume": 54947600,
+      "avgVolume": 2546518,
+      "volRatio": 21.6,
+      "offHighPct": -29.3,
+      "changePct": 309.6,
+      "stage": "reversing",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": -61.21,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "AIFF",
+      "name": "Firefly Neuroscience Inc",
+      "sector": "Technology",
+      "price": 2.01,
+      "volume": 142965800,
+      "avgVolume": 7181068,
+      "volRatio": 19.9,
+      "offHighPct": -5.6,
+      "changePct": 68.9,
+      "stage": "extended",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": -15.92,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "ELPW",
+      "name": "Elong Power Holding Ltd",
+      "sector": "Industrials",
+      "price": 3.19,
+      "volume": 8525100,
+      "avgVolume": 439895,
+      "volRatio": 19.4,
+      "offHighPct": -34.6,
+      "changePct": 19.0,
+      "stage": "reversing",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": -5.02,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "INLF",
+      "name": "INLIF Ltd",
+      "sector": "Industrials",
+      "price": 5.1,
+      "volume": 49266900,
+      "avgVolume": 2712568,
+      "volRatio": 18.2,
+      "offHighPct": -25.8,
+      "changePct": 72.9,
+      "stage": "reversing",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": 2.55,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "IFBD",
+      "name": "Infobird Co Ltd",
+      "sector": "Technology",
+      "price": 1.34,
+      "volume": 12711500,
+      "avgVolume": 1106786,
+      "volRatio": 11.5,
+      "offHighPct": -30.6,
+      "changePct": 18.6,
+      "stage": "reversing",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": -5.22,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "FFAI",
+      "name": "Faraday Future Intelligent Electric Inc",
+      "sector": "Consumer Cyclical",
+      "price": 1.61,
+      "volume": 23024100,
+      "avgVolume": 2047700,
+      "volRatio": 11.2,
+      "offHighPct": -17.0,
+      "changePct": 22.9,
+      "stage": "reversing",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": -12.42,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SHMD",
+      "name": "SCHMID Group NV",
+      "sector": "Industrials",
+      "price": 4.37,
+      "volume": 12909900,
+      "avgVolume": 1181381,
+      "volRatio": 10.9,
+      "offHighPct": -12.8,
+      "changePct": 20.7,
+      "stage": "reversing",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": 0.11,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SDEV",
+      "name": "Stablecoin Development Corp",
+      "sector": "Financial",
+      "price": 1.49,
+      "volume": 13691000,
+      "avgVolume": 1488240,
+      "volRatio": 9.2,
+      "offHighPct": -18.6,
+      "changePct": 15.5,
+      "stage": "reversing",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": 5.37,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "VSME",
+      "name": "Vs Media Holdings Ltd",
+      "sector": "Communication Services",
+      "price": 1.0,
+      "volume": 12140400,
+      "avgVolume": 1873681,
+      "volRatio": 6.5,
+      "offHighPct": -14.5,
+      "changePct": 23.9,
+      "stage": "reversing",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": -2.0,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "APUS",
+      "name": "Apimeds Pharmaceuticals US Inc",
+      "sector": "Healthcare",
+      "price": 7.25,
+      "volume": 36971800,
+      "avgVolume": 5821527,
+      "volRatio": 6.4,
+      "offHighPct": -20.7,
+      "changePct": 47.4,
+      "stage": "reversing",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": -11.86,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SUGP",
+      "name": "SU Group Holdings Ltd",
+      "sector": "Industrials",
+      "price": 0.556,
+      "volume": 58871600,
+      "avgVolume": 10656609,
+      "volRatio": 5.5,
+      "offHighPct": -15.8,
+      "changePct": 18.3,
+      "stage": "reversing",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": -4.68,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SLMT",
+      "name": "Solmate Infrastructure Public Ltd",
+      "sector": "Technology",
+      "price": 4.78,
+      "volume": 361100,
+      "avgVolume": 121986,
+      "volRatio": 3.0,
+      "offHighPct": -0.2,
+      "changePct": 27.1,
+      "stage": "extended",
+      "scannedAt": "2026-09-26T16:58:50.433910+00:00",
+      "flagDate": "2026-09-26",
+      "returns": {
+        "1": -8.16,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "CNET",
+      "name": "ZW Data Action Technologies Inc",
+      "sector": "Communication Services",
+      "price": 1.85,
+      "volume": 25523100,
+      "avgVolume": 1163995,
+      "volRatio": 21.9,
+      "offHighPct": -35.5,
+      "changePct": 35.0,
+      "stage": "reversing",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": 10.27,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "TDIC",
+      "name": "Dreamland Ltd",
+      "sector": "Communication Services",
+      "price": 3.16,
+      "volume": 42326400,
+      "avgVolume": 1950231,
+      "volRatio": 21.7,
+      "offHighPct": -21.0,
+      "changePct": 60.4,
+      "stage": "reversing",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": -13.61,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MGLD",
+      "name": "Marygold Companies Inc",
+      "sector": "Financial",
+      "price": 1.93,
+      "volume": 15541900,
+      "avgVolume": 719195,
+      "volRatio": 21.6,
+      "offHighPct": -1.5,
+      "changePct": 93.0,
+      "stage": "extended",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": 2.07,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MSGY",
+      "name": "Masonglory Ltd",
+      "sector": "Industrials",
+      "price": 8.07,
+      "volume": 54947600,
+      "avgVolume": 2546518,
+      "volRatio": 21.6,
+      "offHighPct": -29.3,
+      "changePct": 309.6,
+      "stage": "reversing",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": -61.21,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "AIFF",
+      "name": "Firefly Neuroscience Inc",
+      "sector": "Technology",
+      "price": 2.01,
+      "volume": 142965800,
+      "avgVolume": 7181068,
+      "volRatio": 19.9,
+      "offHighPct": -5.6,
+      "changePct": 68.9,
+      "stage": "extended",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": -15.92,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "ELPW",
+      "name": "Elong Power Holding Ltd",
+      "sector": "Industrials",
+      "price": 3.19,
+      "volume": 8525100,
+      "avgVolume": 439895,
+      "volRatio": 19.4,
+      "offHighPct": -34.6,
+      "changePct": 19.0,
+      "stage": "reversing",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": -5.02,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "INLF",
+      "name": "INLIF Ltd",
+      "sector": "Industrials",
+      "price": 5.1,
+      "volume": 49266900,
+      "avgVolume": 2712568,
+      "volRatio": 18.2,
+      "offHighPct": -25.8,
+      "changePct": 72.9,
+      "stage": "reversing",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": 2.55,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "IFBD",
+      "name": "Infobird Co Ltd",
+      "sector": "Technology",
+      "price": 1.34,
+      "volume": 12711500,
+      "avgVolume": 1106786,
+      "volRatio": 11.5,
+      "offHighPct": -30.6,
+      "changePct": 18.6,
+      "stage": "reversing",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": -5.22,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "FFAI",
+      "name": "Faraday Future Intelligent Electric Inc",
+      "sector": "Consumer Cyclical",
+      "price": 1.61,
+      "volume": 23024100,
+      "avgVolume": 2047700,
+      "volRatio": 11.2,
+      "offHighPct": -17.0,
+      "changePct": 22.9,
+      "stage": "reversing",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": -12.42,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SHMD",
+      "name": "SCHMID Group NV",
+      "sector": "Industrials",
+      "price": 4.37,
+      "volume": 12909900,
+      "avgVolume": 1181381,
+      "volRatio": 10.9,
+      "offHighPct": -12.8,
+      "changePct": 20.7,
+      "stage": "reversing",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": 0.11,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SDEV",
+      "name": "Stablecoin Development Corp",
+      "sector": "Financial",
+      "price": 1.49,
+      "volume": 13691000,
+      "avgVolume": 1488240,
+      "volRatio": 9.2,
+      "offHighPct": -18.6,
+      "changePct": 15.5,
+      "stage": "reversing",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": 5.37,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "VSME",
+      "name": "Vs Media Holdings Ltd",
+      "sector": "Communication Services",
+      "price": 1.0,
+      "volume": 12140400,
+      "avgVolume": 1873681,
+      "volRatio": 6.5,
+      "offHighPct": -14.5,
+      "changePct": 23.9,
+      "stage": "reversing",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": -2.0,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "APUS",
+      "name": "Apimeds Pharmaceuticals US Inc",
+      "sector": "Healthcare",
+      "price": 7.25,
+      "volume": 36971800,
+      "avgVolume": 5821527,
+      "volRatio": 6.4,
+      "offHighPct": -20.7,
+      "changePct": 47.4,
+      "stage": "reversing",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": -11.86,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SUGP",
+      "name": "SU Group Holdings Ltd",
+      "sector": "Industrials",
+      "price": 0.556,
+      "volume": 58871600,
+      "avgVolume": 10656609,
+      "volRatio": 5.5,
+      "offHighPct": -15.8,
+      "changePct": 18.3,
+      "stage": "reversing",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": -4.68,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SLMT",
+      "name": "Solmate Infrastructure Public Ltd",
+      "sector": "Technology",
+      "price": 4.78,
+      "volume": 361100,
+      "avgVolume": 121986,
+      "volRatio": 3.0,
+      "offHighPct": -0.2,
+      "changePct": 27.1,
+      "stage": "extended",
+      "scannedAt": "2026-09-27T00:45:59.538066+00:00",
+      "flagDate": "2026-09-27",
+      "returns": {
+        "1": -8.16,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "CLRO",
+      "name": "ClearOne Inc",
+      "sector": "Technology",
+      "price": 4.93,
+      "volume": 16774739,
+      "avgVolume": 820754,
+      "volRatio": 20.4,
+      "offHighPct": -17.8,
+      "changePct": 42.9,
+      "stage": "reversing",
+      "scannedAt": "2026-09-28T13:44:45.135241+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": -7.1,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SOAR",
+      "name": "Volato Group Inc",
+      "sector": "Industrials",
+      "price": 0.3486,
+      "volume": 391144759,
+      "avgVolume": 42002279,
+      "volRatio": 9.3,
+      "offHighPct": -18.9,
+      "changePct": 93.7,
+      "stage": "reversing",
+      "scannedAt": "2026-09-28T13:44:45.135241+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": 16.35,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "CANG",
+      "name": "Cango Inc",
+      "sector": "Financial",
+      "price": 2.21,
+      "volume": 293250,
+      "avgVolume": 510678,
+      "volRatio": 0.6,
+      "offHighPct": -3.5,
+      "changePct": 15.7,
+      "stage": "extended",
+      "scannedAt": "2026-09-28T13:44:45.135241+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": 5.04,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MIMI",
+      "name": "Mint Inc Ltd",
+      "sector": "Industrials",
+      "price": 1.0101,
+      "volume": 17761000,
+      "avgVolume": 10614857,
+      "volRatio": 1.7,
+      "offHighPct": -4.7,
+      "changePct": 31.0,
+      "stage": "extended",
+      "scannedAt": "2026-09-28T13:44:45.135241+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": -11.9,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MEDS",
+      "name": "DataMEDS AI Inc",
+      "sector": "Healthcare",
+      "price": 3.54,
+      "volume": 14689449,
+      "avgVolume": 14592978,
+      "volRatio": 1.0,
+      "offHighPct": -13.7,
+      "changePct": 13.8,
+      "stage": "reversing",
+      "scannedAt": "2026-09-28T13:44:45.135241+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": 3.95,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "WBUY",
+      "name": "Webuy Global Ltd",
+      "sector": "Consumer Cyclical",
+      "price": 1.015,
+      "volume": 31206994,
+      "avgVolume": 3525271,
+      "volRatio": 8.9,
+      "offHighPct": -11.7,
+      "changePct": 22.0,
+      "stage": "reversing",
+      "scannedAt": "2026-09-28T13:44:45.135241+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": -7.39,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "INTJ",
+      "name": "Intelligent Group Ltd",
+      "sector": "Industrials",
+      "price": 3.13,
+      "volume": 17841,
+      "avgVolume": 7659,
+      "volRatio": 2.3,
+      "offHighPct": -0.1,
+      "changePct": 15.9,
+      "stage": "extended",
+      "scannedAt": "2026-09-28T13:44:45.135241+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": -1.92,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "ONCO",
+      "name": "Onconetix Inc",
+      "sector": "Healthcare",
+      "price": 1.245,
+      "volume": 12732357,
+      "avgVolume": 5202945,
+      "volRatio": 2.4,
+      "offHighPct": -0.4,
+      "changePct": 20.9,
+      "stage": "extended",
+      "scannedAt": "2026-09-28T13:44:45.135241+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": -34.76,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "DLXY",
+      "name": "Delixy Holdings Ltd",
+      "sector": "Energy",
+      "price": 2.91,
+      "volume": 832030,
+      "avgVolume": 14355868,
+      "volRatio": 0.1,
+      "offHighPct": -31.5,
+      "changePct": 482.0,
+      "stage": "reversing",
+      "scannedAt": "2026-09-28T13:44:45.135241+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": -24.36,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "EGG",
+      "name": "Enigmatig Ltd",
+      "sector": "Industrials",
+      "price": 3.59,
+      "volume": 1447512,
+      "avgVolume": 76586,
+      "volRatio": 18.9,
+      "offHighPct": -42.4,
+      "changePct": 28.2,
+      "stage": "reversing",
+      "scannedAt": "2026-09-28T15:05:04.458524+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": 28.41,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "LFCR",
+      "name": "Lifecore Biomedical Inc",
+      "sector": "Healthcare",
+      "price": 6.5991,
+      "volume": 1473408,
+      "avgVolume": 217119,
+      "volRatio": 6.8,
+      "offHighPct": -0.7,
+      "changePct": 57.1,
+      "stage": "extended",
+      "scannedAt": "2026-09-28T15:05:04.458524+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": -0.44,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "FUSE",
+      "name": "Fusemachines Inc",
+      "sector": "Technology",
+      "price": 0.6645,
+      "volume": 41710252,
+      "avgVolume": 2081878,
+      "volRatio": 20.0,
+      "offHighPct": -28.5,
+      "changePct": 15.6,
+      "stage": "reversing",
+      "scannedAt": "2026-09-28T15:05:04.458524+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": -16.28,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MX",
+      "name": "MagnaChip Semiconductor Corp",
+      "sector": "Technology",
+      "price": 3.8002,
+      "volume": 3745396,
+      "avgVolume": 942999,
+      "volRatio": 4.0,
+      "offHighPct": -5.8,
+      "changePct": 15.2,
+      "stage": "extended",
+      "scannedAt": "2026-09-28T15:05:04.458524+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": 1.57,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SVRN",
+      "name": "SVRN Inc",
+      "sector": "Financial",
+      "price": 55.816,
+      "volume": 138531,
+      "avgVolume": 208734,
+      "volRatio": 0.7,
+      "offHighPct": -9.2,
+      "changePct": 18.1,
+      "stage": "reversing",
+      "scannedAt": "2026-09-28T15:05:04.458524+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": 25.18,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "NHTC",
+      "name": "Natural Health Trends Corp",
+      "sector": "Consumer Cyclical",
+      "price": 1.0901,
+      "volume": 340716,
+      "avgVolume": 77076,
+      "volRatio": 4.4,
+      "offHighPct": -3.5,
+      "changePct": 21.1,
+      "stage": "extended",
+      "scannedAt": "2026-09-28T15:05:04.458524+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": -5.97,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "ABLV",
+      "name": "Able View Global Inc",
+      "sector": "Consumer Cyclical",
+      "price": 1.545,
+      "volume": 240912,
+      "avgVolume": 154567,
+      "volRatio": 1.6,
+      "offHighPct": -1.6,
+      "changePct": 18.8,
+      "stage": "extended",
+      "scannedAt": "2026-09-28T16:37:45.435540+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": 14.56,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "TMCR",
+      "name": "Metals Royalty Co Inc",
+      "sector": "Basic Materials",
+      "price": 4.8777,
+      "volume": 262759,
+      "avgVolume": 58217,
+      "volRatio": 4.5,
+      "offHighPct": -11.3,
+      "changePct": 19.8,
+      "stage": "reversing",
+      "scannedAt": "2026-09-28T16:37:45.435540+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": -19.84,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BNKK",
+      "name": "Bonk Inc",
+      "sector": "Consumer Defensive",
+      "price": 2.065,
+      "volume": 7001445,
+      "avgVolume": 431502,
+      "volRatio": 16.2,
+      "offHighPct": -7.0,
+      "changePct": 35.0,
+      "stage": "extended",
+      "scannedAt": "2026-09-28T18:09:24.785171+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": -2.66,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BYSI",
+      "name": "BeyondSpring Inc",
+      "sector": "Healthcare",
+      "price": 1.12,
+      "volume": 3485648,
+      "avgVolume": 248902,
+      "volRatio": 14.0,
+      "offHighPct": -1.8,
+      "changePct": 44.1,
+      "stage": "extended",
+      "scannedAt": "2026-09-28T21:03:48.752906+00:00",
+      "flagDate": "2026-09-28",
+      "returns": {
+        "1": -34.22,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SOAR",
+      "name": "Volato Group Inc",
+      "sector": "Industrials",
+      "price": NaN,
+      "volume": 972188181,
+      "avgVolume": 69069159,
+      "volRatio": 14.1,
+      "offHighPct": NaN,
+      "changePct": NaN,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T01:11:33.960552+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "CLRO",
+      "name": "ClearOne Inc",
+      "sector": "Technology",
+      "price": NaN,
+      "volume": 28097304,
+      "avgVolume": 1426585,
+      "volRatio": 19.7,
+      "offHighPct": NaN,
+      "changePct": NaN,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T01:11:33.960552+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "EGG",
+      "name": "Enigmatig Ltd",
+      "sector": "Industrials",
+      "price": NaN,
+      "volume": 4620770,
+      "avgVolume": 238143,
+      "volRatio": 19.4,
+      "offHighPct": NaN,
+      "changePct": NaN,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T01:11:33.960552+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BNKK",
+      "name": "Bonk Inc",
+      "sector": "Consumer Defensive",
+      "price": NaN,
+      "volume": 8885948,
+      "avgVolume": 542072,
+      "volRatio": 16.4,
+      "offHighPct": NaN,
+      "changePct": NaN,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T01:11:33.960552+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BYSI",
+      "name": "BeyondSpring Inc",
+      "sector": "Healthcare",
+      "price": NaN,
+      "volume": 3485648,
+      "avgVolume": 248902,
+      "volRatio": 14.0,
+      "offHighPct": NaN,
+      "changePct": NaN,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T01:11:33.960552+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "LFCR",
+      "name": "Lifecore Biomedical Inc",
+      "sector": "Healthcare",
+      "price": NaN,
+      "volume": 4003471,
+      "avgVolume": 347878,
+      "volRatio": 11.5,
+      "offHighPct": NaN,
+      "changePct": NaN,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T01:11:33.960552+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "CANG",
+      "name": "Cango Inc",
+      "sector": "Financial",
+      "price": NaN,
+      "volume": 1564832,
+      "avgVolume": 584071,
+      "volRatio": 2.7,
+      "offHighPct": NaN,
+      "changePct": NaN,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T01:11:33.960552+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "ABLV",
+      "name": "Able View Global Inc",
+      "sector": "Consumer Cyclical",
+      "price": NaN,
+      "volume": 415754,
+      "avgVolume": 168812,
+      "volRatio": 2.5,
+      "offHighPct": NaN,
+      "changePct": NaN,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T01:11:33.960552+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MIMI",
+      "name": "Mint Inc Ltd",
+      "sector": "Industrials",
+      "price": NaN,
+      "volume": 26747853,
+      "avgVolume": 11407797,
+      "volRatio": 2.3,
+      "offHighPct": NaN,
+      "changePct": NaN,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T01:11:33.960552+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MEDS",
+      "name": "DataMEDS AI Inc",
+      "sector": "Healthcare",
+      "price": NaN,
+      "volume": 33265665,
+      "avgVolume": 16245018,
+      "volRatio": 2.0,
+      "offHighPct": NaN,
+      "changePct": NaN,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T01:11:33.960552+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BKYI",
+      "name": "Bio-Key International Inc",
+      "sector": "Industrials",
+      "price": 3.41,
+      "volume": 83584926,
+      "avgVolume": 4044344,
+      "volRatio": 20.7,
+      "offHighPct": -7.6,
+      "changePct": 103.0,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T13:41:04.660384+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SLND",
+      "name": "Southland Holdings Inc",
+      "sector": "Industrials",
+      "price": 0.9345,
+      "volume": 140665400,
+      "avgVolume": 6796709,
+      "volRatio": 20.7,
+      "offHighPct": -3.8,
+      "changePct": 53.2,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T13:41:04.660384+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SANG",
+      "name": "Sangoma Technologies Corp",
+      "sector": "Technology",
+      "price": 4.94,
+      "volume": 1456965,
+      "avgVolume": 101593,
+      "volRatio": 14.3,
+      "offHighPct": -2.3,
+      "changePct": 37.6,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T13:41:04.660384+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SSTI",
+      "name": "SoundThinking Inc",
+      "sector": "Technology",
+      "price": 8.305,
+      "volume": 2239123,
+      "avgVolume": 185363,
+      "volRatio": 12.1,
+      "offHighPct": -1.5,
+      "changePct": 51.8,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T13:41:04.660384+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SLXN",
+      "name": "Silexion Therapeutics Corp",
+      "sector": "Healthcare",
+      "price": 0.3035,
+      "volume": 155324222,
+      "avgVolume": 22909753,
+      "volRatio": 6.8,
+      "offHighPct": -5.2,
+      "changePct": 22.4,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T13:41:04.660384+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MSGY",
+      "name": "Masonglory Ltd",
+      "sector": "Industrials",
+      "price": 4.3502,
+      "volume": 18653470,
+      "avgVolume": 4030179,
+      "volRatio": 4.6,
+      "offHighPct": -3.1,
+      "changePct": 39.0,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T13:41:04.660384+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "YMT",
+      "name": "Yimutian Inc ADR",
+      "sector": "Technology",
+      "price": 2.48,
+      "volume": 22919673,
+      "avgVolume": 1953393,
+      "volRatio": 11.7,
+      "offHighPct": -6.1,
+      "changePct": 40.1,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T13:41:04.660384+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "AVAT",
+      "name": "Avalanche Treasury Corp",
+      "sector": "Financial",
+      "price": 1.97,
+      "volume": 589231,
+      "avgVolume": 2285834,
+      "volRatio": 0.3,
+      "offHighPct": -1.5,
+      "changePct": 18.0,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T13:41:04.660384+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "DXST",
+      "name": "Decent Holding Inc",
+      "sector": "Industrials",
+      "price": 3.6201,
+      "volume": 24633668,
+      "avgVolume": 1200179,
+      "volRatio": 20.5,
+      "offHighPct": -36.5,
+      "changePct": 85.6,
+      "stage": "reversing",
+      "scannedAt": "2026-09-29T15:06:09.178448+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "KMRK",
+      "name": "K-Tech Solutions Company Ltd",
+      "sector": "Consumer Cyclical",
+      "price": 1.1397,
+      "volume": 2656370,
+      "avgVolume": 137022,
+      "volRatio": 19.4,
+      "offHighPct": -20.9,
+      "changePct": 22.4,
+      "stage": "reversing",
+      "scannedAt": "2026-09-29T15:06:09.178448+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SDEV",
+      "name": "Stablecoin Development Corp",
+      "sector": "Financial",
+      "price": 2.5892,
+      "volume": 26852790,
+      "avgVolume": 3422185,
+      "volRatio": 7.8,
+      "offHighPct": -0.0,
+      "changePct": 64.9,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T15:06:09.178448+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "LONA",
+      "name": "LeonaBio Inc",
+      "sector": "Healthcare",
+      "price": 3.3853,
+      "volume": 274192,
+      "avgVolume": 124513,
+      "volRatio": 2.2,
+      "offHighPct": -9.7,
+      "changePct": 18.0,
+      "stage": "reversing",
+      "scannedAt": "2026-09-29T15:06:09.178448+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "PFSA",
+      "name": "Profusa Inc",
+      "sector": "Healthcare",
+      "price": 1.99,
+      "volume": 7881659,
+      "avgVolume": 4830412,
+      "volRatio": 1.6,
+      "offHighPct": -18.8,
+      "changePct": 17.8,
+      "stage": "reversing",
+      "scannedAt": "2026-09-29T15:06:09.178448+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SVRN",
+      "name": "SVRN Inc",
+      "sector": "Financial",
+      "price": 62.0,
+      "volume": 136988,
+      "avgVolume": 221170,
+      "volRatio": 0.6,
+      "offHighPct": -2.7,
+      "changePct": 19.1,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T15:06:09.178448+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "PLUT",
+      "name": "Plutus Financial Group Ltd",
+      "sector": "Financial",
+      "price": 2.11,
+      "volume": 0,
+      "avgVolume": 370,
+      "volRatio": null,
+      "offHighPct": 0.0,
+      "changePct": 0.0,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T15:06:09.178448+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "WW",
+      "name": "WW International Inc",
+      "sector": "Healthcare",
+      "price": 17.45,
+      "volume": 583740,
+      "avgVolume": 262973,
+      "volRatio": 2.2,
+      "offHighPct": -7.7,
+      "changePct": 16.1,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T15:06:09.178448+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "REBN",
+      "name": "Reborn Coffee Inc",
+      "sector": "Consumer Cyclical",
+      "price": 1.635,
+      "volume": 151157,
+      "avgVolume": 244469,
+      "volRatio": 0.6,
+      "offHighPct": 0.0,
+      "changePct": 15.1,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T15:06:09.178448+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "OIO",
+      "name": "OIO Group",
+      "sector": "Industrials",
+      "price": 1.64,
+      "dayHigh": 1.7499,
+      "dayLow": 1.4,
+      "volume": 116482,
+      "avgVolume": 153499,
+      "volRatio": 0.8,
+      "offHighPct": -6.3,
+      "changePct": 13.1,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T15:18:39.273354+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "XRPN",
+      "name": "Armada Acquisition Corp II",
+      "sector": "Financial",
+      "price": 13.2296,
+      "dayHigh": 17.0,
+      "dayLow": 11.42,
+      "volume": 3220390,
+      "avgVolume": 377970,
+      "volRatio": 8.5,
+      "offHighPct": -22.2,
+      "changePct": 25.1,
+      "stage": "reversing",
+      "scannedAt": "2026-09-29T17:55:40.356619+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "WYY",
+      "name": "Widepoint Corp",
+      "sector": "Technology",
+      "price": 7.12,
+      "dayHigh": 7.21,
+      "dayLow": 5.9,
+      "volume": 743256,
+      "avgVolume": 353255,
+      "volRatio": 2.1,
+      "offHighPct": -1.2,
+      "changePct": 20.7,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T17:55:40.356619+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "TEAD",
+      "name": "Teads Holding Co",
+      "sector": "Communication Services",
+      "price": 0.5006,
+      "dayHigh": 0.52,
+      "dayLow": 0.3922,
+      "volume": 39541386,
+      "avgVolume": 2028532,
+      "volRatio": 19.5,
+      "offHighPct": -3.7,
+      "changePct": 16.4,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T17:55:40.356619+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BGIN",
+      "name": "Bgin Blockchain Ltd",
+      "sector": "Technology",
+      "price": 2.3008,
+      "dayHigh": 3.39,
+      "dayLow": 1.835,
+      "volume": 11615293,
+      "avgVolume": 559533,
+      "volRatio": 20.8,
+      "offHighPct": -32.1,
+      "changePct": 20.7,
+      "stage": "reversing",
+      "scannedAt": "2026-09-29T19:34:58.854379+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "ONEN",
+      "name": "ONE Nuclear Energy Inc",
+      "sector": "Utilities",
+      "price": 2.53,
+      "dayHigh": 3.0689,
+      "dayLow": 2.0,
+      "volume": 780863,
+      "avgVolume": 650869,
+      "volRatio": 1.2,
+      "offHighPct": -17.6,
+      "changePct": 17.7,
+      "stage": "reversing",
+      "scannedAt": "2026-09-29T19:34:58.854379+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "KRSA",
+      "name": "Korsana Biosciences Inc",
+      "sector": "Healthcare",
+      "price": 35.855,
+      "dayHigh": 36.77,
+      "dayLow": 30.94,
+      "volume": 64621,
+      "avgVolume": 60951,
+      "volRatio": 1.1,
+      "offHighPct": -2.5,
+      "changePct": 16.3,
+      "stage": "extended",
+      "scannedAt": "2026-09-29T19:34:58.854379+00:00",
+      "flagDate": "2026-09-29",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    }
+  ]
+}

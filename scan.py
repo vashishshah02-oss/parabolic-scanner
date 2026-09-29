@@ -7,11 +7,14 @@ Two passes:
      how far off today's high the price has slipped (the reversal signal).
 """
 import json
+import os
 import sys
 from datetime import datetime, timezone
 
 import yfinance as yf
 from finvizfinance.screener.overview import Overview
+
+HISTORY_PATH = "data/history.jsonl"
 
 FILTERS = {
     "Float": "Under 50M",
@@ -80,6 +83,39 @@ def stage_for(change_pct, off_high_pct):
     return "extended"
 
 
+def log_new_signals(rows, scanned_at):
+    """Append first-time-today sightings of each ticker to the history log.
+    This is the dataset the backtest reads from — one row per (date, ticker),
+    logged at the moment it was first flagged, not every rescan."""
+    flag_date = datetime.fromisoformat(scanned_at).date().isoformat()
+    seen_today = set()
+    if os.path.exists(HISTORY_PATH):
+        with open(HISTORY_PATH) as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                e = json.loads(line)
+                if e.get("flagDate") == flag_date:
+                    seen_today.add(e["ticker"])
+
+    new_entries = []
+    for r in rows:
+        if r["ticker"] in seen_today:
+            continue
+        entry = dict(r)
+        entry["scannedAt"] = scanned_at
+        entry["flagDate"] = flag_date
+        new_entries.append(entry)
+        seen_today.add(r["ticker"])
+
+    if new_entries:
+        with open(HISTORY_PATH, "a") as f:
+            for e in new_entries:
+                f.write(json.dumps(e) + "\n")
+    print(f"Logged {len(new_entries)} new signals to {HISTORY_PATH}", file=sys.stderr)
+
+
 def main():
     rows = []
     candidates = screen_candidates()
@@ -102,14 +138,17 @@ def main():
 
     rows.sort(key=lambda r: (r["volRatio"] or 0), reverse=True)
 
+    scanned_at = datetime.now(timezone.utc).isoformat()
     payload = {
-        "scannedAt": datetime.now(timezone.utc).isoformat(),
+        "scannedAt": scanned_at,
         "criteria": FILTERS,
         "results": rows,
     }
 
     with open("data/latest.json", "w") as f:
         json.dump(payload, f, indent=2)
+
+    log_new_signals(rows, scanned_at)
 
     print(f"Wrote {len(rows)} rows to data/latest.json")
 
