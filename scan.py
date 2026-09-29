@@ -40,20 +40,29 @@ def enrich(ticker):
         price = float(last["Close"])
         day_high = float(last["High"])
         volume = float(last["Volume"])
+
+        # A zero average volume or a single-row/duplicated-bar history means
+        # Yahoo has no real trading data for this name right now (commonly a
+        # halted or barely-traded ticker serving a stale repeated bar) —
+        # skip it rather than report a misleading "0% move, no volume" row.
+        if not avg_volume or len(hist) < 2:
+            return None
+
+        prev_close = float(hist.iloc[-2]["Close"])
+        if not prev_close:
+            return None
+
         off_high_pct = ((price - day_high) / day_high) * 100 if day_high else 0.0
-        vol_ratio = (volume / avg_volume) if avg_volume else None
-        change_pct = None
-        if len(hist) >= 2:
-            prev_close = float(hist.iloc[-2]["Close"])
-            if prev_close:
-                change_pct = ((price - prev_close) / prev_close) * 100
+        vol_ratio = volume / avg_volume
+        change_pct = ((price - prev_close) / prev_close) * 100
+
         return {
             "price": round(price, 4),
             "volume": int(volume),
             "avgVolume": int(avg_volume),
-            "volRatio": round(vol_ratio, 1) if vol_ratio else None,
+            "volRatio": round(vol_ratio, 1),
             "offHighPct": round(off_high_pct, 1),
-            "changePct": round(change_pct, 1) if change_pct is not None else None,
+            "changePct": round(change_pct, 1),
         }
     except Exception as e:  # noqa: BLE001
         print(f"skip {ticker}: {e}", file=sys.stderr)
