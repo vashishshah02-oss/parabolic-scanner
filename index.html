@@ -223,6 +223,15 @@
   .stagepill.extended{ color:var(--up); border-color:var(--up-dim); }
   .stagepill.reversing{ color:var(--yellow); border-color:#5c4a05; }
   .stagepill.faded{ color:var(--down); border-color:var(--down-dim); }
+
+  .daypill{
+    font-size:10px; font-weight:700; letter-spacing:0.03em;
+    padding:2px 7px; display:inline-block; border:1px solid;
+    font-family:'IBM Plex Mono', monospace;
+  }
+  .daypill.day1{ color:var(--text-dim); border-color:var(--grid); }
+  .daypill.day2{ color:var(--amber); border-color:var(--amber-dim); }
+  .daypill.day3plus{ color:var(--up); border-color:var(--up-dim); }
   .ratiocell{ display:flex; align-items:center; justify-content:flex-end; gap:8px; }
   .ratiobar{ width:52px; height:6px; background:var(--grid-dim); position:relative; }
   .ratiobar > span{ position:absolute; left:0; top:0; bottom:0; background:var(--amber); }
@@ -343,6 +352,7 @@
       <thead>
         <tr>
           <th>Stage</th>
+          <th>Day</th>
           <th>Ticker</th>
           <th class="num">Price</th>
           <th class="num">Chg %</th>
@@ -372,6 +382,7 @@
         <div class="glossary-row"><b>FLOAT</b> &mdash; shares actually free to trade, excluding locked-up insider stock</div>
         <div class="glossary-row"><b>REL VOL</b> &mdash; today's volume vs. the stock's own trailing average</div>
         <div class="glossary-row"><b>OFF HIGH</b> &mdash; % below today's intraday high, right now</div>
+        <div class="glossary-row"><b>DAY</b> &mdash; consecutive trading days this ticker has shown up on the screen. D1 = fresh, D2&ndash;3 = repeat performer, often better risk/reward once early squeeze fuel is spent</div>
       </div>
     </div>
   </div>
@@ -393,8 +404,11 @@
     const priceStr = "$" + d.price.toFixed(d.price < 1 ? 4 : 2);
     const barPct = Math.min(100, (d.vol / MAX_VOL) * 100);
     const offClass = d.offHigh >= -0.5 ? "pos" : "neg";
+    const streak = d.dayStreak || 1;
+    const dayClass = streak === 1 ? "day1" : streak === 2 ? "day2" : "day3plus";
     return `<tr>
       <td><span class="stagepill ${d.stage}">${d.stage.toUpperCase()}</span></td>
+      <td><span class="daypill ${dayClass}">D${streak}</span></td>
       <td><span class="tk">${d.t}</span><br><span class="nm">${d.n}</span></td>
       <td class="num">${priceStr}</td>
       <td class="num ${chgClass}">${chgSign}${d.chg.toFixed(1)}%</td>
@@ -519,7 +533,8 @@
         t: r.ticker, n: r.name || "", sector: r.sector || "",
         price: r.price, chg: r.changePct ?? 0, vol: r.volRatio ?? 0,
         offHigh: r.offHighPct ?? 0, stage: r.stage,
-        dayHigh: r.dayHigh ?? r.price, dayLow: r.dayLow ?? r.price
+        dayHigh: r.dayHigh ?? r.price, dayLow: r.dayLow ?? r.price,
+        dayStreak: r.dayStreak ?? 1
       }));
       MAX_VOL = Math.max(1, ...DATA.map(d => d.vol));
       renderTable(currentSort);

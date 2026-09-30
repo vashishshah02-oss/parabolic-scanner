@@ -9,7 +9,8 @@ Two passes:
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from collections import defaultdict
+from datetime import date, datetime, timedelta, timezone
 
 import yfinance as yf
 from finvizfinance.screener.overview import Overview
@@ -83,6 +84,41 @@ def stage_for(change_pct, off_high_pct):
     return "extended"
 
 
+def load_flag_dates_by_ticker():
+    """ticker -> set of flagDate strings this ticker has appeared on, from
+    the history log written by every prior scan."""
+    result = defaultdict(set)
+    if os.path.exists(HISTORY_PATH):
+        with open(HISTORY_PATH) as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                e = json.loads(line)
+                result[e["ticker"]].add(e["flagDate"])
+    return result
+
+
+def prev_weekday(d):
+    d -= timedelta(days=1)
+    while d.weekday() >= 5:  # Sat=5, Sun=6
+        d -= timedelta(days=1)
+    return d
+
+
+def compute_day_streak(ticker, today, flag_dates_by_ticker):
+    """How many consecutive trading days (including today) this ticker has
+    shown up on the screen. Day 1 = first appearance, Day 2+ = a repeat
+    performer — the distinction that matters for squeeze-fuel-remaining."""
+    dates = flag_dates_by_ticker.get(ticker, set())
+    streak = 1  # today's own appearance always counts
+    d = prev_weekday(today)
+    while d.isoformat() in dates:
+        streak += 1
+        d = prev_weekday(d)
+    return streak
+
+
 def log_new_signals(rows, scanned_at):
     """Append first-time-today sightings of each ticker to the history log.
     This is the dataset the backtest reads from — one row per (date, ticker),
@@ -136,9 +172,14 @@ def main():
             "stage": stage_for(detail["changePct"], detail["offHighPct"]),
         })
 
+    scanned_at = datetime.now(timezone.utc).isoformat()
+    today = datetime.fromisoformat(scanned_at).date()
+    flag_dates_by_ticker = load_flag_dates_by_ticker()
+    for r in rows:
+        r["dayStreak"] = compute_day_streak(r["ticker"], today, flag_dates_by_ticker)
+
     rows.sort(key=lambda r: (r["volRatio"] or 0), reverse=True)
 
-    scanned_at = datetime.now(timezone.utc).isoformat()
     payload = {
         "scannedAt": scanned_at,
         "criteria": FILTERS,
