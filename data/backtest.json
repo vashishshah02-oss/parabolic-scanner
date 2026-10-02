@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-01T00:40:42.303049",
-  "totalSignals": 96,
+  "generatedAt": "2026-10-02T00:01:55.687603",
+  "totalSignals": 122,
   "summary": {
     "reversing": {
       "t1": {
-        "n": 40,
+        "n": 49,
         "avgReturnPct": NaN,
-        "pctNegative": 52.5
+        "pctNegative": 51.0
       },
       "t3": {
-        "n": 24,
+        "n": 33,
         "avgReturnPct": NaN,
-        "pctNegative": 0.0
+        "pctNegative": 60.6
       }
     },
     "extended": {
       "t1": {
-        "n": 43,
+        "n": 47,
         "avgReturnPct": NaN,
-        "pctNegative": 23.3
+        "pctNegative": 42.6
       },
       "t3": {
-        "n": 6,
+        "n": 16,
         "avgReturnPct": NaN,
-        "pctNegative": 0.0
+        "pctNegative": 25.0
       }
     }
   },
@@ -43,7 +43,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": 10.27,
-        "3": NaN,
+        "3": -5.95,
         "5": null
       },
       "pending": [
@@ -65,7 +65,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": -13.61,
-        "3": NaN,
+        "3": -27.53,
         "5": null
       },
       "pending": [
@@ -87,7 +87,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": 2.07,
-        "3": NaN,
+        "3": 1.04,
         "5": null
       },
       "pending": [
@@ -109,7 +109,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": -61.21,
-        "3": NaN,
+        "3": -29.86,
         "5": null
       },
       "pending": [
@@ -131,7 +131,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": -15.92,
-        "3": NaN,
+        "3": -23.88,
         "5": null
       },
       "pending": [
@@ -153,7 +153,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": -5.02,
-        "3": NaN,
+        "3": -5.02,
         "5": null
       },
       "pending": [
@@ -175,7 +175,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": 2.55,
-        "3": NaN,
+        "3": -20.0,
         "5": null
       },
       "pending": [
@@ -197,7 +197,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": -5.22,
-        "3": NaN,
+        "3": -32.01,
         "5": null
       },
       "pending": [
@@ -219,7 +219,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": -12.42,
-        "3": NaN,
+        "3": -24.84,
         "5": null
       },
       "pending": [
@@ -241,7 +241,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": 0.11,
-        "3": NaN,
+        "3": 11.21,
         "5": null
       },
       "pending": [
@@ -263,7 +263,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": 5.37,
-        "3": NaN,
+        "3": 73.83,
         "5": null
       },
       "pending": [
@@ -285,7 +285,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": -2.0,
-        "3": NaN,
+        "3": -7.5,
         "5": null
       },
       "pending": [
@@ -307,7 +307,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": -11.86,
-        "3": NaN,
+        "3": -31.03,
         "5": null
       },
       "pending": [
@@ -329,7 +329,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": -4.68,
-        "3": NaN,
+        "3": -10.07,
         "5": null
       },
       "pending": [
@@ -351,7 +351,7 @@
       "flagDate": "2026-09-26",
       "returns": {
         "1": -8.16,
-        "3": NaN,
+        "3": -7.64,
         "5": null
       },
       "pending": [
@@ -373,7 +373,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": 10.27,
-        "3": NaN,
+        "3": -5.95,
         "5": null
       },
       "pending": [
@@ -395,7 +395,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": -13.61,
-        "3": NaN,
+        "3": -27.53,
         "5": null
       },
       "pending": [
@@ -417,7 +417,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": 2.07,
-        "3": NaN,
+        "3": 1.04,
         "5": null
       },
       "pending": [
@@ -439,7 +439,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": -61.21,
-        "3": NaN,
+        "3": -29.86,
         "5": null
       },
       "pending": [
@@ -461,7 +461,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": -15.92,
-        "3": NaN,
+        "3": -23.88,
         "5": null
       },
       "pending": [
@@ -483,7 +483,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": -5.02,
-        "3": NaN,
+        "3": -5.02,
         "5": null
       },
       "pending": [
@@ -505,7 +505,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": 2.55,
-        "3": NaN,
+        "3": -20.0,
         "5": null
       },
       "pending": [
@@ -527,7 +527,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": -5.22,
-        "3": NaN,
+        "3": -32.01,
         "5": null
       },
       "pending": [
@@ -549,7 +549,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": -12.42,
-        "3": NaN,
+        "3": -24.84,
         "5": null
       },
       "pending": [
@@ -571,7 +571,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": 0.11,
-        "3": NaN,
+        "3": 11.21,
         "5": null
       },
       "pending": [
@@ -593,7 +593,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": 5.37,
-        "3": NaN,
+        "3": 73.83,
         "5": null
       },
       "pending": [
@@ -615,7 +615,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": -2.0,
-        "3": NaN,
+        "3": -7.5,
         "5": null
       },
       "pending": [
@@ -637,7 +637,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": -11.86,
-        "3": NaN,
+        "3": -31.03,
         "5": null
       },
       "pending": [
@@ -659,7 +659,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": -4.68,
-        "3": NaN,
+        "3": -10.07,
         "5": null
       },
       "pending": [
@@ -681,7 +681,7 @@
       "flagDate": "2026-09-27",
       "returns": {
         "1": -8.16,
-        "3": NaN,
+        "3": -7.64,
         "5": null
       },
       "pending": [
@@ -703,11 +703,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": -7.51,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -726,11 +725,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": 11.88,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -749,11 +747,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": 7.24,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -772,11 +769,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": -13.47,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -795,11 +791,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": 3.67,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -818,11 +813,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": -7.39,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -841,11 +835,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": 3.83,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -864,11 +857,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": -34.14,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -887,11 +879,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": -20.96,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -910,11 +901,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": 39.28,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -933,11 +923,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": -0.14,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -956,11 +945,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": -16.33,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -979,11 +967,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": 2.36,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -1002,11 +989,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": 20.63,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -1025,11 +1011,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": -5.51,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -1048,11 +1033,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": 15.21,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -1071,11 +1055,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": -19.63,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -1094,11 +1077,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": -2.66,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -1117,11 +1099,10 @@
       "flagDate": "2026-09-28",
       "returns": {
         "1": -30.98,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -1369,7 +1350,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": -17.89,
         "3": null,
         "5": null
       },
@@ -1392,7 +1373,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": -29.37,
         "3": null,
         "5": null
       },
@@ -1415,7 +1396,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": -0.61,
         "3": null,
         "5": null
       },
@@ -1438,7 +1419,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": 0.06,
         "3": null,
         "5": null
       },
@@ -1461,7 +1442,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": -8.73,
         "3": null,
         "5": null
       },
@@ -1484,7 +1465,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": 30.11,
         "3": null,
         "5": null
       },
@@ -1507,7 +1488,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": -49.6,
         "3": null,
         "5": null
       },
@@ -1530,7 +1511,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": -7.11,
         "3": null,
         "5": null
       },
@@ -1553,7 +1534,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": -30.94,
         "3": null,
         "5": null
       },
@@ -1576,7 +1557,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": 3.54,
         "3": null,
         "5": null
       },
@@ -1599,7 +1580,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": 0.03,
         "3": null,
         "5": null
       },
@@ -1622,7 +1603,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": 5.46,
         "3": null,
         "5": null
       },
@@ -1645,7 +1626,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": -0.5,
         "3": null,
         "5": null
       },
@@ -1668,7 +1649,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": -19.39,
         "3": null,
         "5": null
       },
@@ -1691,7 +1672,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": 10.43,
         "3": null,
         "5": null
       },
@@ -1714,7 +1695,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": -11.4,
         "3": null,
         "5": null
       },
@@ -1737,7 +1718,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": -2.14,
         "3": null,
         "5": null
       },
@@ -1762,7 +1743,7 @@
       "scannedAt": "2026-09-29T15:18:39.273354+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": 7.32,
         "3": null,
         "5": null
       },
@@ -1787,7 +1768,7 @@
       "scannedAt": "2026-09-29T17:55:40.356619+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": 23.96,
         "3": null,
         "5": null
       },
@@ -1812,7 +1793,7 @@
       "scannedAt": "2026-09-29T17:55:40.356619+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": 10.67,
         "3": null,
         "5": null
       },
@@ -1837,7 +1818,7 @@
       "scannedAt": "2026-09-29T17:55:40.356619+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": 2.08,
         "3": null,
         "5": null
       },
@@ -1862,7 +1843,7 @@
       "scannedAt": "2026-09-29T19:34:58.854379+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": 3.88,
         "3": null,
         "5": null
       },
@@ -1887,7 +1868,7 @@
       "scannedAt": "2026-09-29T19:34:58.854379+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": -15.02,
         "3": null,
         "5": null
       },
@@ -1912,7 +1893,7 @@
       "scannedAt": "2026-09-29T19:34:58.854379+00:00",
       "flagDate": "2026-09-29",
       "returns": {
-        "1": NaN,
+        "1": -10.75,
         "3": null,
         "5": null
       },
@@ -1938,12 +1919,11 @@
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -1965,12 +1945,11 @@
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -1992,12 +1971,11 @@
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -2019,12 +1997,11 @@
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -2046,12 +2023,11 @@
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -2073,12 +2049,11 @@
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -2100,12 +2075,11 @@
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
       "returns": {
-        "1": null,
+        "1": -15.86,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -2127,12 +2101,11 @@
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -2154,12 +2127,11 @@
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -2181,12 +2153,11 @@
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
       "returns": {
-        "1": null,
+        "1": 44.66,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -2208,12 +2179,11 @@
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -2235,12 +2205,11 @@
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -2261,6 +2230,707 @@
       "dayStreak": 1,
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
+      "returns": {
+        "1": NaN,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "NXL",
+      "name": "Nexalin Technology Inc",
+      "sector": "Healthcare",
+      "price": 7.98,
+      "dayHigh": 10.9745,
+      "dayLow": 6.8,
+      "volume": 41713422,
+      "avgVolume": 1911741,
+      "volRatio": 21.8,
+      "offHighPct": -27.3,
+      "changePct": 86.4,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T15:06:15.193418+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MYND",
+      "name": "Mynd.ai Inc ADR",
+      "sector": "Consumer Defensive",
+      "price": 0.3554,
+      "dayHigh": 0.3859,
+      "dayLow": 0.34,
+      "volume": 8896252,
+      "avgVolume": 420438,
+      "volRatio": 21.2,
+      "offHighPct": -7.9,
+      "changePct": 15.0,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T15:06:15.193418+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "AISP",
+      "name": "Airship AI Holdings Inc",
+      "sector": "Technology",
+      "price": 2.4399,
+      "dayHigh": 2.86,
+      "dayLow": 2.0,
+      "volume": 28284799,
+      "avgVolume": 1492136,
+      "volRatio": 19.0,
+      "offHighPct": -14.7,
+      "changePct": 31.2,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T15:06:15.193418+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "EJH",
+      "name": "E-Home Household Service Holdings Ltd",
+      "sector": "Consumer Cyclical",
+      "price": 1.83,
+      "dayHigh": 2.17,
+      "dayLow": 1.4601,
+      "volume": 3301375,
+      "avgVolume": 214471,
+      "volRatio": 15.4,
+      "offHighPct": -15.7,
+      "changePct": 28.9,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T15:06:15.193418+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "NAMM",
+      "name": "Namib Minerals",
+      "sector": "Basic Materials",
+      "price": 1.145,
+      "dayHigh": 1.17,
+      "dayLow": 0.9755,
+      "volume": 6803296,
+      "avgVolume": 797163,
+      "volRatio": 8.5,
+      "offHighPct": -2.1,
+      "changePct": 19.5,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T15:06:15.193418+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SDEV",
+      "name": "Stablecoin Development Corp",
+      "sector": "Financial",
+      "price": 3.875,
+      "dayHigh": 4.54,
+      "dayLow": 3.48,
+      "volume": 83280069,
+      "avgVolume": 15888007,
+      "volRatio": 5.2,
+      "offHighPct": -14.6,
+      "changePct": 49.6,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T15:06:15.193418+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "VEEA",
+      "name": "Veea Inc",
+      "sector": "Technology",
+      "price": 3.095,
+      "dayHigh": 3.93,
+      "dayLow": 2.92,
+      "volume": 62207762,
+      "avgVolume": 15039971,
+      "volRatio": 4.1,
+      "offHighPct": -21.2,
+      "changePct": 42.6,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T15:06:15.193418+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "GIPR",
+      "name": "Generation Income Properties Inc",
+      "sector": "Real Estate",
+      "price": 0.5271,
+      "dayHigh": 0.579,
+      "dayLow": 0.4708,
+      "volume": 108386117,
+      "avgVolume": 32096291,
+      "volRatio": 3.4,
+      "offHighPct": -9.0,
+      "changePct": 32.1,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T15:06:15.193418+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BTTC",
+      "name": "Black Titan Corp",
+      "sector": "Technology",
+      "price": 0.6921,
+      "dayHigh": 0.8336,
+      "dayLow": 0.6,
+      "volume": 71222960,
+      "avgVolume": 28333634,
+      "volRatio": 2.5,
+      "offHighPct": -17.0,
+      "changePct": 33.1,
+      "stage": "reversing",
+      "dayStreak": 2,
+      "scannedAt": "2026-10-01T15:06:15.193418+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "CCEC",
+      "name": "Capital Clean Energy Carriers Corp",
+      "sector": "Industrials",
+      "price": 21.5979,
+      "dayHigh": 21.6,
+      "dayLow": 19.67,
+      "volume": 12869,
+      "avgVolume": 5503,
+      "volRatio": 2.3,
+      "offHighPct": -0.0,
+      "changePct": 15.3,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T15:06:15.193418+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MEDS",
+      "name": "DataMEDS AI Inc",
+      "sector": "Healthcare",
+      "price": 3.9295,
+      "dayHigh": 4.35,
+      "dayLow": 3.84,
+      "volume": 29611801,
+      "avgVolume": 15858600,
+      "volRatio": 1.9,
+      "offHighPct": -9.7,
+      "changePct": 24.0,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T15:06:15.193418+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "TULP",
+      "name": "Bloomia Holdings Inc",
+      "sector": "Consumer Defensive",
+      "price": 2.53,
+      "dayHigh": 2.53,
+      "dayLow": 2.53,
+      "volume": 3970,
+      "avgVolume": 2130,
+      "volRatio": 1.9,
+      "offHighPct": 0.0,
+      "changePct": 1.2,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T15:06:15.193418+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "JAGU",
+      "name": "Jaguar Uranium Corp",
+      "sector": "Energy",
+      "price": 1.2331,
+      "dayHigh": 1.28,
+      "dayLow": 1.05,
+      "volume": 250029,
+      "avgVolume": 186024,
+      "volRatio": 1.3,
+      "offHighPct": -3.7,
+      "changePct": 14.2,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T15:06:15.193418+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SCKT",
+      "name": "Socket Mobile Inc",
+      "sector": "Technology",
+      "price": 0.5197,
+      "dayHigh": 0.5885,
+      "dayLow": 0.476,
+      "volume": 115581034,
+      "avgVolume": 5324937,
+      "volRatio": 21.7,
+      "offHighPct": -11.7,
+      "changePct": 15.5,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T17:40:43.706308+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "WFCF",
+      "name": "Where Food Comes From Inc",
+      "sector": "Industrials",
+      "price": 13.45,
+      "dayHigh": 16.0,
+      "dayLow": 10.98,
+      "volume": 955065,
+      "avgVolume": 55398,
+      "volRatio": 17.2,
+      "offHighPct": -15.9,
+      "changePct": 21.7,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T17:40:43.706308+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "LONA",
+      "name": "LeonaBio Inc",
+      "sector": "Healthcare",
+      "price": 4.38,
+      "dayHigh": 5.3399,
+      "dayLow": 3.42,
+      "volume": 5636072,
+      "avgVolume": 382812,
+      "volRatio": 14.7,
+      "offHighPct": -18.0,
+      "changePct": 22.7,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T17:40:43.706308+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "INSG",
+      "name": "Inseego Corp",
+      "sector": "Technology",
+      "price": 4.435,
+      "dayHigh": 4.5023,
+      "dayLow": 3.74,
+      "volume": 1735297,
+      "avgVolume": 313595,
+      "volRatio": 5.5,
+      "offHighPct": -1.5,
+      "changePct": 21.2,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T17:40:43.706308+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BIRD",
+      "name": "Smartbird Inc",
+      "sector": "Technology",
+      "price": 3.35,
+      "dayHigh": 3.37,
+      "dayLow": 2.51,
+      "volume": 1759616,
+      "avgVolume": 350196,
+      "volRatio": 5.0,
+      "offHighPct": -0.6,
+      "changePct": 28.4,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T17:40:43.706308+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "PLUT",
+      "name": "Plutus Financial Group Ltd",
+      "sector": "Financial",
+      "price": 2.55,
+      "dayHigh": 2.775,
+      "dayLow": 2.48,
+      "volume": 10311,
+      "avgVolume": 2291,
+      "volRatio": 4.5,
+      "offHighPct": -8.1,
+      "changePct": 9.4,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T17:40:43.706308+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "INGN",
+      "name": "Inogen Inc",
+      "sector": "Healthcare",
+      "price": 6.13,
+      "dayHigh": 6.152,
+      "dayLow": 5.54,
+      "volume": 731289,
+      "avgVolume": 360008,
+      "volRatio": 2.0,
+      "offHighPct": -0.4,
+      "changePct": 16.3,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T17:40:43.706308+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "XRPN",
+      "name": "Armada Acquisition Corp II",
+      "sector": "Financial",
+      "price": 19.88,
+      "dayHigh": 19.9,
+      "dayLow": 15.5007,
+      "volume": 1081315,
+      "avgVolume": 542668,
+      "volRatio": 2.0,
+      "offHighPct": -0.1,
+      "changePct": 21.2,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T17:40:43.706308+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "RZAI",
+      "name": "Roze AI Inc",
+      "sector": "Industrials",
+      "price": 25.6855,
+      "dayHigh": 35.55,
+      "dayLow": 22.1516,
+      "volume": 811051,
+      "avgVolume": 430742,
+      "volRatio": 1.9,
+      "offHighPct": -27.7,
+      "changePct": 17.4,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T17:40:43.706308+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SSM",
+      "name": "Sono Group NV",
+      "sector": "Consumer Cyclical",
+      "price": 1.5301,
+      "dayHigh": 1.65,
+      "dayLow": 1.11,
+      "volume": 3222196,
+      "avgVolume": 3923363,
+      "volRatio": 0.8,
+      "offHighPct": -7.3,
+      "changePct": 36.6,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T17:40:43.706308+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BTLN",
+      "name": "Brightline Interactive Inc",
+      "sector": "Technology",
+      "price": 5.95,
+      "dayHigh": 6.57,
+      "dayLow": 4.78,
+      "volume": 100582,
+      "avgVolume": 193256,
+      "volRatio": 0.5,
+      "offHighPct": -9.4,
+      "changePct": 17.8,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T17:40:43.706308+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "OM",
+      "name": "Outset Medical Inc",
+      "sector": "Healthcare",
+      "price": 3.75,
+      "dayHigh": 3.8899,
+      "dayLow": 2.855,
+      "volume": 965067,
+      "avgVolume": 179850,
+      "volRatio": 5.4,
+      "offHighPct": -3.6,
+      "changePct": 25.0,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T22:51:11.676473+00:00",
+      "flagDate": "2026-10-01",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "DMRC",
+      "name": "Digimarc Corp",
+      "sector": "Technology",
+      "price": 6.76,
+      "dayHigh": 6.97,
+      "dayLow": 5.74,
+      "volume": 474226,
+      "avgVolume": 184615,
+      "volRatio": 2.6,
+      "offHighPct": -3.0,
+      "changePct": 16.2,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-01T22:51:11.676473+00:00",
+      "flagDate": "2026-10-01",
       "returns": {
         "1": null,
         "3": null,
