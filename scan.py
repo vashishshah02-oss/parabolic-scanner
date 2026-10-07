@@ -7,15 +7,18 @@ Two passes:
      how far off today's high the price has slipped (the reversal signal).
 """
 import json
+import math
 import os
 import sys
 from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 import yfinance as yf
 from finvizfinance.screener.overview import Overview
 
 HISTORY_PATH = "data/history.jsonl"
+ET = ZoneInfo("America/New_York")
 
 FILTERS = {
     "Float": "Under 50M",
@@ -37,6 +40,9 @@ def enrich(ticker):
     try:
         t = yf.Ticker(ticker)
         hist = t.history(period="1mo", interval="1d")
+        # Yahoo sometimes returns a NaN bar for the current session (common
+        # off-hours); drop those so they can't leak into the numbers.
+        hist = hist.dropna(subset=["Close", "High", "Low", "Volume"])
         if hist.empty:
             return None
         avg_volume = float(hist["Volume"].mean())
@@ -55,6 +61,8 @@ def enrich(ticker):
 
         prev_close = float(hist.iloc[-2]["Close"])
         if not prev_close:
+            return None
+        if not all(math.isfinite(v) for v in (avg_volume, price, day_high, day_low, volume, prev_close)):
             return None
 
         off_high_pct = ((price - day_high) / day_high) * 100 if day_high else 0.0
@@ -123,7 +131,11 @@ def log_new_signals(rows, scanned_at):
     """Append first-time-today sightings of each ticker to the history log.
     This is the dataset the backtest reads from — one row per (date, ticker),
     logged at the moment it was first flagged, not every rescan."""
-    flag_date = datetime.fromisoformat(scanned_at).date().isoformat()
+    et_now = datetime.fromisoformat(scanned_at).astimezone(ET)
+    flag_date = et_now.date().isoformat()
+    if et_now.weekday() >= 5:  # weekends aren't trading days — don't log stale signals
+        print("Weekend: not logging signals", file=sys.stderr)
+        return
     seen_today = set()
     if os.path.exists(HISTORY_PATH):
         with open(HISTORY_PATH) as f:
@@ -173,7 +185,7 @@ def main():
         })
 
     scanned_at = datetime.now(timezone.utc).isoformat()
-    today = datetime.fromisoformat(scanned_at).date()
+    today = datetime.fromisoformat(scanned_at).astimezone(ET).date()
     flag_dates_by_ticker = load_flag_dates_by_ticker()
     for r in rows:
         r["dayStreak"] = compute_day_streak(r["ticker"], today, flag_dates_by_ticker)
