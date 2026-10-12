@@ -20,6 +20,13 @@ from finvizfinance.screener.overview import Overview
 HISTORY_PATH = "data/history.jsonl"
 ET = ZoneInfo("America/New_York")
 
+# "Reversing" = the stock has given back at least this share of its day gain
+# (measured from yesterday's close up to today's high), AND is at least
+# MIN_OFF_HIGH_PCT below the high. Scales with the size of the move, so a
+# +500% runner needs a much deeper pullback than a +20% one.
+REVERSING_GIVEBACK_PCT = 25.0
+MIN_OFF_HIGH_PCT = 8.0
+
 FILTERS = {
     "Float": "Under 50M",
     "Relative Volume": "Over 3",
@@ -68,6 +75,8 @@ def enrich(ticker):
         off_high_pct = ((price - day_high) / day_high) * 100 if day_high else 0.0
         vol_ratio = volume / avg_volume
         change_pct = ((price - prev_close) / prev_close) * 100
+        gain_to_high = day_high - prev_close
+        give_back_pct = ((day_high - price) / gain_to_high) * 100 if gain_to_high > 0 else 0.0
 
         return {
             "price": round(price, 4),
@@ -78,16 +87,17 @@ def enrich(ticker):
             "volRatio": round(vol_ratio, 1),
             "offHighPct": round(off_high_pct, 1),
             "changePct": round(change_pct, 1),
+            "gaveBackPct": round(give_back_pct, 1),
         }
     except Exception as e:  # noqa: BLE001
         print(f"skip {ticker}: {e}", file=sys.stderr)
         return None
 
 
-def stage_for(change_pct, off_high_pct):
+def stage_for(change_pct, off_high_pct, give_back_pct):
     if change_pct is not None and change_pct < 0:
         return "faded"
-    if off_high_pct <= -8:
+    if give_back_pct >= REVERSING_GIVEBACK_PCT and off_high_pct <= -MIN_OFF_HIGH_PCT:
         return "reversing"
     return "extended"
 
@@ -181,7 +191,7 @@ def main():
             "name": row.get("Company", ""),
             "sector": row.get("Sector", ""),
             **detail,
-            "stage": stage_for(detail["changePct"], detail["offHighPct"]),
+            "stage": stage_for(detail["changePct"], detail["offHighPct"], detail["gaveBackPct"]),
         })
 
     scanned_at = datetime.now(timezone.utc).isoformat()
