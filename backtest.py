@@ -70,7 +70,7 @@ def main():
         for h in HORIZONS:
             r = e["returns"][h]
             if r is not None:
-                buckets[e["stage"]][h].append(r)
+                buckets[f'{e.get("stageRule", "v1")}:{e["stage"]}'][h].append(r)
 
     summary = {}
     for stage, by_horizon in buckets.items():

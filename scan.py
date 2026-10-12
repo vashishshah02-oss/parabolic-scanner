@@ -24,6 +24,7 @@ ET = ZoneInfo("America/New_York")
 # (measured from yesterday's close up to today's high), AND is at least
 # MIN_OFF_HIGH_PCT below the high. Scales with the size of the move, so a
 # +500% runner needs a much deeper pullback than a +20% one.
+STAGE_RULE = "v3"  # v1: 8% off high | v2: + 25% give-back | v3: + 1m close below 9 EMA
 REVERSING_GIVEBACK_PCT = 25.0
 MIN_OFF_HIGH_PCT = 8.0
 
@@ -50,6 +51,10 @@ def ema_1m(ticker_obj):
     try:
         bars = ticker_obj.history(period="2d", interval="1m", prepost=True)
         closes = bars["Close"].dropna()
+        # Completed bars only: Yahoo's last bar is the minute still in progress,
+        # and "closed below the 9 EMA" has to mean a bar that actually closed.
+        now_floor = datetime.now(timezone.utc).replace(second=0, microsecond=0)
+        closes = closes[closes.index < now_floor]
         if len(closes) < 20:
             return {}
         ema9 = float(closes.ewm(span=9, adjust=False).mean().iloc[-1])
@@ -67,6 +72,7 @@ def ema_1m(ticker_obj):
             "ema9": round(ema9, 4),
             "ema20": round(ema20, 4),
             "emaTrend": trend,
+            "closeBelowEma9": bool(last < ema9),
             "lastBarAt": closes.index[-1].astimezone(timezone.utc).isoformat(),
         }
     except Exception as e:  # noqa: BLE001
@@ -126,10 +132,14 @@ def enrich(ticker):
         return None
 
 
-def stage_for(change_pct, off_high_pct, give_back_pct):
+def stage_for(change_pct, off_high_pct, give_back_pct, below_ema9):
     if change_pct is not None and change_pct < 0:
         return "faded"
-    if give_back_pct >= REVERSING_GIVEBACK_PCT and off_high_pct <= -MIN_OFF_HIGH_PCT:
+    if (
+        give_back_pct >= REVERSING_GIVEBACK_PCT
+        and off_high_pct <= -MIN_OFF_HIGH_PCT
+        and below_ema9 is True  # last completed 1-min bar closed below the 9 EMA
+    ):
         return "reversing"
     return "extended"
 
@@ -223,7 +233,11 @@ def main():
             "name": row.get("Company", ""),
             "sector": row.get("Sector", ""),
             **detail,
-            "stage": stage_for(detail["changePct"], detail["offHighPct"], detail["gaveBackPct"]),
+            "stage": stage_for(
+                detail["changePct"], detail["offHighPct"], detail["gaveBackPct"],
+                detail.get("closeBelowEma9"),
+            ),
+            "stageRule": STAGE_RULE,
         })
 
     scanned_at = datetime.now(timezone.utc).isoformat()
