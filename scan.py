@@ -43,6 +43,37 @@ def screen_candidates():
     return df.to_dict("records")
 
 
+def ema_1m(ticker_obj):
+    """9 and 20 EMA on 1-minute closes (premarket included so the averages are
+    warmed up at the open), plus where the last price sits relative to them.
+    Returns {} when there aren't enough 1-minute bars (very thin tickers)."""
+    try:
+        bars = ticker_obj.history(period="2d", interval="1m", prepost=True)
+        closes = bars["Close"].dropna()
+        if len(closes) < 20:
+            return {}
+        ema9 = float(closes.ewm(span=9, adjust=False).mean().iloc[-1])
+        ema20 = float(closes.ewm(span=20, adjust=False).mean().iloc[-1])
+        last = float(closes.iloc[-1])
+        if not all(math.isfinite(v) for v in (ema9, ema20, last)):
+            return {}
+        if last > ema9 > ema20:
+            trend = "bull"
+        elif last < ema9 < ema20:
+            trend = "bear"
+        else:
+            trend = "mixed"
+        return {
+            "ema9": round(ema9, 4),
+            "ema20": round(ema20, 4),
+            "emaTrend": trend,
+            "lastBarAt": closes.index[-1].astimezone(timezone.utc).isoformat(),
+        }
+    except Exception as e:  # noqa: BLE001
+        print(f"ema skip: {e}", file=sys.stderr)
+        return {}
+
+
 def enrich(ticker):
     try:
         t = yf.Ticker(ticker)
@@ -88,6 +119,7 @@ def enrich(ticker):
             "offHighPct": round(off_high_pct, 1),
             "changePct": round(change_pct, 1),
             "gaveBackPct": round(give_back_pct, 1),
+            **ema_1m(t),
         }
     except Exception as e:  # noqa: BLE001
         print(f"skip {ticker}: {e}", file=sys.stderr)
