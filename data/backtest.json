@@ -1,39 +1,73 @@
 {
-  "generatedAt": "2026-10-10T01:05:33.336453",
-  "totalSignals": 227,
+  "generatedAt": "2026-10-13T02:11:53.153221",
+  "totalSignals": 246,
   "summary": {
-    "reversing": {
+    "v1:reversing": {
       "t1": {
-        "n": 90,
-        "avgReturnPct": NaN,
-        "pctNegative": 53.3
+        "n": 13,
+        "avgReturnPct": -1.45,
+        "pctNegative": 53.8
       },
       "t3": {
-        "n": 62,
-        "avgReturnPct": NaN,
-        "pctNegative": 64.5
+        "n": 13,
+        "avgReturnPct": -6.47,
+        "pctNegative": 61.5
       },
       "t5": {
-        "n": 48,
-        "avgReturnPct": NaN,
-        "pctNegative": 62.5
+        "n": 13,
+        "avgReturnPct": -11.41,
+        "pctNegative": 84.6
       }
     },
-    "extended": {
+    "v1:extended": {
       "t1": {
-        "n": 126,
-        "avgReturnPct": NaN,
-        "pctNegative": 55.6
+        "n": 23,
+        "avgReturnPct": -7.12,
+        "pctNegative": 65.2
       },
       "t3": {
-        "n": 98,
-        "avgReturnPct": NaN,
-        "pctNegative": 53.1
+        "n": 23,
+        "avgReturnPct": -0.47,
+        "pctNegative": 69.6
       },
       "t5": {
-        "n": 65,
+        "n": 23,
+        "avgReturnPct": -6.33,
+        "pctNegative": 65.2
+      }
+    },
+    "v2:extended": {
+      "t1": {
+        "n": 113,
+        "avgReturnPct": 11.22,
+        "pctNegative": 61.9
+      },
+      "t3": {
+        "n": 97,
         "avgReturnPct": NaN,
-        "pctNegative": 52.3
+        "pctNegative": 64.9
+      },
+      "t5": {
+        "n": 61,
+        "avgReturnPct": 12.37,
+        "pctNegative": 68.9
+      }
+    },
+    "v2:reversing": {
+      "t1": {
+        "n": 78,
+        "avgReturnPct": -7.5,
+        "pctNegative": 70.5
+      },
+      "t3": {
+        "n": 59,
+        "avgReturnPct": NaN,
+        "pctNegative": 76.3
+      },
+      "t5": {
+        "n": 40,
+        "avgReturnPct": -19.24,
+        "pctNegative": 80.0
       }
     }
   },
@@ -52,6 +86,7 @@
       "scannedAt": "2026-09-28T13:44:45.135241+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -7.51,
         "3": 1.42,
@@ -73,6 +108,7 @@
       "scannedAt": "2026-09-28T13:44:45.135241+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 11.88,
         "3": -15.38,
@@ -94,6 +130,7 @@
       "scannedAt": "2026-09-28T13:44:45.135241+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -7.39,
         "3": -17.93,
@@ -115,6 +152,7 @@
       "scannedAt": "2026-09-28T13:44:45.135241+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -34.14,
         "3": -40.24,
@@ -136,6 +174,7 @@
       "scannedAt": "2026-09-28T13:44:45.135241+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 3.83,
         "3": -7.99,
@@ -157,6 +196,7 @@
       "scannedAt": "2026-09-28T13:44:45.135241+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -13.47,
         "3": -11.39,
@@ -178,6 +218,7 @@
       "scannedAt": "2026-09-28T13:44:45.135241+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 3.67,
         "3": 14.69,
@@ -199,6 +240,7 @@
       "scannedAt": "2026-09-28T13:44:45.135241+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 7.24,
         "3": 15.38,
@@ -220,6 +262,7 @@
       "scannedAt": "2026-09-28T13:44:45.135241+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -20.96,
         "3": -28.18,
@@ -241,6 +284,7 @@
       "scannedAt": "2026-09-28T15:05:04.458524+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -16.33,
         "3": -21.44,
@@ -262,6 +306,7 @@
       "scannedAt": "2026-09-28T15:05:04.458524+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 39.28,
         "3": 49.3,
@@ -283,6 +328,7 @@
       "scannedAt": "2026-09-28T15:05:04.458524+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -0.14,
         "3": -1.05,
@@ -304,6 +350,7 @@
       "scannedAt": "2026-09-28T15:05:04.458524+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -5.51,
         "3": -7.35,
@@ -325,6 +372,7 @@
       "scannedAt": "2026-09-28T15:05:04.458524+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 2.36,
         "3": -4.22,
@@ -346,6 +394,7 @@
       "scannedAt": "2026-09-28T15:05:04.458524+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 20.63,
         "3": -30.37,
@@ -367,6 +416,7 @@
       "scannedAt": "2026-09-28T16:37:45.435540+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -19.63,
         "3": -31.32,
@@ -388,6 +438,7 @@
       "scannedAt": "2026-09-28T16:37:45.435540+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 15.21,
         "3": 39.81,
@@ -409,6 +460,7 @@
       "scannedAt": "2026-09-28T18:09:24.785171+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -2.66,
         "3": -14.77,
@@ -430,6 +482,7 @@
       "scannedAt": "2026-09-28T21:03:48.752906+00:00",
       "flagDate": "2026-09-28",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -30.98,
         "3": -27.32,
@@ -451,6 +504,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -17.89,
         "3": -37.83,
@@ -472,6 +526,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -29.37,
         "3": -28.3,
@@ -493,6 +548,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -0.61,
         "3": -1.21,
@@ -514,6 +570,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 0.06,
         "3": 0.3,
@@ -535,6 +592,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -49.6,
         "3": -54.84,
@@ -556,6 +614,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -8.73,
         "3": -14.33,
@@ -577,6 +636,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 30.11,
         "3": 1.03,
@@ -598,6 +658,7 @@
       "scannedAt": "2026-09-29T13:41:04.660384+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -7.11,
         "3": -7.11,
@@ -619,6 +680,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -30.94,
         "3": -33.15,
@@ -640,6 +702,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 3.54,
         "3": 0.9,
@@ -661,6 +724,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 0.03,
         "3": 188.89,
@@ -682,6 +746,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 5.46,
         "3": 42.38,
@@ -703,6 +768,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -11.4,
         "3": -15.53,
@@ -724,6 +790,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -0.5,
         "3": -15.08,
@@ -745,6 +812,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": -2.14,
         "3": 33.33,
@@ -766,6 +834,7 @@
       "scannedAt": "2026-09-29T15:06:09.178448+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 2,
+      "stageRule": "v1",
       "returns": {
         "1": -19.39,
         "3": -41.68,
@@ -787,6 +856,7 @@
       "scannedAt": "2026-09-29T15:07:12.101541+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "stageRule": "v1",
       "returns": {
         "1": 10.43,
         "3": 25.59,
@@ -810,6 +880,8 @@
       "scannedAt": "2026-09-29T15:18:39.273354+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "gaveBackPct": 36.7,
+      "stageRule": "v2",
       "returns": {
         "1": 7.32,
         "3": 15.85,
@@ -833,6 +905,8 @@
       "scannedAt": "2026-09-29T17:55:40.356619+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "gaveBackPct": 21.6,
+      "stageRule": "v2",
       "returns": {
         "1": 2.08,
         "3": 11.67,
@@ -856,6 +930,8 @@
       "scannedAt": "2026-09-29T17:55:40.356619+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "gaveBackPct": 58.7,
+      "stageRule": "v2",
       "returns": {
         "1": 23.96,
         "3": 197.97,
@@ -879,6 +955,8 @@
       "scannedAt": "2026-09-29T17:55:40.356619+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "gaveBackPct": 6.9,
+      "stageRule": "v2",
       "returns": {
         "1": 10.67,
         "3": 6.18,
@@ -902,6 +980,8 @@
       "scannedAt": "2026-09-29T17:55:40.356619+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 2,
+      "gaveBackPct": 19.0,
+      "stageRule": "v2",
       "returns": {
         "1": -10.25,
         "3": -24.03,
@@ -925,6 +1005,8 @@
       "scannedAt": "2026-09-29T19:34:58.854379+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "gaveBackPct": 73.4,
+      "stageRule": "v2",
       "returns": {
         "1": 3.88,
         "3": 0.83,
@@ -948,6 +1030,8 @@
       "scannedAt": "2026-09-29T19:34:58.854379+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "gaveBackPct": 58.6,
+      "stageRule": "v2",
       "returns": {
         "1": -15.02,
         "3": -26.09,
@@ -971,6 +1055,8 @@
       "scannedAt": "2026-09-29T19:34:58.854379+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 1,
+      "gaveBackPct": 15.4,
+      "stageRule": "v2",
       "returns": {
         "1": -10.75,
         "3": -14.96,
@@ -994,6 +1080,8 @@
       "scannedAt": "2026-09-29T22:05:53.668196+00:00",
       "flagDate": "2026-09-29",
       "dayStreak": 2,
+      "gaveBackPct": 0.0,
+      "stageRule": "v2",
       "returns": {
         "1": 1.4,
         "3": 7.4,
@@ -1017,6 +1105,8 @@
       "scannedAt": "2026-09-30T13:37:11.843599+00:00",
       "flagDate": "2026-09-30",
       "dayStreak": 1,
+      "gaveBackPct": 41.3,
+      "stageRule": "v2",
       "returns": {
         "1": 39.99,
         "3": 8.99,
@@ -1040,13 +1130,14 @@
       "scannedAt": "2026-09-30T13:37:11.843599+00:00",
       "flagDate": "2026-09-30",
       "dayStreak": 1,
+      "gaveBackPct": 3.3,
+      "stageRule": "v2",
       "returns": {
         "1": 35.85,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -1066,6 +1157,8 @@
       "scannedAt": "2026-09-30T13:37:11.843599+00:00",
       "flagDate": "2026-09-30",
       "dayStreak": 1,
+      "gaveBackPct": 33.0,
+      "stageRule": "v2",
       "returns": {
         "1": -29.85,
         "3": -35.24,
@@ -1085,10 +1178,12 @@
       "volRatio": 15.5,
       "offHighPct": -11.6,
       "changePct": 68.3,
-      "stage": "reversing",
+      "stage": "extended",
       "scannedAt": "2026-09-30T13:37:11.843599+00:00",
       "flagDate": "2026-09-30",
       "dayStreak": 1,
+      "gaveBackPct": 24.5,
+      "stageRule": "v2",
       "returns": {
         "1": -41.32,
         "3": -46.23,
@@ -1112,6 +1207,8 @@
       "scannedAt": "2026-09-30T13:37:11.843599+00:00",
       "flagDate": "2026-09-30",
       "dayStreak": 1,
+      "gaveBackPct": 46.9,
+      "stageRule": "v2",
       "returns": {
         "1": -31.39,
         "3": -32.21,
@@ -1135,6 +1232,8 @@
       "scannedAt": "2026-09-30T13:37:11.843599+00:00",
       "flagDate": "2026-09-30",
       "dayStreak": 1,
+      "gaveBackPct": 67.6,
+      "stageRule": "v2",
       "returns": {
         "1": -28.86,
         "3": -38.05,
@@ -1158,6 +1257,8 @@
       "scannedAt": "2026-09-30T13:37:11.843599+00:00",
       "flagDate": "2026-09-30",
       "dayStreak": 1,
+      "gaveBackPct": 10.8,
+      "stageRule": "v2",
       "returns": {
         "1": -26.85,
         "3": -31.52,
@@ -1181,6 +1282,8 @@
       "scannedAt": "2026-09-30T13:37:11.843599+00:00",
       "flagDate": "2026-09-30",
       "dayStreak": 1,
+      "gaveBackPct": 18.4,
+      "stageRule": "v2",
       "returns": {
         "1": -13.47,
         "3": -19.85,
@@ -1204,6 +1307,8 @@
       "scannedAt": "2026-09-30T13:37:11.843599+00:00",
       "flagDate": "2026-09-30",
       "dayStreak": 1,
+      "gaveBackPct": 17.4,
+      "stageRule": "v2",
       "returns": {
         "1": 1341.86,
         "3": 1411.63,
@@ -1227,6 +1332,8 @@
       "scannedAt": "2026-09-30T13:37:11.843599+00:00",
       "flagDate": "2026-09-30",
       "dayStreak": 1,
+      "gaveBackPct": 18.8,
+      "stageRule": "v2",
       "returns": {
         "1": -2.51,
         "3": 14.07,
@@ -1250,6 +1357,8 @@
       "scannedAt": "2026-09-30T13:37:11.843599+00:00",
       "flagDate": "2026-09-30",
       "dayStreak": 2,
+      "gaveBackPct": 8.2,
+      "stageRule": "v2",
       "returns": {
         "1": 54.65,
         "3": 155.12,
@@ -1273,6 +1382,8 @@
       "scannedAt": "2026-09-30T13:37:11.843599+00:00",
       "flagDate": "2026-09-30",
       "dayStreak": 1,
+      "gaveBackPct": 34.7,
+      "stageRule": "v2",
       "returns": {
         "1": -11.8,
         "3": -17.32,
@@ -1296,6 +1407,8 @@
       "scannedAt": "2026-09-30T13:37:11.843599+00:00",
       "flagDate": "2026-09-30",
       "dayStreak": 2,
+      "gaveBackPct": 46.4,
+      "stageRule": "v2",
       "returns": {
         "1": -0.39,
         "3": -5.78,
@@ -1315,10 +1428,12 @@
       "volRatio": 20.1,
       "offHighPct": -8.5,
       "changePct": 51.6,
-      "stage": "reversing",
+      "stage": "extended",
       "dayStreak": 1,
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
+      "gaveBackPct": 21.4,
+      "stageRule": "v2",
       "returns": {
         "1": 24.4,
         "3": 60.14,
@@ -1342,6 +1457,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
+      "gaveBackPct": 34.2,
+      "stageRule": "v2",
       "returns": {
         "1": 44.66,
         "3": 110.19,
@@ -1365,6 +1482,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
+      "gaveBackPct": 11.4,
+      "stageRule": "v2",
       "returns": {
         "1": -7.25,
         "3": -7.75,
@@ -1388,6 +1507,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-09-30T14:26:18.111529+00:00",
       "flagDate": "2026-09-30",
+      "gaveBackPct": 39.0,
+      "stageRule": "v2",
       "returns": {
         "1": 19.24,
         "3": 17.55,
@@ -1411,6 +1532,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-09-30T15:04:26.077510+00:00",
       "flagDate": "2026-09-30",
+      "gaveBackPct": 67.7,
+      "stageRule": "v2",
       "returns": {
         "1": -16.7,
         "3": -18.23,
@@ -1434,6 +1557,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-09-30T15:04:26.077510+00:00",
       "flagDate": "2026-09-30",
+      "gaveBackPct": 42.6,
+      "stageRule": "v2",
       "returns": {
         "1": -3.88,
         "3": -10.51,
@@ -1457,6 +1582,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-09-30T15:04:26.077510+00:00",
       "flagDate": "2026-09-30",
+      "gaveBackPct": 0.0,
+      "stageRule": "v2",
       "returns": {
         "1": -2.86,
         "3": -0.8,
@@ -1480,6 +1607,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-09-30T15:04:26.077510+00:00",
       "flagDate": "2026-09-30",
+      "gaveBackPct": 13.6,
+      "stageRule": "v2",
       "returns": {
         "1": -4.94,
         "3": -12.94,
@@ -1503,6 +1632,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-09-30T22:03:47.711903+00:00",
       "flagDate": "2026-09-30",
+      "gaveBackPct": 73.5,
+      "stageRule": "v2",
       "returns": {
         "1": 2.92,
         "3": -4.58,
@@ -1526,6 +1657,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-09-30T22:03:47.711903+00:00",
       "flagDate": "2026-09-30",
+      "gaveBackPct": 38.4,
+      "stageRule": "v2",
       "returns": {
         "1": 13.33,
         "3": 28.89,
@@ -1549,6 +1682,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-09-30T22:03:47.711903+00:00",
       "flagDate": "2026-09-30",
+      "gaveBackPct": 5.9,
+      "stageRule": "v2",
       "returns": {
         "1": -3.2,
         "3": -5.22,
@@ -1572,6 +1707,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T15:03:53.898946+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 42.0,
+      "stageRule": "v2",
       "returns": {
         "1": -29.78,
         "3": -44.85,
@@ -1595,6 +1732,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T15:03:53.898946+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 34.2,
+      "stageRule": "v2",
       "returns": {
         "1": 0.11,
         "3": -15.74,
@@ -1618,6 +1757,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T15:03:53.898946+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 41.0,
+      "stageRule": "v2",
       "returns": {
         "1": -13.47,
         "3": -13.87,
@@ -1641,6 +1782,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T15:03:53.898946+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 49.6,
+      "stageRule": "v2",
       "returns": {
         "1": -17.15,
         "3": -32.16,
@@ -1664,6 +1807,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T15:03:53.898946+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 13.7,
+      "stageRule": "v2",
       "returns": {
         "1": 10.44,
         "3": 5.18,
@@ -1687,6 +1832,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T15:03:53.898946+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 31.6,
+      "stageRule": "v2",
       "returns": {
         "1": 90.57,
         "3": -17.2,
@@ -1710,6 +1857,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T15:03:53.898946+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 50.7,
+      "stageRule": "v2",
       "returns": {
         "1": 9.61,
         "3": 62.61,
@@ -1733,6 +1882,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T15:03:53.898946+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 30.5,
+      "stageRule": "v2",
       "returns": {
         "1": -16.05,
         "3": -27.3,
@@ -1756,6 +1907,8 @@
       "dayStreak": 2,
       "scannedAt": "2026-10-01T15:03:53.898946+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 46.1,
+      "stageRule": "v2",
       "returns": {
         "1": -5.69,
         "3": -17.59,
@@ -1779,6 +1932,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T15:03:53.898946+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 37.3,
+      "stageRule": "v2",
       "returns": {
         "1": -5.88,
         "3": -21.48,
@@ -1802,6 +1957,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T15:03:53.898946+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 0.0,
+      "stageRule": "v2",
       "returns": {
         "1": 6.72,
         "3": 7.11,
@@ -1825,6 +1982,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T15:03:53.898946+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 10.0,
+      "stageRule": "v2",
       "returns": {
         "1": -5.56,
         "3": -7.94,
@@ -1848,6 +2007,8 @@
       "dayStreak": 3,
       "scannedAt": "2026-10-01T15:03:53.898946+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 16.8,
+      "stageRule": "v2",
       "returns": {
         "1": 107.69,
         "3": 1.16,
@@ -1871,6 +2032,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T15:06:15.193418+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 0.1,
+      "stageRule": "v2",
       "returns": {
         "1": -2.81,
         "3": -3.74,
@@ -1894,6 +2057,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T17:40:43.706308+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 49.7,
+      "stageRule": "v2",
       "returns": {
         "1": 36.62,
         "3": 59.71,
@@ -1917,6 +2082,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T17:40:43.706308+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 51.5,
+      "stageRule": "v2",
       "returns": {
         "1": -5.35,
         "3": 0.52,
@@ -1940,6 +2107,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T17:40:43.706308+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 54.2,
+      "stageRule": "v2",
       "returns": {
         "1": 10.05,
         "3": 31.28,
@@ -1963,6 +2132,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T17:40:43.706308+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 8.0,
+      "stageRule": "v2",
       "returns": {
         "1": 3.95,
         "3": 6.65,
@@ -1986,6 +2157,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T17:40:43.706308+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 2.6,
+      "stageRule": "v2",
       "returns": {
         "1": 0.45,
         "3": -5.37,
@@ -2009,6 +2182,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T17:40:43.706308+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 50.7,
+      "stageRule": "v2",
       "returns": {
         "1": 3.92,
         "3": -9.8,
@@ -2032,6 +2207,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T17:40:43.706308+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 2.5,
+      "stageRule": "v2",
       "returns": {
         "1": -2.61,
         "3": -5.87,
@@ -2055,6 +2232,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T17:40:43.706308+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 72.2,
+      "stageRule": "v2",
       "returns": {
         "1": -22.52,
         "3": -54.1,
@@ -2078,6 +2257,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T17:40:43.706308+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 22.6,
+      "stageRule": "v2",
       "returns": {
         "1": 72.21,
         "3": -8.5,
@@ -2101,6 +2282,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T17:40:43.706308+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 40.8,
+      "stageRule": "v2",
       "returns": {
         "1": -12.61,
         "3": -9.58,
@@ -2124,6 +2307,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T22:51:11.676473+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 15.7,
+      "stageRule": "v2",
       "returns": {
         "1": 5.6,
         "3": 10.4,
@@ -2147,6 +2332,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-01T22:51:11.676473+00:00",
       "flagDate": "2026-10-01",
+      "gaveBackPct": 18.2,
+      "stageRule": "v2",
       "returns": {
         "1": -5.92,
         "3": -8.58,
@@ -2170,10 +2357,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T14:38:05.961588+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 32.9,
+      "stageRule": "v2",
       "returns": {
         "1": 5.44,
         "3": -36.68,
-        "5": NaN
+        "5": -38.91
       },
       "pending": []
     },
@@ -2193,10 +2382,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T14:38:05.961588+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 39.4,
+      "stageRule": "v2",
       "returns": {
         "1": 8.44,
         "3": 5.07,
-        "5": NaN
+        "5": -0.82
       },
       "pending": []
     },
@@ -2216,10 +2407,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T14:38:05.961588+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 6.4,
+      "stageRule": "v2",
       "returns": {
         "1": -17.3,
         "3": -29.66,
-        "5": NaN
+        "5": -33.26
       },
       "pending": []
     },
@@ -2239,10 +2432,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T14:38:05.961588+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 54.3,
+      "stageRule": "v2",
       "returns": {
         "1": -31.77,
         "3": -53.52,
-        "5": NaN
+        "5": -54.92
       },
       "pending": []
     },
@@ -2262,13 +2457,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T14:38:05.961588+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 48.8,
+      "stageRule": "v2",
       "returns": {
         "1": 143.91,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -2288,10 +2484,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T14:38:05.961588+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 15.2,
+      "stageRule": "v2",
       "returns": {
         "1": -8.71,
         "3": -16.6,
-        "5": NaN
+        "5": -21.99
       },
       "pending": []
     },
@@ -2311,10 +2509,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T14:38:05.961588+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 22.5,
+      "stageRule": "v2",
       "returns": {
         "1": 22.66,
         "3": 12.75,
-        "5": NaN
+        "5": 8.5
       },
       "pending": []
     },
@@ -2334,10 +2534,12 @@
       "dayStreak": 2,
       "scannedAt": "2026-10-02T14:38:05.961588+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 12.0,
+      "stageRule": "v2",
       "returns": {
         "1": -43.47,
         "3": -60.12,
-        "5": NaN
+        "5": -77.91
       },
       "pending": []
     },
@@ -2357,10 +2559,12 @@
       "dayStreak": 2,
       "scannedAt": "2026-10-02T14:38:05.961588+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 9.6,
+      "stageRule": "v2",
       "returns": {
         "1": 45.43,
         "3": 3.21,
-        "5": NaN
+        "5": -6.18
       },
       "pending": []
     },
@@ -2380,10 +2584,12 @@
       "dayStreak": 4,
       "scannedAt": "2026-10-02T14:38:05.961588+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 31.5,
+      "stageRule": "v2",
       "returns": {
         "1": 23.29,
         "3": -20.22,
-        "5": NaN
+        "5": -45.49
       },
       "pending": []
     },
@@ -2403,10 +2609,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T14:38:05.961588+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 0.0,
+      "stageRule": "v2",
       "returns": {
         "1": 3.6,
         "3": -12.98,
-        "5": NaN
+        "5": -8.54
       },
       "pending": []
     },
@@ -2426,10 +2634,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T14:38:05.961588+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 18.3,
+      "stageRule": "v2",
       "returns": {
         "1": -8.76,
         "3": 7.14,
-        "5": NaN
+        "5": -9.65
       },
       "pending": []
     },
@@ -2449,10 +2659,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T17:42:14.935166+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 77.2,
+      "stageRule": "v2",
       "returns": {
         "1": -0.79,
         "3": -15.87,
-        "5": NaN
+        "5": -26.19
       },
       "pending": []
     },
@@ -2472,10 +2684,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T17:42:14.935166+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 25.4,
+      "stageRule": "v2",
       "returns": {
         "1": -0.32,
         "3": 0.11,
-        "5": NaN
+        "5": 14.61
       },
       "pending": []
     },
@@ -2495,10 +2709,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T17:42:14.935166+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 21.9,
+      "stageRule": "v2",
       "returns": {
         "1": -20.96,
         "3": -17.18,
-        "5": NaN
+        "5": -19.62
       },
       "pending": []
     },
@@ -2518,10 +2734,12 @@
       "dayStreak": 2,
       "scannedAt": "2026-10-02T17:42:14.935166+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 48.0,
+      "stageRule": "v2",
       "returns": {
         "1": -40.4,
         "3": -48.64,
-        "5": NaN
+        "5": -55.77
       },
       "pending": []
     },
@@ -2541,10 +2759,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T17:42:14.935166+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 22.3,
+      "stageRule": "v2",
       "returns": {
         "1": 4.95,
         "3": -16.73,
-        "5": NaN
+        "5": -2.54
       },
       "pending": []
     },
@@ -2564,10 +2784,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T17:42:14.935166+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 5.5,
+      "stageRule": "v2",
       "returns": {
         "1": -16.38,
         "3": -29.42,
-        "5": NaN
+        "5": -38.03
       },
       "pending": []
     },
@@ -2587,10 +2809,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T21:27:21.101202+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 15.2,
+      "stageRule": "v2",
       "returns": {
         "1": 14.38,
         "3": -17.07,
-        "5": NaN
+        "5": -20.26
       },
       "pending": []
     },
@@ -2610,10 +2834,12 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-02T21:27:21.101202+00:00",
       "flagDate": "2026-10-02",
+      "gaveBackPct": 58.4,
+      "stageRule": "v2",
       "returns": {
         "1": 2.98,
         "3": -9.52,
-        "5": NaN
+        "5": -11.31
       },
       "pending": []
     },
@@ -2633,14 +2859,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T13:42:46.458019+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 27.2,
+      "stageRule": "v2",
       "returns": {
         "1": -53.76,
         "3": -66.39,
-        "5": null
+        "5": -65.19
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "BEAT",
@@ -2658,14 +2884,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T13:42:46.458019+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 25.1,
+      "stageRule": "v2",
       "returns": {
         "1": -28.09,
         "3": -39.79,
-        "5": null
+        "5": -47.67
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "XELB",
@@ -2683,14 +2909,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T13:42:46.458019+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 38.2,
+      "stageRule": "v2",
       "returns": {
         "1": -21.96,
         "3": -16.89,
-        "5": null
+        "5": -41.02
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "APUS",
@@ -2704,18 +2930,18 @@
       "volRatio": 2.8,
       "offHighPct": -8.2,
       "changePct": 42.2,
-      "stage": "reversing",
+      "stage": "extended",
       "dayStreak": 1,
       "scannedAt": "2026-10-05T13:42:46.458019+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 23.2,
+      "stageRule": "v2",
       "returns": {
         "1": 55.72,
         "3": 20.34,
-        "5": null
+        "5": 13.57
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "NMTC",
@@ -2733,14 +2959,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T13:42:46.458019+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 19.6,
+      "stageRule": "v2",
       "returns": {
         "1": -13.41,
         "3": -17.24,
-        "5": null
+        "5": -17.62
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "VEEA",
@@ -2758,14 +2984,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T13:42:46.458019+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 20.4,
+      "stageRule": "v2",
       "returns": {
         "1": -1.2,
         "3": -22.6,
-        "5": null
+        "5": -7.8
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "SCKT",
@@ -2783,14 +3009,14 @@
       "dayStreak": 3,
       "scannedAt": "2026-10-05T13:42:46.458019+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 4.7,
+      "stageRule": "v2",
       "returns": {
         "1": -9.74,
         "3": -32.58,
-        "5": null
+        "5": -40.19
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "AIFA",
@@ -2808,14 +3034,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T13:42:46.458019+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 24.2,
+      "stageRule": "v2",
       "returns": {
         "1": 46.28,
         "3": 20.53,
-        "5": null
+        "5": -7.69
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "AGBK",
@@ -2833,14 +3059,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T13:42:46.458019+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 11.5,
+      "stageRule": "v2",
       "returns": {
         "1": 6.04,
         "3": 3.5,
-        "5": null
+        "5": 8.27
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "INTT",
@@ -2858,14 +3084,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T13:42:46.458019+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 1.8,
+      "stageRule": "v2",
       "returns": {
         "1": 1.58,
         "3": 1.02,
-        "5": null
+        "5": 1.44
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "BTTC",
@@ -2883,14 +3109,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T13:42:46.458019+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 23.0,
+      "stageRule": "v2",
       "returns": {
         "1": -27.8,
         "3": -37.08,
-        "5": null
+        "5": -37.59
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "PICS",
@@ -2908,14 +3134,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T13:42:46.458019+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 1.1,
+      "stageRule": "v2",
       "returns": {
         "1": 15.0,
         "3": 10.57,
-        "5": null
+        "5": 25.52
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "SVRN",
@@ -2933,14 +3159,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T13:42:46.458019+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 2.1,
+      "stageRule": "v2",
       "returns": {
         "1": 2.1,
         "3": -8.64,
-        "5": null
+        "5": 13.24
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "RETO",
@@ -2958,14 +3184,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T14:24:33.596800+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 41.2,
+      "stageRule": "v2",
       "returns": {
         "1": -10.27,
         "3": -24.32,
-        "5": null
+        "5": -38.38
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "AGMH",
@@ -2983,14 +3209,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T14:24:33.596800+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 40.0,
+      "stageRule": "v2",
       "returns": {
         "1": -31.52,
         "3": -29.05,
-        "5": null
+        "5": -36.1
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "JAGX",
@@ -3008,14 +3234,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T14:24:33.596800+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 40.6,
+      "stageRule": "v2",
       "returns": {
         "1": 12.46,
         "3": -9.35,
-        "5": null
+        "5": -7.15
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "GNLN",
@@ -3033,14 +3259,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T14:24:33.596800+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 19.7,
+      "stageRule": "v2",
       "returns": {
         "1": -1.27,
         "3": -10.16,
-        "5": null
+        "5": -14.92
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "GOW",
@@ -3058,14 +3284,14 @@
       "dayStreak": 2,
       "scannedAt": "2026-10-05T14:24:33.596800+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 33.7,
+      "stageRule": "v2",
       "returns": {
         "1": -11.68,
         "3": -13.0,
-        "5": null
+        "5": -21.15
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "SDST",
@@ -3083,14 +3309,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T14:24:33.596800+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 0.0,
+      "stageRule": "v2",
       "returns": {
         "1": -20.79,
         "3": -38.61,
-        "5": null
+        "5": -48.51
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "SGLY",
@@ -3108,14 +3334,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T20:31:18.783264+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 32.5,
+      "stageRule": "v2",
       "returns": {
         "1": -18.36,
         "3": -27.54,
-        "5": null
+        "5": -28.56
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "BCYC",
@@ -3133,14 +3359,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T20:31:18.783264+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 4.3,
+      "stageRule": "v2",
       "returns": {
         "1": -5.49,
         "3": -4.99,
-        "5": null
+        "5": -5.24
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "DNA",
@@ -3158,14 +3384,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T20:31:18.783264+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 16.0,
+      "stageRule": "v2",
       "returns": {
         "1": -17.16,
         "3": -24.3,
-        "5": null
+        "5": -21.3
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "KBSX",
@@ -3183,14 +3409,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T20:31:18.783264+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 7.2,
+      "stageRule": "v2",
       "returns": {
         "1": -3.23,
         "3": -6.74,
-        "5": null
+        "5": -17.89
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "CTNT",
@@ -3208,14 +3434,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-05T20:31:18.783264+00:00",
       "flagDate": "2026-10-05",
+      "gaveBackPct": 10.5,
+      "stageRule": "v2",
       "returns": {
         "1": -5.75,
         "3": -9.9,
-        "5": null
+        "5": -22.36
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "XHG",
@@ -3233,9 +3459,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T13:43:05.879440+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 0.0,
+      "stageRule": "v2",
       "returns": {
         "1": -53.19,
-        "3": NaN,
+        "3": -51.49,
         "5": null
       },
       "pending": [
@@ -3254,13 +3482,15 @@
       "volRatio": 12.7,
       "offHighPct": -11.9,
       "changePct": 162.9,
-      "stage": "reversing",
+      "stage": "extended",
       "dayStreak": 1,
       "scannedAt": "2026-10-06T13:43:05.879440+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 17.9,
+      "stageRule": "v2",
       "returns": {
         "1": -60.88,
-        "3": NaN,
+        "3": -54.35,
         "5": null
       },
       "pending": [
@@ -3283,9 +3513,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T13:43:05.879440+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 5.9,
+      "stageRule": "v2",
       "returns": {
         "1": -33.37,
-        "3": NaN,
+        "3": -39.63,
         "5": null
       },
       "pending": [
@@ -3308,9 +3540,11 @@
       "dayStreak": 2,
       "scannedAt": "2026-10-06T13:43:05.879440+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 16.7,
+      "stageRule": "v2",
       "returns": {
         "1": 2.85,
-        "3": NaN,
+        "3": -21.17,
         "5": null
       },
       "pending": [
@@ -3333,9 +3567,11 @@
       "dayStreak": 2,
       "scannedAt": "2026-10-06T13:43:05.879440+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 23.6,
+      "stageRule": "v2",
       "returns": {
         "1": -22.0,
-        "3": NaN,
+        "3": -25.27,
         "5": null
       },
       "pending": [
@@ -3358,9 +3594,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T13:43:05.879440+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 29.0,
+      "stageRule": "v2",
       "returns": {
         "1": -12.28,
-        "3": NaN,
+        "3": -12.57,
         "5": null
       },
       "pending": [
@@ -3383,9 +3621,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T13:43:05.879440+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 25.4,
+      "stageRule": "v2",
       "returns": {
         "1": 12.32,
-        "3": NaN,
+        "3": -0.78,
         "5": null
       },
       "pending": [
@@ -3408,9 +3648,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T13:43:05.879440+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 44.6,
+      "stageRule": "v2",
       "returns": {
         "1": -16.15,
-        "3": NaN,
+        "3": -31.32,
         "5": null
       },
       "pending": [
@@ -3433,9 +3675,11 @@
       "dayStreak": 2,
       "scannedAt": "2026-10-06T13:43:05.879440+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 10.8,
+      "stageRule": "v2",
       "returns": {
         "1": -35.81,
-        "3": NaN,
+        "3": -27.25,
         "5": null
       },
       "pending": [
@@ -3458,9 +3702,11 @@
       "dayStreak": 2,
       "scannedAt": "2026-10-06T13:43:05.879440+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 0.0,
+      "stageRule": "v2",
       "returns": {
         "1": 17.3,
-        "3": NaN,
+        "3": -16.47,
         "5": null
       },
       "pending": [
@@ -3479,13 +3725,15 @@
       "volRatio": 8.4,
       "offHighPct": -9.9,
       "changePct": 82.0,
-      "stage": "reversing",
+      "stage": "extended",
       "dayStreak": 1,
       "scannedAt": "2026-10-06T15:09:45.179057+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 19.6,
+      "stageRule": "v2",
       "returns": {
         "1": 12.99,
-        "3": NaN,
+        "3": 44.53,
         "5": null
       },
       "pending": [
@@ -3508,9 +3756,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T15:09:45.179057+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 12.3,
+      "stageRule": "v2",
       "returns": {
         "1": -1.63,
-        "3": NaN,
+        "3": -2.35,
         "5": null
       },
       "pending": [
@@ -3533,9 +3783,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T15:09:45.179057+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 35.8,
+      "stageRule": "v2",
       "returns": {
         "1": -10.6,
-        "3": NaN,
+        "3": -9.27,
         "5": null
       },
       "pending": [
@@ -3558,9 +3810,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T15:09:45.179057+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 18.2,
+      "stageRule": "v2",
       "returns": {
         "1": -0.82,
-        "3": NaN,
+        "3": -2.08,
         "5": null
       },
       "pending": [
@@ -3583,9 +3837,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T15:09:45.179057+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 0.0,
+      "stageRule": "v2",
       "returns": {
         "1": -13.65,
-        "3": NaN,
+        "3": -25.0,
         "5": null
       },
       "pending": [
@@ -3608,9 +3864,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T15:09:45.179057+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 10.6,
+      "stageRule": "v2",
       "returns": {
         "1": 50.08,
-        "3": NaN,
+        "3": 8.93,
         "5": null
       },
       "pending": [
@@ -3633,9 +3891,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T15:09:45.179057+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 74.9,
+      "stageRule": "v2",
       "returns": {
         "1": -0.65,
-        "3": NaN,
+        "3": -4.6,
         "5": null
       },
       "pending": [
@@ -3658,9 +3918,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T15:09:45.179057+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 13.5,
+      "stageRule": "v2",
       "returns": {
         "1": -6.88,
-        "3": NaN,
+        "3": 9.53,
         "5": null
       },
       "pending": [
@@ -3683,9 +3945,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T18:09:37.994451+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 36.1,
+      "stageRule": "v2",
       "returns": {
         "1": 39.37,
-        "3": NaN,
+        "3": 35.24,
         "5": null
       },
       "pending": [
@@ -3708,9 +3972,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T18:09:37.994451+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 21.4,
+      "stageRule": "v2",
       "returns": {
         "1": 26.65,
-        "3": NaN,
+        "3": 43.41,
         "5": null
       },
       "pending": [
@@ -3733,9 +3999,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T22:40:33.165796+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 7.4,
+      "stageRule": "v2",
       "returns": {
         "1": -45.32,
-        "3": NaN,
+        "3": -63.83,
         "5": null
       },
       "pending": [
@@ -3758,9 +4026,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T22:40:33.165796+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 21.7,
+      "stageRule": "v2",
       "returns": {
         "1": 0.06,
-        "3": NaN,
+        "3": -7.64,
         "5": null
       },
       "pending": [
@@ -3783,9 +4053,11 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-06T22:40:33.165796+00:00",
       "flagDate": "2026-10-06",
+      "gaveBackPct": 20.9,
+      "stageRule": "v2",
       "returns": {
         "1": 2.9,
-        "3": NaN,
+        "3": -6.24,
         "5": null
       },
       "pending": [
@@ -3808,13 +4080,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T13:39:05.923776+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 36.6,
+      "stageRule": "v2",
       "returns": {
         "1": -30.07,
-        "3": null,
+        "3": -39.86,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -3834,13 +4107,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T13:39:05.923776+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 31.0,
+      "stageRule": "v2",
       "returns": {
         "1": -17.61,
-        "3": null,
+        "3": -33.09,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -3860,13 +4134,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T13:39:05.923776+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 13.7,
+      "stageRule": "v2",
       "returns": {
         "1": -33.69,
-        "3": null,
+        "3": -43.67,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -3886,13 +4161,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T13:39:05.923776+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 51.5,
+      "stageRule": "v2",
       "returns": {
         "1": -9.14,
-        "3": null,
+        "3": -18.02,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -3912,13 +4188,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T13:39:05.923776+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 24.2,
+      "stageRule": "v2",
       "returns": {
         "1": -21.6,
-        "3": null,
+        "3": -25.44,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -3938,13 +4215,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T13:39:05.923776+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 40.7,
+      "stageRule": "v2",
       "returns": {
         "1": -86.35,
-        "3": null,
+        "3": -95.95,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -3964,13 +4242,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T13:39:05.923776+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 26.4,
+      "stageRule": "v2",
       "returns": {
         "1": -44.81,
-        "3": null,
+        "3": -42.84,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -3990,13 +4269,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T13:39:05.923776+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 10.5,
+      "stageRule": "v2",
       "returns": {
         "1": -9.24,
-        "3": null,
+        "3": -14.29,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4016,13 +4296,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T13:39:05.923776+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 33.8,
+      "stageRule": "v2",
       "returns": {
         "1": -9.11,
-        "3": null,
+        "3": -19.98,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4042,13 +4323,14 @@
       "dayStreak": 3,
       "scannedAt": "2026-10-07T13:39:05.923776+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 26.6,
+      "stageRule": "v2",
       "returns": {
         "1": -34.64,
-        "3": null,
+        "3": -38.32,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4068,13 +4350,14 @@
       "dayStreak": 2,
       "scannedAt": "2026-10-07T13:39:05.923776+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 0.0,
+      "stageRule": "v2",
       "returns": {
         "1": 14.78,
-        "3": null,
+        "3": 19.21,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4094,13 +4377,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T13:41:22.671958+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 5.4,
+      "stageRule": "v2",
       "returns": {
         "1": -3.76,
-        "3": null,
+        "3": 6.43,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4120,13 +4404,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T13:41:22.671958+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 5.3,
+      "stageRule": "v2",
       "returns": {
         "1": -27.42,
-        "3": null,
+        "3": -43.55,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4146,13 +4431,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T14:19:29.533226+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 14.5,
+      "stageRule": "v2",
       "returns": {
         "1": 178.22,
-        "3": null,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4172,13 +4458,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T14:19:29.533226+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 47.8,
+      "stageRule": "v2",
       "returns": {
         "1": -24.28,
-        "3": null,
+        "3": -19.59,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4198,13 +4485,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T15:24:11.366875+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 0.0,
+      "stageRule": "v2",
       "returns": {
         "1": -67.18,
-        "3": null,
+        "3": -76.95,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4224,13 +4512,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T15:24:11.366875+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 48.8,
+      "stageRule": "v2",
       "returns": {
         "1": -69.17,
-        "3": null,
+        "3": -94.09,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4250,13 +4539,14 @@
       "dayStreak": 2,
       "scannedAt": "2026-10-07T15:24:11.366875+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 22.3,
+      "stageRule": "v2",
       "returns": {
         "1": -13.35,
-        "3": null,
+        "3": -26.87,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4276,13 +4566,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T15:24:11.366875+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 13.0,
+      "stageRule": "v2",
       "returns": {
         "1": -0.56,
-        "3": null,
+        "3": -15.73,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4302,13 +4593,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T15:24:11.366875+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 13.2,
+      "stageRule": "v2",
       "returns": {
         "1": 1.68,
-        "3": null,
+        "3": -28.95,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4328,13 +4620,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T18:42:49.792951+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 80.1,
+      "stageRule": "v2",
       "returns": {
         "1": 29.36,
-        "3": null,
+        "3": -20.18,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4354,13 +4647,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T18:42:49.792951+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 71.7,
+      "stageRule": "v2",
       "returns": {
         "1": 16.93,
-        "3": null,
+        "3": 5.97,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4380,13 +4674,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T18:42:49.792951+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 52.3,
+      "stageRule": "v2",
       "returns": {
         "1": 10.19,
-        "3": null,
+        "3": -2.13,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4406,13 +4701,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T18:42:49.792951+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 43.6,
+      "stageRule": "v2",
       "returns": {
         "1": -37.06,
-        "3": null,
+        "3": 112.59,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4432,13 +4728,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T18:42:49.792951+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 3.2,
+      "stageRule": "v2",
       "returns": {
         "1": -1.65,
-        "3": null,
+        "3": -16.57,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4458,13 +4755,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T18:42:49.792951+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 2.6,
+      "stageRule": "v2",
       "returns": {
         "1": -5.71,
-        "3": null,
+        "3": -2.12,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4484,13 +4782,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T18:42:49.792951+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 11.1,
+      "stageRule": "v2",
       "returns": {
         "1": -5.69,
-        "3": null,
+        "3": 0.63,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4510,13 +4809,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T23:20:23.369742+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 41.7,
+      "stageRule": "v2",
       "returns": {
         "1": 2.47,
-        "3": null,
+        "3": 5.89,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4536,13 +4836,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T23:20:23.369742+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 7.0,
+      "stageRule": "v2",
       "returns": {
         "1": -6.18,
-        "3": null,
+        "3": 3.49,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4562,13 +4863,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-07T23:20:23.369742+00:00",
       "flagDate": "2026-10-07",
+      "gaveBackPct": 56.4,
+      "stageRule": "v2",
       "returns": {
         "1": -11.89,
-        "3": null,
+        "3": -31.94,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -4588,8 +4890,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T15:03:04.495103+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 56.8,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": 4.95,
         "3": null,
         "5": null
       },
@@ -4614,8 +4918,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T15:03:04.495103+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 43.9,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -8.02,
         "3": null,
         "5": null
       },
@@ -4640,8 +4946,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T15:03:04.495103+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 19.3,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -14.2,
         "3": null,
         "5": null
       },
@@ -4666,8 +4974,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T15:03:04.495103+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 38.5,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -32.09,
         "3": null,
         "5": null
       },
@@ -4692,8 +5002,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T15:03:04.495103+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 0.3,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": 0.04,
         "3": null,
         "5": null
       },
@@ -4718,8 +5030,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T15:03:04.495103+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 56.6,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -46.46,
         "3": null,
         "5": null
       },
@@ -4744,8 +5058,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T15:03:04.495103+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 38.7,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -41.91,
         "3": null,
         "5": null
       },
@@ -4770,8 +5086,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T15:03:04.495103+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 16.4,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": 4.53,
         "3": null,
         "5": null
       },
@@ -4796,8 +5114,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T15:03:04.495103+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 32.4,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -16.86,
         "3": null,
         "5": null
       },
@@ -4822,8 +5142,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T15:03:04.495103+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 56.2,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -17.53,
         "3": null,
         "5": null
       },
@@ -4848,8 +5170,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T15:03:04.495103+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 18.9,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -16.49,
         "3": null,
         "5": null
       },
@@ -4874,8 +5198,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T17:39:34.165164+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 69.0,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -0.41,
         "3": null,
         "5": null
       },
@@ -4900,8 +5226,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T17:39:34.165164+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 8.5,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -29.33,
         "3": null,
         "5": null
       },
@@ -4926,8 +5254,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T17:39:34.165164+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 69.1,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": 12.07,
         "3": null,
         "5": null
       },
@@ -4952,8 +5282,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T17:39:34.165164+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 60.6,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -11.37,
         "3": null,
         "5": null
       },
@@ -4978,8 +5310,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T17:39:34.165164+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 10.3,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -0.05,
         "3": null,
         "5": null
       },
@@ -5004,6 +5338,8 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T18:41:13.618633+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 39.2,
+      "stageRule": "v2",
       "returns": {
         "1": -4.74,
         "3": null,
@@ -5030,8 +5366,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T18:41:13.618633+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 26.2,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -28.13,
         "3": null,
         "5": null
       },
@@ -5056,8 +5394,10 @@
       "dayStreak": 2,
       "scannedAt": "2026-10-08T18:41:13.618633+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 36.6,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -1.91,
         "3": null,
         "5": null
       },
@@ -5082,8 +5422,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T19:44:39.451610+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 30.3,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -10.32,
         "3": null,
         "5": null
       },
@@ -5104,12 +5446,14 @@
       "volRatio": 1.9,
       "offHighPct": -8.9,
       "changePct": 47.6,
-      "stage": "reversing",
+      "stage": "extended",
       "dayStreak": 1,
       "scannedAt": "2026-10-08T19:44:39.451610+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 23.4,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -13.19,
         "3": null,
         "5": null
       },
@@ -5134,8 +5478,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T23:34:33.554295+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 0.0,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -4.44,
         "3": null,
         "5": null
       },
@@ -5160,8 +5506,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T23:34:33.554295+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 44.6,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -6.56,
         "3": null,
         "5": null
       },
@@ -5186,8 +5534,10 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-08T23:34:33.554295+00:00",
       "flagDate": "2026-10-08",
+      "gaveBackPct": 6.4,
+      "stageRule": "v2",
       "returns": {
-        "1": NaN,
+        "1": -15.06,
         "3": null,
         "5": null
       },
@@ -5208,17 +5558,18 @@
       "volRatio": 21.4,
       "offHighPct": -12.6,
       "changePct": 483.4,
-      "stage": "reversing",
+      "stage": "extended",
       "dayStreak": 1,
       "scannedAt": "2026-10-09T18:11:54.371394+00:00",
       "flagDate": "2026-10-09",
+      "gaveBackPct": 14.9,
+      "stageRule": "v2",
       "returns": {
-        "1": null,
+        "1": 44.48,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -5239,13 +5590,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-09T18:11:54.371394+00:00",
       "flagDate": "2026-10-09",
+      "gaveBackPct": 36.8,
+      "stageRule": "v2",
       "returns": {
-        "1": null,
+        "1": -38.58,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -5266,13 +5618,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-09T18:11:54.371394+00:00",
       "flagDate": "2026-10-09",
+      "gaveBackPct": 78.5,
+      "stageRule": "v2",
       "returns": {
-        "1": null,
+        "1": -15.64,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -5293,13 +5646,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-09T18:11:54.371394+00:00",
       "flagDate": "2026-10-09",
+      "gaveBackPct": 26.1,
+      "stageRule": "v2",
       "returns": {
-        "1": null,
+        "1": -14.41,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -5320,13 +5674,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-09T18:11:54.371394+00:00",
       "flagDate": "2026-10-09",
+      "gaveBackPct": 34.1,
+      "stageRule": "v2",
       "returns": {
-        "1": null,
+        "1": -12.31,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -5347,13 +5702,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-09T18:11:54.371394+00:00",
       "flagDate": "2026-10-09",
+      "gaveBackPct": 31.8,
+      "stageRule": "v2",
       "returns": {
-        "1": null,
+        "1": -1.94,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -5374,13 +5730,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-09T18:11:54.371394+00:00",
       "flagDate": "2026-10-09",
+      "gaveBackPct": 30.2,
+      "stageRule": "v2",
       "returns": {
-        "1": null,
+        "1": -6.6,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -5401,13 +5758,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-09T18:11:54.371394+00:00",
       "flagDate": "2026-10-09",
+      "gaveBackPct": 50.0,
+      "stageRule": "v2",
       "returns": {
-        "1": null,
+        "1": -15.87,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -5428,13 +5786,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-09T18:11:54.371394+00:00",
       "flagDate": "2026-10-09",
+      "gaveBackPct": 61.1,
+      "stageRule": "v2",
       "returns": {
-        "1": null,
+        "1": -10.98,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -5455,13 +5814,14 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-09T22:42:54.429757+00:00",
       "flagDate": "2026-10-09",
+      "gaveBackPct": 66.7,
+      "stageRule": "v2",
       "returns": {
-        "1": null,
+        "1": -2.31,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -5482,6 +5842,580 @@
       "dayStreak": 1,
       "scannedAt": "2026-10-09T22:42:54.429757+00:00",
       "flagDate": "2026-10-09",
+      "gaveBackPct": 43.8,
+      "stageRule": "v2",
+      "returns": {
+        "1": -1.96,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "CLWT",
+      "name": "Euro Tech Holdings Co Ltd",
+      "sector": "Industrials",
+      "price": 2.2401,
+      "dayHigh": 2.34,
+      "dayLow": 1.87,
+      "volume": 44917402,
+      "avgVolume": 2150490,
+      "volRatio": 20.9,
+      "offHighPct": -4.3,
+      "changePct": 64.7,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T13:37:48.874101+00:00",
+      "flagDate": "2026-10-12",
+      "gaveBackPct": 10.2,
+      "stageRule": "v2",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "GIXI",
+      "name": "Gix Internet Ltd",
+      "sector": "Technology",
+      "price": 6.04,
+      "dayHigh": 6.6194,
+      "dayLow": 5.4,
+      "volume": 12636599,
+      "avgVolume": 619942,
+      "volRatio": 20.4,
+      "offHighPct": -8.8,
+      "changePct": 55.3,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T13:37:48.874101+00:00",
+      "flagDate": "2026-10-12",
+      "gaveBackPct": 21.2,
+      "stageRule": "v2",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MNDR",
+      "name": "Mobile health Network Solutions",
+      "sector": "Healthcare",
+      "price": 3.195,
+      "dayHigh": 3.55,
+      "dayLow": 2.3,
+      "volume": 70306566,
+      "avgVolume": 3671336,
+      "volRatio": 19.2,
+      "offHighPct": -10.0,
+      "changePct": 275.9,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T13:37:48.874101+00:00",
+      "flagDate": "2026-10-12",
+      "gaveBackPct": 13.1,
+      "stageRule": "v2",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "LNKS",
+      "name": "Linkers Industries Ltd",
+      "sector": "Industrials",
+      "price": 1.445,
+      "dayHigh": 1.4799,
+      "dayLow": 1.27,
+      "volume": 20975850,
+      "avgVolume": 1283954,
+      "volRatio": 16.3,
+      "offHighPct": -2.4,
+      "changePct": 51.8,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T13:37:48.874101+00:00",
+      "flagDate": "2026-10-12",
+      "gaveBackPct": 6.6,
+      "stageRule": "v2",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SKYA",
+      "name": "SkyAI Inc",
+      "sector": "Technology",
+      "price": 2.4,
+      "dayHigh": 2.44,
+      "dayLow": 2.3,
+      "volume": 20631783,
+      "avgVolume": 1399970,
+      "volRatio": 14.7,
+      "offHighPct": -1.6,
+      "changePct": 31.9,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T13:37:48.874101+00:00",
+      "flagDate": "2026-10-12",
+      "gaveBackPct": 6.4,
+      "stageRule": "v2",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "YMAT",
+      "name": "J-Star Holding Co Ltd",
+      "sector": "Basic Materials",
+      "price": 2.1719,
+      "dayHigh": 2.68,
+      "dayLow": 2.1,
+      "volume": 39491997,
+      "avgVolume": 5037333,
+      "volRatio": 7.8,
+      "offHighPct": -19.0,
+      "changePct": 68.4,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T13:37:48.874101+00:00",
+      "flagDate": "2026-10-12",
+      "gaveBackPct": 36.5,
+      "stageRule": "v2",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "DAIC",
+      "name": "CID Holdco Inc",
+      "sector": "Technology",
+      "price": 2.75,
+      "dayHigh": 3.0,
+      "dayLow": 2.61,
+      "volume": 19236810,
+      "avgVolume": 7484752,
+      "volRatio": 2.6,
+      "offHighPct": -8.3,
+      "changePct": 15.1,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T13:37:48.874101+00:00",
+      "flagDate": "2026-10-12",
+      "gaveBackPct": 40.9,
+      "stageRule": "v2",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "TRAX",
+      "name": "First Tracks Biotherapeutics Inc",
+      "sector": "Healthcare",
+      "price": 37.7025,
+      "dayHigh": 40.5,
+      "dayLow": 36.13,
+      "volume": 1884321,
+      "avgVolume": 856543,
+      "volRatio": 2.2,
+      "offHighPct": -6.9,
+      "changePct": 18.4,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T13:37:48.874101+00:00",
+      "flagDate": "2026-10-12",
+      "gaveBackPct": 32.3,
+      "stageRule": "v2",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "WFF",
+      "name": "WF Holding Ltd",
+      "sector": "Industrials",
+      "price": 14.3603,
+      "dayHigh": 15.47,
+      "dayLow": 12.94,
+      "volume": 10086397,
+      "avgVolume": 7685142,
+      "volRatio": 1.3,
+      "offHighPct": -7.2,
+      "changePct": 16.8,
+      "stage": "extended",
+      "dayStreak": 2,
+      "scannedAt": "2026-10-12T13:37:48.874101+00:00",
+      "flagDate": "2026-10-12",
+      "gaveBackPct": 34.9,
+      "stageRule": "v2",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "NCPL",
+      "name": "Netcapital Inc",
+      "sector": "Financial",
+      "price": 1.5304,
+      "dayHigh": 1.59,
+      "dayLow": 1.44,
+      "volume": 9770561,
+      "avgVolume": 21571583,
+      "volRatio": 0.5,
+      "offHighPct": -3.7,
+      "changePct": 34.2,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T13:37:48.874101+00:00",
+      "flagDate": "2026-10-12",
+      "gaveBackPct": 13.3,
+      "stageRule": "v2",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "FRGT",
+      "name": "Freight Technologies Inc",
+      "sector": "Technology",
+      "price": 0.3885,
+      "dayHigh": 0.3962,
+      "dayLow": 0.3,
+      "volume": 7321564,
+      "avgVolume": 27944026,
+      "volRatio": 0.3,
+      "offHighPct": -1.9,
+      "changePct": 32.1,
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T13:37:48.874101+00:00",
+      "flagDate": "2026-10-12",
+      "gaveBackPct": 7.5,
+      "stageRule": "v2",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "WBUY",
+      "name": "Webuy Global Ltd",
+      "sector": "Consumer Cyclical",
+      "price": 1.0189,
+      "dayHigh": 1.16,
+      "dayLow": 0.7311,
+      "volume": 37804484,
+      "avgVolume": 4264380,
+      "volRatio": 8.9,
+      "offHighPct": -12.2,
+      "changePct": 47.2,
+      "gaveBackPct": 30.1,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T15:32:42.226362+00:00",
+      "flagDate": "2026-10-12",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BKHA",
+      "name": "Black Hawk Acquisition Corp",
+      "sector": "Financial",
+      "price": 14.0,
+      "dayHigh": 23.0,
+      "dayLow": 11.95,
+      "volume": 16659,
+      "avgVolume": 17183,
+      "volRatio": 1.0,
+      "offHighPct": -39.1,
+      "changePct": 21.4,
+      "gaveBackPct": 78.5,
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T15:32:42.226362+00:00",
+      "flagDate": "2026-10-12",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "ELOG",
+      "name": "Eastern International Ltd",
+      "sector": "Industrials",
+      "price": 0.9141,
+      "dayHigh": 1.08,
+      "dayLow": 0.7292,
+      "volume": 1021076,
+      "avgVolume": 537313,
+      "volRatio": 1.9,
+      "offHighPct": -15.4,
+      "changePct": 13.6,
+      "gaveBackPct": 60.3,
+      "ema9": 0.8839,
+      "ema20": 0.8917,
+      "emaTrend": "mixed",
+      "lastBarAt": "2026-10-12T15:41:00+00:00",
+      "stage": "reversing",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T15:42:08.290164+00:00",
+      "flagDate": "2026-10-12",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "PCSA",
+      "name": "Processa Pharmaceuticals Inc",
+      "sector": "Healthcare",
+      "price": 1.83,
+      "dayHigh": 1.98,
+      "dayLow": 1.5,
+      "volume": 307311,
+      "avgVolume": 174786,
+      "volRatio": 1.8,
+      "offHighPct": -7.6,
+      "changePct": 20.4,
+      "gaveBackPct": 32.6,
+      "ema9": 1.8469,
+      "ema20": 1.8574,
+      "emaTrend": "bear",
+      "lastBarAt": "2026-10-12T15:42:00+00:00",
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T15:42:08.290164+00:00",
+      "flagDate": "2026-10-12",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "TCRT",
+      "name": "Alaunos Therapeutics Inc",
+      "sector": "Healthcare",
+      "price": 0.9702,
+      "dayHigh": 1.05,
+      "dayLow": 0.7755,
+      "volume": 1251777,
+      "avgVolume": 2468408,
+      "volRatio": 0.5,
+      "offHighPct": -7.6,
+      "changePct": 22.8,
+      "gaveBackPct": 30.7,
+      "ema9": 0.9562,
+      "ema20": 0.9405,
+      "emaTrend": "bull",
+      "lastBarAt": "2026-10-12T15:42:00+00:00",
+      "stage": "extended",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T15:42:08.290164+00:00",
+      "flagDate": "2026-10-12",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "OLB",
+      "name": "OLB Group Inc",
+      "sector": "Technology",
+      "price": 0.6542,
+      "dayHigh": 0.74,
+      "dayLow": 0.441,
+      "volume": 95682679,
+      "avgVolume": 70565565,
+      "volRatio": 1.4,
+      "offHighPct": -11.6,
+      "changePct": 32.2,
+      "gaveBackPct": 35.0,
+      "ema9": 0.6213,
+      "ema20": 0.6193,
+      "emaTrend": "mixed",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-10-12T21:06:00+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T21:07:17.863489+00:00",
+      "flagDate": "2026-10-12",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "GURE",
+      "name": "Gulf Resources Inc",
+      "sector": "Basic Materials",
+      "price": 3.32,
+      "dayHigh": 3.32,
+      "dayLow": 2.65,
+      "volume": 273353,
+      "avgVolume": 214393,
+      "volRatio": 1.3,
+      "offHighPct": 0.0,
+      "changePct": 21.6,
+      "gaveBackPct": 0.0,
+      "ema9": 3.1225,
+      "ema20": 3.0825,
+      "emaTrend": "mixed",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-10-12T20:45:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T21:07:17.863489+00:00",
+      "flagDate": "2026-10-12",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BGMS",
+      "name": "Bio Green Med Solution Inc",
+      "sector": "Industrials",
+      "price": 0.99,
+      "dayHigh": 1.08,
+      "dayLow": 0.8525,
+      "volume": 181788,
+      "avgVolume": 176018,
+      "volRatio": 1.0,
+      "offHighPct": -8.3,
+      "changePct": 16.5,
+      "gaveBackPct": 39.1,
+      "ema9": 0.9898,
+      "ema20": 1.002,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-10-12T21:06:55+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-10-12T21:07:17.863489+00:00",
+      "flagDate": "2026-10-12",
       "returns": {
         "1": null,
         "3": null,
