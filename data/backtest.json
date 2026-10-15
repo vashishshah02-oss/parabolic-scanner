@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T23:11:43.812818",
+  "generatedAt": "2026-10-15T23:45:06.012456",
   "totalSignals": 295,
   "summary": {
     "v1:reversing": {
@@ -31,9 +31,9 @@
         "pctNegative": 68.0
       },
       "t5": {
-        "n": 22,
-        "avgReturnPct": -5.97,
-        "pctNegative": 63.6
+        "n": 23,
+        "avgReturnPct": -7.82,
+        "pctNegative": 65.2
       }
     },
     "v2:extended": {
@@ -65,9 +65,9 @@
         "pctNegative": 78.8
       },
       "t5": {
-        "n": 70,
-        "avgReturnPct": -18.55,
-        "pctNegative": 80.0
+        "n": 71,
+        "avgReturnPct": -18.58,
+        "pctNegative": 80.3
       }
     },
     "v3:reversing": {
@@ -224,11 +224,9 @@
       "returns": {
         "1": -12.93,
         "3": -29.71,
-        "5": null
+        "5": -48.52
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "MEDS",
@@ -5211,11 +5209,9 @@
       "returns": {
         "1": -5.88,
         "3": -9.15,
-        "5": null
+        "5": -20.92
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "CABO",
