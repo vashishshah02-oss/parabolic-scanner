@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T23:55:23.848042",
+  "generatedAt": "2026-10-26T23:59:49.699990",
   "totalSignals": 307,
   "summary": {
     "v1:reversing": {
@@ -39,35 +39,35 @@
     "v2:extended": {
       "t1": {
         "n": 122,
-        "avgReturnPct": 34.01,
-        "pctNegative": 63.9
+        "avgReturnPct": 35.17,
+        "pctNegative": 63.1
       },
       "t3": {
-        "n": 122,
-        "avgReturnPct": 28.16,
-        "pctNegative": 67.2
+        "n": 120,
+        "avgReturnPct": 29.58,
+        "pctNegative": 66.7
       },
       "t5": {
-        "n": 122,
-        "avgReturnPct": 23.1,
-        "pctNegative": 73.8
+        "n": 120,
+        "avgReturnPct": 24.5,
+        "pctNegative": 73.3
       }
     },
     "v2:reversing": {
       "t1": {
         "n": 80,
-        "avgReturnPct": 40.9,
-        "pctNegative": 70.0
+        "avgReturnPct": 44.21,
+        "pctNegative": 67.5
       },
       "t3": {
-        "n": 80,
-        "avgReturnPct": 17.21,
-        "pctNegative": 78.8
+        "n": 77,
+        "avgReturnPct": 20.13,
+        "pctNegative": 77.9
       },
       "t5": {
-        "n": 80,
-        "avgReturnPct": -19.21,
-        "pctNegative": 81.2
+        "n": 77,
+        "avgReturnPct": 2.21,
+        "pctNegative": 80.5
       }
     },
     "v3:reversing": {
@@ -90,18 +90,18 @@
     "v3:extended": {
       "t1": {
         "n": 47,
-        "avgReturnPct": 145.33,
-        "pctNegative": 55.3
+        "avgReturnPct": 237.0,
+        "pctNegative": 53.2
       },
       "t3": {
-        "n": 47,
-        "avgReturnPct": 128.4,
-        "pctNegative": 55.3
+        "n": 45,
+        "avgReturnPct": 133.73,
+        "pctNegative": 55.6
       },
       "t5": {
-        "n": 47,
-        "avgReturnPct": 129.93,
-        "pctNegative": 63.8
+        "n": 45,
+        "avgReturnPct": 136.76,
+        "pctNegative": 62.2
       }
     }
   },
@@ -2494,7 +2494,7 @@
       "returns": {
         "1": 2546.62,
         "3": 2450.38,
-        "5": 118.05
+        "5": 1632.33
       },
       "pending": []
     },
@@ -4192,11 +4192,14 @@
       "gaveBackPct": 40.7,
       "stageRule": "v2",
       "returns": {
-        "1": -86.35,
-        "3": -95.95,
-        "5": -97.26
+        "1": 40.48,
+        "3": null,
+        "5": null
       },
-      "pending": []
+      "pending": [
+        3,
+        5
+      ]
     },
     {
       "ticker": "MI",
@@ -4392,9 +4395,9 @@
       "gaveBackPct": 14.5,
       "stageRule": "v2",
       "returns": {
-        "1": 2125.73,
-        "3": 1519.9,
-        "5": 1913.72
+        "1": 2122.98,
+        "3": 1519.21,
+        "5": 1917.15
       },
       "pending": []
     },
@@ -4442,11 +4445,14 @@
       "gaveBackPct": 0.0,
       "stageRule": "v2",
       "returns": {
-        "1": -67.18,
-        "3": -76.95,
-        "5": -81.45
+        "1": 102.29,
+        "3": null,
+        "5": null
       },
-      "pending": []
+      "pending": [
+        3,
+        5
+      ]
     },
     {
       "ticker": "DKI",
@@ -4942,11 +4948,14 @@
       "gaveBackPct": 56.6,
       "stageRule": "v2",
       "returns": {
-        "1": -46.46,
-        "3": -57.87,
-        "5": -68.98
+        "1": 127.56,
+        "3": null,
+        "5": null
       },
-      "pending": []
+      "pending": [
+        3,
+        5
+      ]
     },
     {
       "ticker": "BIAF",
@@ -5117,11 +5126,14 @@
       "gaveBackPct": 8.5,
       "stageRule": "v2",
       "returns": {
-        "1": -29.33,
-        "3": -38.23,
-        "5": -37.67
+        "1": -54.73,
+        "3": null,
+        "5": null
       },
-      "pending": []
+      "pending": [
+        3,
+        5
+      ]
     },
     {
       "ticker": "GRAN",
@@ -5367,11 +5379,14 @@
       "gaveBackPct": 44.6,
       "stageRule": "v2",
       "returns": {
-        "1": -6.56,
-        "3": -19.41,
-        "5": -26.46
+        "1": -42.12,
+        "3": null,
+        "5": null
       },
-      "pending": []
+      "pending": [
+        3,
+        5
+      ]
     },
     {
       "ticker": "SAIQ",
@@ -6765,8 +6780,8 @@
       "flagDate": "2026-10-14",
       "returns": {
         "1": 625.16,
-        "3": 721.17,
-        "5": 446.48
+        "3": 720.88,
+        "5": 445.32
       },
       "pending": []
     },
@@ -7004,9 +7019,9 @@
       "scannedAt": "2026-10-14T14:58:29.937119+00:00",
       "flagDate": "2026-10-14",
       "returns": {
-        "1": 1492.7,
-        "3": 1107.07,
-        "5": 1186.37
+        "1": 1491.56,
+        "3": 1109.36,
+        "5": 1189.22
       },
       "pending": []
     },
@@ -7154,11 +7169,14 @@
       "scannedAt": "2026-10-14T20:31:57.247415+00:00",
       "flagDate": "2026-10-14",
       "returns": {
-        "1": 4.52,
-        "3": -26.63,
-        "5": -31.66
+        "1": 3859.8,
+        "3": null,
+        "5": null
       },
-      "pending": []
+      "pending": [
+        3,
+        5
+      ]
     },
     {
       "ticker": "DRMA",
@@ -7726,7 +7744,7 @@
       "returns": {
         "1": 10.09,
         "3": 3.67,
-        "5": -11.92
+        "5": -11.93
       },
       "pending": []
     },
@@ -7786,7 +7804,7 @@
       "returns": {
         "1": -3.58,
         "3": -5.09,
-        "5": -7.49
+        "5": -7.52
       },
       "pending": []
     },
@@ -7994,11 +8012,14 @@
       "scannedAt": "2026-10-16T22:13:00.165410+00:00",
       "flagDate": "2026-10-16",
       "returns": {
-        "1": -1.86,
-        "3": 45.71,
-        "5": -14.29
+        "1": 452.86,
+        "3": null,
+        "5": null
       },
-      "pending": []
+      "pending": [
+        3,
+        5
+      ]
     }
   ]
 }
