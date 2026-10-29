@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T00:38:40.684596",
+  "generatedAt": "2026-10-29T00:12:27.644315",
   "totalSignals": 307,
   "summary": {
     "v1:reversing": {
@@ -39,35 +39,35 @@
     "v2:extended": {
       "t1": {
         "n": 122,
-        "avgReturnPct": 55.95,
-        "pctNegative": 60.7
+        "avgReturnPct": 47.26,
+        "pctNegative": 61.5
       },
       "t3": {
         "n": 122,
-        "avgReturnPct": 42.72,
-        "pctNegative": 64.8
+        "avgReturnPct": 35.11,
+        "pctNegative": 65.6
       },
       "t5": {
         "n": 122,
-        "avgReturnPct": 36.87,
-        "pctNegative": 71.3
+        "avgReturnPct": 29.2,
+        "pctNegative": 72.1
       }
     },
     "v2:reversing": {
       "t1": {
         "n": 80,
-        "avgReturnPct": 75.66,
-        "pctNegative": 66.2
+        "avgReturnPct": 65.15,
+        "pctNegative": 67.5
       },
       "t3": {
         "n": 80,
-        "avgReturnPct": 40.68,
-        "pctNegative": 73.8
+        "avgReturnPct": 31.63,
+        "pctNegative": 75.0
       },
       "t5": {
         "n": 80,
-        "avgReturnPct": 17.37,
-        "pctNegative": 76.2
+        "avgReturnPct": 9.09,
+        "pctNegative": 77.5
       }
     },
     "v3:reversing": {
@@ -5117,9 +5117,9 @@
       "gaveBackPct": 8.5,
       "stageRule": "v2",
       "returns": {
-        "1": 1030.77,
-        "3": 890.09,
-        "5": 898.11
+        "1": -29.33,
+        "3": -38.23,
+        "5": -37.67
       },
       "pending": []
     },
@@ -5367,9 +5367,9 @@
       "gaveBackPct": 44.6,
       "stageRule": "v2",
       "returns": {
-        "1": 833.94,
-        "3": 705.22,
-        "5": 635.78
+        "1": -6.56,
+        "3": -19.41,
+        "5": -26.46
       },
       "pending": []
     },
