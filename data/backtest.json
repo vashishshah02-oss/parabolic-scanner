@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T01:08:45.216558",
+  "generatedAt": "2026-10-30T00:06:50.845665",
   "totalSignals": 307,
   "summary": {
     "v1:reversing": {
@@ -39,18 +39,18 @@
     "v2:extended": {
       "t1": {
         "n": 122,
-        "avgReturnPct": 47.26,
-        "pctNegative": 61.5
+        "avgReturnPct": 45.97,
+        "pctNegative": 62.3
       },
       "t3": {
-        "n": 122,
-        "avgReturnPct": 35.11,
-        "pctNegative": 65.6
+        "n": 120,
+        "avgReturnPct": 37.34,
+        "pctNegative": 65.0
       },
       "t5": {
-        "n": 122,
-        "avgReturnPct": 29.2,
-        "pctNegative": 72.1
+        "n": 120,
+        "avgReturnPct": 31.34,
+        "pctNegative": 71.7
       }
     },
     "v2:reversing": {
@@ -73,18 +73,18 @@
     "v3:reversing": {
       "t1": {
         "n": 17,
-        "avgReturnPct": -11.58,
+        "avgReturnPct": -13.18,
         "pctNegative": 82.4
       },
       "t3": {
-        "n": 17,
-        "avgReturnPct": -18.88,
-        "pctNegative": 82.4
+        "n": 16,
+        "avgReturnPct": -16.76,
+        "pctNegative": 81.2
       },
       "t5": {
-        "n": 17,
-        "avgReturnPct": -15.38,
-        "pctNegative": 76.5
+        "n": 16,
+        "avgReturnPct": -12.89,
+        "pctNegative": 75.0
       }
     },
     "v3:extended": {
@@ -5417,11 +5417,14 @@
       "gaveBackPct": 14.9,
       "stageRule": "v2",
       "returns": {
-        "1": 44.48,
-        "3": -98.54,
-        "5": -99.11
+        "1": -99.5,
+        "3": null,
+        "5": null
       },
-      "pending": []
+      "pending": [
+        3,
+        5
+      ]
     },
     {
       "ticker": "OFAL",
@@ -5892,11 +5895,14 @@
       "gaveBackPct": 34.9,
       "stageRule": "v2",
       "returns": {
-        "1": -85.24,
-        "3": -98.89,
-        "5": -99.32
+        "1": -99.58,
+        "3": null,
+        "5": null
       },
-      "pending": []
+      "pending": [
+        3,
+        5
+      ]
     },
     {
       "ticker": "NCPL",
@@ -7814,11 +7820,14 @@
       "scannedAt": "2026-10-16T19:39:33.730680+00:00",
       "flagDate": "2026-10-16",
       "returns": {
-        "1": -43.54,
-        "3": -52.77,
-        "5": -55.15
+        "1": -70.84,
+        "3": null,
+        "5": null
       },
-      "pending": []
+      "pending": [
+        3,
+        5
+      ]
     },
     {
       "ticker": "SEED",
