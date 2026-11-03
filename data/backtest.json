@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T00:56:40.663169",
+  "generatedAt": "2026-11-03T02:31:59.001488",
   "totalSignals": 307,
   "summary": {
     "v1:reversing": {
@@ -39,41 +39,41 @@
     "v2:extended": {
       "t1": {
         "n": 122,
-        "avgReturnPct": 78.59,
+        "avgReturnPct": 95.07,
         "pctNegative": 60.7
       },
       "t3": {
-        "n": 122,
-        "avgReturnPct": 35.62,
-        "pctNegative": 65.6
+        "n": 121,
+        "avgReturnPct": 24.25,
+        "pctNegative": 66.1
       },
       "t5": {
-        "n": 122,
-        "avgReturnPct": 29.51,
-        "pctNegative": 72.1
+        "n": 121,
+        "avgReturnPct": 20.52,
+        "pctNegative": 72.7
       }
     },
     "v2:reversing": {
       "t1": {
         "n": 80,
-        "avgReturnPct": 65.15,
-        "pctNegative": 67.5
+        "avgReturnPct": 67.04,
+        "pctNegative": 66.2
       },
       "t3": {
-        "n": 80,
-        "avgReturnPct": 31.63,
-        "pctNegative": 75.0
+        "n": 79,
+        "avgReturnPct": 32.33,
+        "pctNegative": 74.7
       },
       "t5": {
-        "n": 80,
-        "avgReturnPct": 9.09,
-        "pctNegative": 77.5
+        "n": 79,
+        "avgReturnPct": 9.7,
+        "pctNegative": 77.2
       }
     },
     "v3:reversing": {
       "t1": {
         "n": 17,
-        "avgReturnPct": 68.06,
+        "avgReturnPct": 68.14,
         "pctNegative": 76.5
       },
       "t3": {
@@ -1342,11 +1342,14 @@
       "gaveBackPct": 17.4,
       "stageRule": "v2",
       "returns": {
-        "1": 1341.86,
-        "3": 1411.63,
-        "5": 1117.05
+        "1": 3352.4,
+        "3": null,
+        "5": null
       },
-      "pending": []
+      "pending": [
+        3,
+        5
+      ]
     },
     {
       "ticker": "SOTK",
@@ -3217,11 +3220,14 @@
       "gaveBackPct": 41.2,
       "stageRule": "v2",
       "returns": {
-        "1": -10.27,
-        "3": -24.32,
-        "5": -38.38
+        "1": 140.75,
+        "3": null,
+        "5": null
       },
-      "pending": []
+      "pending": [
+        3,
+        5
+      ]
     },
     {
       "ticker": "AGMH",
@@ -5419,7 +5425,7 @@
       "returns": {
         "1": 3512.04,
         "3": -63.42,
-        "5": -77.61
+        "5": -77.63
       },
       "pending": []
     },
@@ -5894,7 +5900,7 @@
       "returns": {
         "1": 269.07,
         "3": -72.15,
-        "5": -83.18
+        "5": -83.11
       },
       "pending": []
     },
@@ -7814,7 +7820,7 @@
       "scannedAt": "2026-10-16T19:39:33.730680+00:00",
       "flagDate": "2026-10-16",
       "returns": {
-        "1": 1310.29,
+        "1": 1311.61,
         "3": 1080.74,
         "5": 1021.37
       },
