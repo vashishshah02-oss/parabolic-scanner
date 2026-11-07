@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T01:42:51.798220",
+  "generatedAt": "2026-11-07T00:13:26.525494",
   "totalSignals": 307,
   "summary": {
     "v1:reversing": {
@@ -22,18 +22,18 @@
     "v1:extended": {
       "t1": {
         "n": 25,
-        "avgReturnPct": 6.19,
-        "pctNegative": 60.0
+        "avgReturnPct": 30.71,
+        "pctNegative": 56.0
       },
       "t3": {
         "n": 25,
-        "avgReturnPct": NaN,
+        "avgReturnPct": 31.06,
         "pctNegative": 60.0
       },
       "t5": {
-        "n": 24,
-        "avgReturnPct": 10.25,
-        "pctNegative": 58.3
+        "n": 25,
+        "avgReturnPct": 27.46,
+        "pctNegative": 56.0
       }
     },
     "v2:extended": {
@@ -56,18 +56,18 @@
     "v2:reversing": {
       "t1": {
         "n": 80,
-        "avgReturnPct": 65.06,
-        "pctNegative": 67.5
+        "avgReturnPct": 75.12,
+        "pctNegative": 66.2
       },
       "t3": {
         "n": 80,
-        "avgReturnPct": NaN,
+        "avgReturnPct": 40.55,
         "pctNegative": 73.8
       },
       "t5": {
-        "n": 79,
-        "avgReturnPct": 9.48,
-        "pctNegative": 77.2
+        "n": 80,
+        "avgReturnPct": 17.91,
+        "pctNegative": 76.2
       }
     },
     "v3:reversing": {
@@ -188,13 +188,11 @@
       "dayStreak": 1,
       "stageRule": "v1",
       "returns": {
-        "1": -54.3,
-        "3": NaN,
-        "5": null
+        "1": 558.63,
+        "3": 497.67,
+        "5": 440.56
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "INTJ",
@@ -5169,13 +5167,11 @@
       "gaveBackPct": 60.6,
       "stageRule": "v2",
       "returns": {
-        "1": -18.66,
-        "3": NaN,
-        "5": null
+        "1": 786.35,
+        "3": 693.42,
+        "5": 683.42
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "HAE",
