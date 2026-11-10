@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T01:02:41.522288",
+  "generatedAt": "2026-11-10T02:51:05.128319",
   "totalSignals": 307,
   "summary": {
     "v1:reversing": {
@@ -56,18 +56,18 @@
     "v2:reversing": {
       "t1": {
         "n": 80,
-        "avgReturnPct": 75.12,
-        "pctNegative": 66.2
+        "avgReturnPct": 88.26,
+        "pctNegative": 63.8
       },
       "t3": {
         "n": 80,
-        "avgReturnPct": 40.55,
-        "pctNegative": 73.8
+        "avgReturnPct": 52.48,
+        "pctNegative": 71.2
       },
       "t5": {
         "n": 80,
-        "avgReturnPct": 17.91,
-        "pctNegative": 76.2
+        "avgReturnPct": 29.53,
+        "pctNegative": 73.8
       }
     },
     "v3:reversing": {
@@ -189,7 +189,7 @@
       "stageRule": "v1",
       "returns": {
         "1": 558.63,
-        "3": 497.67,
+        "3": 497.59,
         "5": 440.56
       },
       "pending": []
@@ -1267,9 +1267,9 @@
       "gaveBackPct": 67.6,
       "stageRule": "v2",
       "returns": {
-        "1": -28.86,
-        "3": -38.05,
-        "5": -41.07
+        "1": 469.13,
+        "3": 395.62,
+        "5": 371.25
       },
       "pending": []
     },
@@ -5442,9 +5442,9 @@
       "gaveBackPct": 36.8,
       "stageRule": "v2",
       "returns": {
-        "1": -38.58,
-        "3": -42.11,
-        "5": -42.43
+        "1": 514.02,
+        "3": 478.74,
+        "5": 475.37
       },
       "pending": []
     },
