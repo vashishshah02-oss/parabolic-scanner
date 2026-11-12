@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T01:21:56.246535",
-  "totalSignals": 326,
+  "generatedAt": "2026-11-12T01:58:39.665315",
+  "totalSignals": 358,
   "summary": {
     "v1:reversing": {
       "t1": {
@@ -66,15 +66,15 @@
       },
       "t5": {
         "n": 80,
-        "avgReturnPct": 29.53,
+        "avgReturnPct": 29.54,
         "pctNegative": 73.8
       }
     },
     "v3:reversing": {
       "t1": {
-        "n": 17,
-        "avgReturnPct": 68.14,
-        "pctNegative": 76.5
+        "n": 22,
+        "avgReturnPct": NaN,
+        "pctNegative": 59.1
       },
       "t3": {
         "n": 17,
@@ -89,9 +89,9 @@
     },
     "v3:extended": {
       "t1": {
-        "n": 47,
-        "avgReturnPct": 387.95,
-        "pctNegative": 51.1
+        "n": 61,
+        "avgReturnPct": NaN,
+        "pctNegative": 39.3
       },
       "t3": {
         "n": 47,
@@ -1268,8 +1268,8 @@
       "stageRule": "v2",
       "returns": {
         "1": 469.13,
-        "3": 395.62,
-        "5": 371.25
+        "3": 395.57,
+        "5": 371.41
       },
       "pending": []
     },
@@ -5442,9 +5442,9 @@
       "gaveBackPct": 36.8,
       "stageRule": "v2",
       "returns": {
-        "1": 514.02,
-        "3": 478.74,
-        "5": 475.37
+        "1": 514.18,
+        "3": 478.9,
+        "5": 475.69
       },
       "pending": []
     },
@@ -8024,12 +8024,11 @@
       "scannedAt": "2026-11-10T19:30:20.281595+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8058,12 +8057,11 @@
       "scannedAt": "2026-11-10T19:30:20.281595+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8092,12 +8090,11 @@
       "scannedAt": "2026-11-10T19:30:20.281595+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8126,12 +8123,11 @@
       "scannedAt": "2026-11-10T19:30:20.281595+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8160,12 +8156,11 @@
       "scannedAt": "2026-11-10T19:30:20.281595+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8194,12 +8189,11 @@
       "scannedAt": "2026-11-10T19:30:20.281595+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8228,12 +8222,11 @@
       "scannedAt": "2026-11-10T19:30:20.281595+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8262,12 +8255,11 @@
       "scannedAt": "2026-11-10T19:30:20.281595+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8296,12 +8288,11 @@
       "scannedAt": "2026-11-10T19:30:20.281595+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8330,12 +8321,11 @@
       "scannedAt": "2026-11-10T19:30:20.281595+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8364,12 +8354,11 @@
       "scannedAt": "2026-11-10T19:30:20.281595+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8398,12 +8387,11 @@
       "scannedAt": "2026-11-10T19:30:20.281595+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8432,12 +8420,11 @@
       "scannedAt": "2026-11-11T00:13:12.793556+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8466,12 +8453,11 @@
       "scannedAt": "2026-11-11T00:13:12.793556+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8500,12 +8486,11 @@
       "scannedAt": "2026-11-11T00:13:12.793556+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8534,12 +8519,11 @@
       "scannedAt": "2026-11-11T00:13:12.793556+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8568,12 +8552,11 @@
       "scannedAt": "2026-11-11T00:13:12.793556+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8602,12 +8585,11 @@
       "scannedAt": "2026-11-11T00:13:12.793556+00:00",
       "flagDate": "2026-11-10",
       "returns": {
-        "1": null,
+        "1": NaN,
         "3": null,
         "5": null
       },
       "pending": [
-        1,
         3,
         5
       ]
@@ -8635,6 +8617,1093 @@
       "dayStreak": 1,
       "scannedAt": "2026-11-11T00:13:12.793556+00:00",
       "flagDate": "2026-11-10",
+      "returns": {
+        "1": NaN,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "AUUD",
+      "name": "Auddia Inc",
+      "sector": "Technology",
+      "price": 0.2842,
+      "dayHigh": 0.32,
+      "dayLow": 0.25,
+      "volume": 125257008,
+      "avgVolume": 5687865,
+      "volRatio": 22.0,
+      "offHighPct": -11.2,
+      "changePct": 18.4,
+      "gaveBackPct": 44.7,
+      "ema9": 0.2853,
+      "ema20": 0.2886,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-11T19:24:00+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "NCT",
+      "name": "Intercont (Cayman) Ltd",
+      "sector": "Industrials",
+      "price": 0.6195,
+      "dayHigh": 1.1101,
+      "dayLow": 0.4,
+      "volume": 65616973,
+      "avgVolume": 3025964,
+      "volRatio": 21.7,
+      "offHighPct": -44.2,
+      "changePct": 51.5,
+      "gaveBackPct": 70.0,
+      "ema9": 0.6129,
+      "ema20": 0.6129,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-11T19:24:00+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SCKT",
+      "name": "Socket Mobile Inc",
+      "sector": "Technology",
+      "price": 0.4267,
+      "dayHigh": 0.6684,
+      "dayLow": 0.2774,
+      "volume": 214150669,
+      "avgVolume": 9928881,
+      "volRatio": 21.6,
+      "offHighPct": -36.2,
+      "changePct": 70.7,
+      "gaveBackPct": 57.8,
+      "ema9": 0.4217,
+      "ema20": 0.4186,
+      "emaTrend": "bull",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T19:25:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "YMT",
+      "name": "Yimutian Inc ADR",
+      "sector": "Technology",
+      "price": 0.3175,
+      "dayHigh": 1.45,
+      "dayLow": 0.255,
+      "volume": 84407989,
+      "avgVolume": 4550216,
+      "volRatio": 18.6,
+      "offHighPct": -78.1,
+      "changePct": 21.6,
+      "gaveBackPct": 95.2,
+      "ema9": 0.3148,
+      "ema20": 0.3213,
+      "emaTrend": "mixed",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T19:25:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "ZDGE",
+      "name": "Zedge Inc",
+      "sector": "Communication Services",
+      "price": 2.89,
+      "dayHigh": 3.7502,
+      "dayLow": 2.28,
+      "volume": 5506862,
+      "avgVolume": 323011,
+      "volRatio": 17.0,
+      "offHighPct": -22.9,
+      "changePct": 26.2,
+      "gaveBackPct": 58.9,
+      "ema9": 2.881,
+      "ema20": 2.8735,
+      "emaTrend": "bull",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T19:25:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "SFWL",
+      "name": "Shengfeng Development Ltd",
+      "sector": "Industrials",
+      "price": 4.84,
+      "dayHigh": 5.85,
+      "dayLow": 3.53,
+      "volume": 158509,
+      "avgVolume": 10796,
+      "volRatio": 14.7,
+      "offHighPct": -17.3,
+      "changePct": 39.3,
+      "gaveBackPct": 42.5,
+      "ema9": 4.6674,
+      "ema20": 4.6291,
+      "emaTrend": "bull",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T19:10:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "CRVO",
+      "name": "CervoMed Inc",
+      "sector": "Healthcare",
+      "price": 1.755,
+      "dayHigh": 2.0899,
+      "dayLow": 1.3801,
+      "volume": 9281329,
+      "avgVolume": 730653,
+      "volRatio": 12.7,
+      "offHighPct": -16.0,
+      "changePct": 28.1,
+      "gaveBackPct": 46.5,
+      "ema9": 1.7514,
+      "ema20": 1.7567,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-11T19:24:00+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "CENN",
+      "name": "Cenntro Inc",
+      "sector": "Consumer Cyclical",
+      "price": 0.1898,
+      "dayHigh": 0.4282,
+      "dayLow": 0.1256,
+      "volume": 171356902,
+      "avgVolume": 15489343,
+      "volRatio": 11.1,
+      "offHighPct": -55.7,
+      "changePct": 54.7,
+      "gaveBackPct": 78.0,
+      "ema9": 0.1919,
+      "ema20": 0.1935,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-11T19:24:00+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "WHLR",
+      "name": "Wheeler Real Estate Investment Trust Inc",
+      "sector": "Real Estate",
+      "price": 0.8724,
+      "dayHigh": 1.1,
+      "dayLow": 0.3133,
+      "volume": 33022953,
+      "avgVolume": 3149406,
+      "volRatio": 10.5,
+      "offHighPct": -20.7,
+      "changePct": 171.8,
+      "gaveBackPct": 29.2,
+      "ema9": 0.848,
+      "ema20": 0.8193,
+      "emaTrend": "bull",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T19:25:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "LSTA",
+      "name": "Lisata Therapeutics Inc",
+      "sector": "Healthcare",
+      "price": 1.245,
+      "dayHigh": 1.43,
+      "dayLow": 1.06,
+      "volume": 1020022,
+      "avgVolume": 113696,
+      "volRatio": 9.0,
+      "offHighPct": -12.9,
+      "changePct": 22.1,
+      "gaveBackPct": 45.1,
+      "ema9": 1.2204,
+      "ema20": 1.2153,
+      "emaTrend": "bull",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T19:22:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "NWTG",
+      "name": "Newton Golf Co Inc",
+      "sector": "Consumer Cyclical",
+      "price": 0.8783,
+      "dayHigh": 1.02,
+      "dayLow": 0.7501,
+      "volume": 1095734,
+      "avgVolume": 175940,
+      "volRatio": 6.2,
+      "offHighPct": -13.9,
+      "changePct": 27.3,
+      "gaveBackPct": 42.9,
+      "ema9": 0.8956,
+      "ema20": 0.9055,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-11T19:20:00+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "RETO",
+      "name": "ReTo Eco-Solutions Inc",
+      "sector": "Basic Materials",
+      "price": 5.2343,
+      "dayHigh": 6.5,
+      "dayLow": 3.91,
+      "volume": 2667920,
+      "avgVolume": 511179,
+      "volRatio": 5.2,
+      "offHighPct": -19.5,
+      "changePct": 40.3,
+      "gaveBackPct": 45.7,
+      "ema9": 5.4258,
+      "ema20": 5.5692,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-11T19:25:00+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "PLCE",
+      "name": "Childrens Place Inc",
+      "sector": "Consumer Cyclical",
+      "price": 0.2228,
+      "dayHigh": 0.3161,
+      "dayLow": 0.1746,
+      "volume": 50733461,
+      "avgVolume": 11647080,
+      "volRatio": 4.4,
+      "offHighPct": -29.5,
+      "changePct": 23.8,
+      "gaveBackPct": 68.6,
+      "ema9": 0.2237,
+      "ema20": 0.2224,
+      "emaTrend": "mixed",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-11T19:24:00+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "MKZR",
+      "name": "Mackenzie Realty Capital Inc",
+      "sector": "Real Estate",
+      "price": 1.11,
+      "dayHigh": 1.21,
+      "dayLow": 0.8803,
+      "volume": 51887,
+      "avgVolume": 11929,
+      "volRatio": 4.3,
+      "offHighPct": -8.3,
+      "changePct": 19.4,
+      "gaveBackPct": 35.7,
+      "ema9": 1.1456,
+      "ema20": 1.1049,
+      "emaTrend": "mixed",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-11T19:24:00+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "CARL",
+      "name": "Carlsmed Inc",
+      "sector": "Healthcare",
+      "price": 17.9,
+      "dayHigh": 18.31,
+      "dayLow": 15.2,
+      "volume": 404684,
+      "avgVolume": 98934,
+      "volRatio": 4.1,
+      "offHighPct": -2.2,
+      "changePct": 21.7,
+      "gaveBackPct": 11.4,
+      "ema9": 17.8778,
+      "ema20": 17.9167,
+      "emaTrend": "mixed",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T19:23:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "RCT",
+      "name": "RedCloud Holdings PLC",
+      "sector": "Technology",
+      "price": 0.0359,
+      "dayHigh": 0.0415,
+      "dayLow": 0.0338,
+      "volume": 435264353,
+      "avgVolume": 107453032,
+      "volRatio": 4.1,
+      "offHighPct": -13.5,
+      "changePct": 15.8,
+      "gaveBackPct": 53.3,
+      "ema9": 0.0358,
+      "ema20": 0.0359,
+      "emaTrend": "mixed",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T19:24:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BSEM",
+      "name": "BioStem Technologies Inc",
+      "sector": "Healthcare",
+      "price": 1.3775,
+      "dayHigh": 1.45,
+      "dayLow": 1.02,
+      "volume": 753899,
+      "avgVolume": 206804,
+      "volRatio": 3.6,
+      "offHighPct": -5.0,
+      "changePct": 32.5,
+      "gaveBackPct": 17.7,
+      "ema9": 1.3782,
+      "ema20": 1.3852,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-11T19:22:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "OPTT",
+      "name": "Ocean Power Technologies",
+      "sector": "Industrials",
+      "price": 0.582,
+      "dayHigh": 0.634,
+      "dayLow": 0.4201,
+      "volume": 2898974,
+      "avgVolume": 829085,
+      "volRatio": 3.5,
+      "offHighPct": -8.2,
+      "changePct": 35.3,
+      "gaveBackPct": 25.5,
+      "ema9": 0.5691,
+      "ema20": 0.5504,
+      "emaTrend": "bull",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T19:24:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "ELOG",
+      "name": "Eastern International Ltd",
+      "sector": "Industrials",
+      "price": 0.8259,
+      "dayHigh": 1.09,
+      "dayLow": 0.5999,
+      "volume": 2350574,
+      "avgVolume": 720659,
+      "volRatio": 3.3,
+      "offHighPct": -24.2,
+      "changePct": 39.5,
+      "gaveBackPct": 53.0,
+      "ema9": 0.8572,
+      "ema20": 0.8694,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-11T19:24:00+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "KRMD",
+      "name": "KORU Medical Systems Inc",
+      "sector": "Healthcare",
+      "price": 3.81,
+      "dayHigh": 3.965,
+      "dayLow": 3.3,
+      "volume": 581563,
+      "avgVolume": 178541,
+      "volRatio": 3.3,
+      "offHighPct": -3.9,
+      "changePct": 20.6,
+      "gaveBackPct": 19.3,
+      "ema9": 3.7692,
+      "ema20": 3.7877,
+      "emaTrend": "mixed",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T19:23:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "CPIX",
+      "name": "Cumberland Pharmaceuticals Inc",
+      "sector": "Healthcare",
+      "price": 6.295,
+      "dayHigh": 6.75,
+      "dayLow": 5.245,
+      "volume": 375733,
+      "avgVolume": 171553,
+      "volRatio": 2.2,
+      "offHighPct": -6.7,
+      "changePct": 18.8,
+      "gaveBackPct": 31.4,
+      "ema9": 6.2413,
+      "ema20": 6.2239,
+      "emaTrend": "bull",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T19:24:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "CANG",
+      "name": "Cango Inc",
+      "sector": "Financial",
+      "price": 1.48,
+      "dayHigh": 1.61,
+      "dayLow": 1.36,
+      "volume": 4838967,
+      "avgVolume": 2258046,
+      "volRatio": 2.1,
+      "offHighPct": -8.1,
+      "changePct": 29.8,
+      "gaveBackPct": 27.7,
+      "ema9": 1.4734,
+      "ema20": 1.4712,
+      "emaTrend": "bull",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T19:24:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "YMAT",
+      "name": "J-Star Holding Co Ltd",
+      "sector": "Basic Materials",
+      "price": 1.225,
+      "dayHigh": 1.49,
+      "dayLow": 1.1,
+      "volume": 25802267,
+      "avgVolume": 12210176,
+      "volRatio": 2.1,
+      "offHighPct": -17.8,
+      "changePct": 22.5,
+      "gaveBackPct": 54.1,
+      "ema9": 1.2253,
+      "ema20": 1.2327,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-11T19:25:00+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BURU",
+      "name": "Nuburu Inc",
+      "sector": "Industrials",
+      "price": 0.2728,
+      "dayHigh": 0.2985,
+      "dayLow": 0.22,
+      "volume": 102828128,
+      "avgVolume": 71627675,
+      "volRatio": 1.4,
+      "offHighPct": -8.6,
+      "changePct": 35.0,
+      "gaveBackPct": 26.6,
+      "ema9": 0.2761,
+      "ema20": 0.2792,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-11T19:24:00+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-11T19:26:01.225662+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "JOB",
+      "name": "GEE Group Inc",
+      "sector": "Industrials",
+      "price": 5.7,
+      "dayHigh": 6.58,
+      "dayLow": 5.27,
+      "volume": 67900,
+      "avgVolume": 8892,
+      "volRatio": 7.6,
+      "offHighPct": -13.4,
+      "changePct": 0.0,
+      "gaveBackPct": 100.0,
+      "ema9": 6.5252,
+      "ema20": 6.4793,
+      "emaTrend": "bull",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T21:00:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-12T01:38:26.779533+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "INLF",
+      "name": "INLIF Ltd",
+      "sector": "Industrials",
+      "price": 0.545,
+      "dayHigh": 0.69,
+      "dayLow": 0.288,
+      "volume": 170140900,
+      "avgVolume": 54168650,
+      "volRatio": 3.1,
+      "offHighPct": -21.0,
+      "changePct": 80.5,
+      "gaveBackPct": 37.4,
+      "ema9": 0.546,
+      "ema20": 0.5445,
+      "emaTrend": "bull",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-12T00:59:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 2,
+      "scannedAt": "2026-11-12T01:38:26.779533+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "OPTX",
+      "name": "Syntec Optics Holdings Inc",
+      "sector": "Technology",
+      "price": 5.41,
+      "dayHigh": 6.06,
+      "dayLow": 5.11,
+      "volume": 1573800,
+      "avgVolume": 538295,
+      "volRatio": 2.9,
+      "offHighPct": -10.7,
+      "changePct": 3.0,
+      "gaveBackPct": 80.2,
+      "ema9": 6.6556,
+      "ema20": 6.6891,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-12T00:45:00+00:00",
+      "stage": "reversing",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-12T01:38:26.779533+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "TELA",
+      "name": "TELA Bio Inc",
+      "sector": "Healthcare",
+      "price": 0.8,
+      "dayHigh": 0.939,
+      "dayLow": 0.8,
+      "volume": 122600,
+      "avgVolume": 116581,
+      "volRatio": 1.1,
+      "offHighPct": -14.8,
+      "changePct": -7.5,
+      "gaveBackPct": 187.8,
+      "ema9": 0.9518,
+      "ema20": 0.9198,
+      "emaTrend": "bull",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-11T23:50:00+00:00",
+      "stage": "faded",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-12T01:38:26.779533+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "VIVS",
+      "name": "VivoSim Labs Inc",
+      "sector": "Healthcare",
+      "price": 0.13,
+      "dayHigh": 0.15,
+      "dayLow": 0.12,
+      "volume": 561400,
+      "avgVolume": 998218,
+      "volRatio": 0.6,
+      "offHighPct": -13.3,
+      "changePct": -7.1,
+      "gaveBackPct": 200.0,
+      "ema9": 0.1507,
+      "ema20": 0.151,
+      "emaTrend": "mixed",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-12T00:59:00+00:00",
+      "stage": "faded",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-12T01:38:26.779533+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "POAS",
+      "name": "Phaos Technology (Cayman) Holdings Ltd",
+      "sector": "Healthcare",
+      "price": 0.767,
+      "dayHigh": 0.77,
+      "dayLow": 0.73,
+      "volume": 13900,
+      "avgVolume": 94245,
+      "volRatio": 0.1,
+      "offHighPct": -0.4,
+      "changePct": 2.0,
+      "gaveBackPct": 16.7,
+      "ema9": 1.9269,
+      "ema20": 1.9461,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-12T00:59:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-12T01:38:26.779533+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "RKDA",
+      "name": "Arcadia Biosciences Inc",
+      "sector": "Consumer Defensive",
+      "price": 0.165,
+      "dayHigh": 0.17,
+      "dayLow": 0.144,
+      "volume": 206800,
+      "avgVolume": 3015609,
+      "volRatio": 0.1,
+      "offHighPct": -2.9,
+      "changePct": -0.6,
+      "gaveBackPct": 125.0,
+      "ema9": 0.1815,
+      "ema20": 0.1811,
+      "emaTrend": "mixed",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-12T00:58:00+00:00",
+      "stage": "faded",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-12T01:38:26.779533+00:00",
+      "flagDate": "2026-11-11",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "BDAI",
+      "name": "Biddance AI Systems Inc",
+      "sector": "Technology",
+      "price": 1.75,
+      "dayHigh": 1.86,
+      "dayLow": 1.73,
+      "volume": 6200,
+      "avgVolume": 138690,
+      "volRatio": 0.0,
+      "offHighPct": -5.9,
+      "changePct": -5.9,
+      "gaveBackPct": 0.0,
+      "ema9": 1.8191,
+      "ema20": 1.8315,
+      "emaTrend": "mixed",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-12T00:55:00+00:00",
+      "stage": "faded",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-12T01:38:26.779533+00:00",
+      "flagDate": "2026-11-11",
       "returns": {
         "1": null,
         "3": null,
