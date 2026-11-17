@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T03:03:35.528177",
+  "generatedAt": "2026-11-17T04:05:26.911777",
   "totalSignals": 431,
   "summary": {
     "v1:reversing": {
@@ -22,18 +22,18 @@
     "v1:extended": {
       "t1": {
         "n": 25,
-        "avgReturnPct": 115.13,
+        "avgReturnPct": 114.68,
         "pctNegative": 52.0
       },
       "t3": {
-        "n": 24,
-        "avgReturnPct": 116.74,
-        "pctNegative": 54.2
+        "n": 25,
+        "avgReturnPct": 109.87,
+        "pctNegative": 56.0
       },
       "t5": {
-        "n": 24,
-        "avgReturnPct": 113.63,
-        "pctNegative": 50.0
+        "n": 25,
+        "avgReturnPct": 107.18,
+        "pctNegative": 52.0
       }
     },
     "v2:extended": {
@@ -56,30 +56,30 @@
     "v2:reversing": {
       "t1": {
         "n": 80,
-        "avgReturnPct": 99.13,
-        "pctNegative": 62.5
+        "avgReturnPct": 88.12,
+        "pctNegative": 63.8
       },
       "t3": {
-        "n": 78,
-        "avgReturnPct": 59.43,
-        "pctNegative": 69.2
+        "n": 79,
+        "avgReturnPct": 53.27,
+        "pctNegative": 70.9
       },
       "t5": {
-        "n": 78,
-        "avgReturnPct": 35.91,
-        "pctNegative": 71.8
+        "n": 79,
+        "avgReturnPct": 30.18,
+        "pctNegative": 73.4
       }
     },
     "v3:reversing": {
       "t1": {
         "n": 44,
-        "avgReturnPct": 55.07,
+        "avgReturnPct": 35.12,
         "pctNegative": 56.8
       },
       "t3": {
-        "n": 33,
-        "avgReturnPct": 18.7,
-        "pctNegative": 69.7
+        "n": 34,
+        "avgReturnPct": NaN,
+        "pctNegative": 67.6
       },
       "t5": {
         "n": 17,
@@ -90,18 +90,18 @@
     "v3:extended": {
       "t1": {
         "n": 120,
-        "avgReturnPct": 243.08,
-        "pctNegative": 54.2
+        "avgReturnPct": 232.81,
+        "pctNegative": 56.7
       },
       "t3": {
-        "n": 75,
-        "avgReturnPct": 304.93,
-        "pctNegative": 58.7
+        "n": 77,
+        "avgReturnPct": NaN,
+        "pctNegative": 59.7
       },
       "t5": {
-        "n": 45,
-        "avgReturnPct": 307.8,
-        "pctNegative": 57.8
+        "n": 46,
+        "avgReturnPct": 292.8,
+        "pctNegative": 60.9
       }
     },
     "v3:faded": {
@@ -640,14 +640,11 @@
       "dayStreak": 1,
       "stageRule": "v1",
       "returns": {
-        "1": -38.23,
-        "3": null,
-        "5": null
+        "1": -49.6,
+        "3": -54.84,
+        "5": -47.58
       },
-      "pending": [
-        3,
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "SLXN",
@@ -2482,9 +2479,9 @@
       "gaveBackPct": 54.3,
       "stageRule": "v2",
       "returns": {
-        "1": 582.26,
-        "3": 364.79,
-        "5": 350.9
+        "1": -31.77,
+        "3": -53.52,
+        "5": -54.92
       },
       "pending": []
     },
@@ -2882,14 +2879,11 @@
       "gaveBackPct": 58.4,
       "stageRule": "v2",
       "returns": {
-        "1": 270.52,
-        "3": null,
-        "5": null
+        "1": 2.98,
+        "3": -9.52,
+        "5": -11.31
       },
-      "pending": [
-        3,
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "MI",
@@ -6725,14 +6719,11 @@
       "scannedAt": "2026-10-14T13:47:33.442207+00:00",
       "flagDate": "2026-10-14",
       "returns": {
-        "1": 345.11,
-        "3": null,
-        "5": null
+        "1": -69.07,
+        "3": -69.69,
+        "5": -73.2
       },
-      "pending": [
-        3,
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "TC",
@@ -7720,9 +7711,9 @@
       "scannedAt": "2026-10-16T16:23:34.907472+00:00",
       "flagDate": "2026-10-16",
       "returns": {
-        "1": 354.83,
-        "3": 278.9,
-        "5": 243.33
+        "1": -54.52,
+        "3": -62.13,
+        "5": -65.67
       },
       "pending": []
     },
@@ -8690,12 +8681,11 @@
       "scannedAt": "2026-11-11T19:26:01.225662+00:00",
       "flagDate": "2026-11-11",
       "returns": {
-        "1": 904.81,
-        "3": null,
+        "1": 27.2,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
@@ -8755,12 +8745,11 @@
       "scannedAt": "2026-11-11T19:26:01.225662+00:00",
       "flagDate": "2026-11-11",
       "returns": {
-        "1": 382.52,
-        "3": null,
+        "1": -25.98,
+        "3": NaN,
         "5": null
       },
       "pending": [
-        3,
         5
       ]
     },
