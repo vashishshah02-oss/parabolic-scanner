@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-20T01:51:53.471064",
-  "totalSignals": 492,
+  "generatedAt": "2026-11-20T02:30:49.109599",
+  "totalSignals": 496,
   "summary": {
     "v1:reversing": {
       "t1": {
@@ -79,7 +79,7 @@
       "t3": {
         "n": 51,
         "avgReturnPct": NaN,
-        "pctNegative": 60.8
+        "pctNegative": 64.7
       },
       "t5": {
         "n": 39,
@@ -96,12 +96,12 @@
       "t3": {
         "n": 133,
         "avgReturnPct": NaN,
-        "pctNegative": 57.9
+        "pctNegative": 58.6
       },
       "t5": {
-        "n": 96,
+        "n": 97,
         "avgReturnPct": NaN,
-        "pctNegative": 47.9
+        "pctNegative": 51.5
       }
     },
     "v3:faded": {
@@ -9849,11 +9849,9 @@
       "returns": {
         "1": -32.13,
         "3": -11.07,
-        "5": null
+        "5": -18.09
       },
-      "pending": [
-        5
-      ]
+      "pending": []
     },
     {
       "ticker": "TGEN",
@@ -10211,7 +10209,7 @@
       "returns": {
         "1": -2.94,
         "3": -7.25,
-        "5": NaN
+        "5": -13.43
       },
       "pending": []
     },
@@ -10241,7 +10239,7 @@
       "returns": {
         "1": -24.14,
         "3": -44.83,
-        "5": NaN
+        "5": -65.52
       },
       "pending": []
     },
@@ -10271,7 +10269,7 @@
       "returns": {
         "1": -53.25,
         "3": -50.33,
-        "5": NaN
+        "5": -53.25
       },
       "pending": []
     },
@@ -10301,7 +10299,7 @@
       "returns": {
         "1": -1.89,
         "3": 1.67,
-        "5": NaN
+        "5": 6.21
       },
       "pending": []
     },
@@ -11226,7 +11224,7 @@
       "flagDate": "2026-11-16",
       "returns": {
         "1": 2.5,
-        "3": NaN,
+        "3": 45.0,
         "5": null
       },
       "pending": [
@@ -11418,7 +11416,7 @@
       "flagDate": "2026-11-16",
       "returns": {
         "1": 7.55,
-        "3": NaN,
+        "3": -10.38,
         "5": null
       },
       "pending": [
@@ -11578,7 +11576,7 @@
       "flagDate": "2026-11-16",
       "returns": {
         "1": 11.45,
-        "3": NaN,
+        "3": -11.45,
         "5": null
       },
       "pending": [
@@ -11706,7 +11704,7 @@
       "flagDate": "2026-11-16",
       "returns": {
         "1": -10.27,
-        "3": NaN,
+        "3": -7.07,
         "5": null
       },
       "pending": [
@@ -11834,7 +11832,7 @@
       "flagDate": "2026-11-16",
       "returns": {
         "1": -1.26,
-        "3": NaN,
+        "3": 15.06,
         "5": null
       },
       "pending": [
@@ -12657,7 +12655,7 @@
       "scannedAt": "2026-11-19T01:54:42.962308+00:00",
       "flagDate": "2026-11-18",
       "returns": {
-        "1": NaN,
+        "1": 124.53,
         "3": null,
         "5": null
       },
@@ -13053,7 +13051,7 @@
       "scannedAt": "2026-11-19T01:54:42.962308+00:00",
       "flagDate": "2026-11-18",
       "returns": {
-        "1": NaN,
+        "1": 41.46,
         "3": null,
         "5": null
       },
@@ -13185,7 +13183,7 @@
       "scannedAt": "2026-11-19T01:54:42.962308+00:00",
       "flagDate": "2026-11-18",
       "returns": {
-        "1": NaN,
+        "1": 16.53,
         "3": null,
         "5": null
       },
@@ -13860,6 +13858,142 @@
       "stageRule": "v3",
       "dayStreak": 1,
       "scannedAt": "2026-11-19T20:18:32.820358+00:00",
+      "flagDate": "2026-11-19",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "ATPC",
+      "name": "Agape ATP Corp",
+      "sector": "Consumer Defensive",
+      "price": 1.13,
+      "dayHigh": 1.18,
+      "dayLow": 1.1,
+      "volume": 10600,
+      "avgVolume": 20618,
+      "volRatio": 0.5,
+      "offHighPct": -4.2,
+      "changePct": -4.2,
+      "gaveBackPct": 0.0,
+      "ema9": 1.3718,
+      "ema20": 1.3856,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-20T00:14:00+00:00",
+      "stage": "faded",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-20T01:51:40.308832+00:00",
+      "flagDate": "2026-11-19",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "JG",
+      "name": "Aurora Mobile Ltd ADR",
+      "sector": "Technology",
+      "price": 5.13,
+      "dayHigh": 5.54,
+      "dayLow": 4.91,
+      "volume": 7000,
+      "avgVolume": 14668,
+      "volRatio": 0.5,
+      "offHighPct": -7.4,
+      "changePct": -3.2,
+      "gaveBackPct": 170.8,
+      "ema9": 5.6244,
+      "ema20": 5.5277,
+      "emaTrend": "bull",
+      "closeBelowEma9": false,
+      "lastBarAt": "2026-11-19T21:00:00+00:00",
+      "stage": "faded",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-20T01:51:40.308832+00:00",
+      "flagDate": "2026-11-19",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "HTCR",
+      "name": "HeartCore Enterprises Inc",
+      "sector": "Technology",
+      "price": 1.21,
+      "dayHigh": 1.25,
+      "dayLow": 1.2,
+      "volume": 10200,
+      "avgVolume": 25909,
+      "volRatio": 0.4,
+      "offHighPct": -3.2,
+      "changePct": 0.0,
+      "gaveBackPct": 100.0,
+      "ema9": 1.47,
+      "ema20": 1.4911,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-20T00:29:00+00:00",
+      "stage": "extended",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-20T01:51:40.308832+00:00",
+      "flagDate": "2026-11-19",
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "pending": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "ticker": "TROO",
+      "name": "TROOPS Inc",
+      "sector": "Financial",
+      "price": 1.25,
+      "dayHigh": 1.32,
+      "dayLow": 1.15,
+      "volume": 237600,
+      "avgVolume": 577872,
+      "volRatio": 0.4,
+      "offHighPct": -5.3,
+      "changePct": -1.6,
+      "gaveBackPct": 140.0,
+      "ema9": 1.552,
+      "ema20": 1.5543,
+      "emaTrend": "bear",
+      "closeBelowEma9": true,
+      "lastBarAt": "2026-11-19T22:16:00+00:00",
+      "stage": "faded",
+      "stageRule": "v3",
+      "dayStreak": 1,
+      "scannedAt": "2026-11-20T01:51:40.308832+00:00",
       "flagDate": "2026-11-19",
       "returns": {
         "1": null,
