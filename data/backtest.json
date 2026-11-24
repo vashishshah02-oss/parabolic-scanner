@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T04:55:39.292647",
+  "generatedAt": "2026-11-24T05:26:30.476693",
   "totalSignals": 540,
   "summary": {
     "v1:reversing": {
@@ -73,7 +73,7 @@
     "v3:reversing": {
       "t1": {
         "n": 69,
-        "avgReturnPct": 75.9,
+        "avgReturnPct": 75.89,
         "pctNegative": 50.7
       },
       "t3": {
@@ -83,7 +83,7 @@
       },
       "t5": {
         "n": 51,
-        "avgReturnPct": NaN,
+        "avgReturnPct": 100.31,
         "pctNegative": 68.6
       }
     },
@@ -9730,9 +9730,9 @@
       "scannedAt": "2026-11-12T19:44:11.512691+00:00",
       "flagDate": "2026-11-12",
       "returns": {
-        "1": 1861.92,
-        "3": 1905.71,
-        "5": NaN
+        "1": 1860.97,
+        "3": 1908.57,
+        "5": 1851.45
       },
       "pending": []
     },
